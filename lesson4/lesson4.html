@@ -6,257 +6,281 @@
     </head>
     <body>
 
+        functions
         <!--        при необходимости разделить занятие на 2 части-->
         <script>
 
 
-            /*string lib functions*/
-            let s = 'lorem ipsum dolor sit';
-            let indexOf_O = s.indexOf('o');
-            let lastIndexOf_O = s.lastIndexOf('o');
-            let charAt_index_1 = s.charAt(1);
-            let unicodeAt_1 = s.charCodeAt(1);
+			/*string lib functions*/
+			let s = 'lorem ipsum dolor sit';
+			let indexOf_O = s.indexOf('o');
+			let lastIndexOf_O = s.lastIndexOf('o');
+			let charAt_index_1 = s.charAt(1);
+			let unicodeAt_1 = s.charCodeAt(1);
 
-            let concat = s.concat('xxx');
-            console.log(concat, s);
+			let concat = s.concat('xxx');
+			console.log(concat, s);
 
-            let replace = s.replace('o', '!!!');
-            // let replace = s.replace(/o/g, '!!!');
-            // let replace = s.replace(/o/gi, '!!!');
-            console.log(replace, s);
+			let replace = s.replace('o', '!!!');
+			// let replace = s.replace(/o/g, '!!!');
+			// let replace = s.replace(/o/gi, '!!!');
+			console.log(replace, s);
 
-            let slice = s.slice(2, 8);
-            console.log(slice, s);
+			let slice = s.slice(2, 8);
+			console.log(slice, s);
 
-            let split = s.split(' ');
-            console.log(split);
+			let split = s.split(' ');
+			console.log(split);
 
-            let lowerCase = s.toLowerCase();
-            let toUpperCase = s.toUpperCase();
-            let startsWith = s.startsWith('l');
-            let endsWith = s.endsWith('x');
+			let lowerCase = s.toLowerCase();
+			let toUpperCase = s.toUpperCase();
+			let startsWith = s.startsWith('l');
+			let endsWith = s.endsWith('x');
 
-            let includes = s.includes('rem');
-
-
-            // function declare
-
-            // формула
-            function name(arg1, arg2) {
-                //...some stuff
-            }
-
-            /*with return*/
-            function calculateSum(a, b) {
-                let result = a + b;
-                return result;
-            }
-
-            console.log(calculateSum(10, 20));
-            console.log(calculateSum);
-            let returnedResult1 = calculateSum(10, 20);
-            let retResult2 = calculateSum(23, 22);
-            let x = 100;
-            let y = 200;
-            let retResult3 = calculateSum(x, y);
-            let retResult4 = calculateSum(x, x);
-
-            function minus(a, b) {
-                return a - b;
-            }
-
-            let minus1 = minus(10, 20);
-            console.log(minus1);
-
-            /*without return*/
-
-            function calcPerimetrOfRectangle(a, b) {
-                let perimetr = (a + b) * 2;
-                console.log(perimetr);
-            }
-
-            /*function use other function*/
-            function calculator(a, b, action) {
-                if (action == '+') {
-                    let sum = calculateSum(a, b);
-                    return sum;
-                } else if (action == '-') {
-                    return minus(a, b);
-                }
-            }
+			let includes = s.includes('rem');
 
 
-            /*как себя ведут примитивы*/
+			// function declare
 
-            function increment(a) {
-                a++;
-            }
+			// формула
+			function name(arg1, arg2) {
+				//...some stuff
+			}
 
-            let outerVariable = 0;
-            increment(outerVariable);
-            console.log(outerVariable); // 0
+			/*with return*/
+			function calculateSum(a, b) {
+				let result = a + b;
+				return result;
+			}
 
-            /*reference in functions*/
-            function incrementValueOfObject(obj) {
-                obj.value++;
-            }
+			console.log(calculateSum(10, 20));
+			console.log(calculateSum);
+			let returnedResult1 = calculateSum(10, 20);
+			let retResult2 = calculateSum(23, 22);
+			let x = 100;
+			let y = 200;
+			let retResult3 = calculateSum(x, y);
+			let retResult4 = calculateSum(x, x);
 
-            let outerObject = {value: 0};
+			function minus(a, b) {
+				return a - b;
+			}
 
-            incrementValueOfObject(outerObject);
-            console.log(outerObject);
+			let minus1 = minus(10, 20);
+			console.log(minus1);
 
-            /*пример референций на document.write*/
-            function writeHello() {
-                document.write('<div>hello</div>');
-            }
+			/*without return*/
 
-            writeHello();
+			function calcPerimetrOfRectangle(a, b) {
+				let perimetr = (a + b) * 2;
+				console.log(perimetr);
+			}
 
-            /*array in objects*/
-            let arr = [];
-
-            function initArray(someArray) {
-                someArray[0] = 111;
-                someArray[1] = 123;
-                someArray[10] = 123;
-            }
-
-            initArray(arr);
-            console.log(arr);
-            /*hoist*/
-            xxx();
-
-            function xxx() {
-                console.log('hoisting');
-            }
-
-            /*function experssion*/
-
-            // multiply(10, 20);  // error!
-            let multiply = function (a, b) {
-                return a * b;
-            };
+			/*function use other function*/
+			function calculator(a, b, action) {
+				if (action == '+') {
+					let sum = calculateSum(a, b);
+					return sum;
+				} else if (action == '-') {
+					return minus(a, b);
+				}
+			}
 
 
-            // разница между function expression & function  declaration . hoisting
-            multiply2(10, 20); // call before create because of hoisting
+			/*как себя ведут примитивы*/
 
-            function multiply2(a, b) {
-                return a * b;
+			function increment(a) {
+				a++;
+			}
 
-            }
+			let outerVariable = 0;
+			increment(outerVariable);
+			console.log(outerVariable); // 0
 
-            let multiply1Result = multiply(10, 20);
-            console.log(multiply1Result);
+			/*reference in functions*/
+			function incrementValueOfObject(obj) {
+				obj.value++;
+			}
 
-            /*self invoke*/
-            (function (msg) {
-                console.log('self invoke ', msg);
-            }('hello'));
+			let outerObject = {value: 0};
+
+			incrementValueOfObject(outerObject);
+			console.log(outerObject);
+
+			/*пример референций на document.write*/
+			function writeHello() {
+				document.write('<div>hello</div>');
+			}
+
+			writeHello();
+
+			/*array in objects*/
+			let arr = [];
+
+			function initArray(someArray) {
+				someArray[0] = 111;
+				someArray[1] = 123;
+				someArray[10] = 123;
+			}
+
+			initArray(arr);
+			console.log(arr);
+			/*hoist*/
+			xxx();
+
+			function xxx() {
+				console.log('hoisting');
+			}
+
+			/*function experssion*/
+
+			// multiply(10, 20);  // error!
+			let multiply = function (a, b) {
+				return a * b;
+			};
 
 
-            /*arguments*/
-            // выполнить каждый сегмент последовательно!!!
-            // 1
-            // function addAll() {
-            //     let result = arguments[0] + arguments[1];
-            //     console.log(result);
-            // }
-            // addAll(1, 2, 3, 4, 5);
+			// разница между function expression & function  declaration . hoisting
+			multiply2(10, 20); // call before create because of hoisting
+
+			function multiply2(a, b) {
+				return a * b;
+
+			}
+
+			let multiply1Result = multiply(10, 20);
+			console.log(multiply1Result);
+
+			/*self invoke*/
+			(function (msg) {
+				console.log('self invoke ', msg);
+			}('hello'));
 
 
-            //2
-            // function addAll() {
-            //     let result = arguments[0] + arguments[1] + arguments[2];
-            //     console.log(result);
-            // }
-            // addAll(1, 2, 3, 4, 5);
+			/*arguments*/
+			// выполнить каждый сегмент последовательно!!!
+			// 1
+			// function addAll() {
+			//     let result = arguments[0] + arguments[1];
+			//     console.log(result);
+			// }
+			// addAll(1, 2, 3, 4, 5);
 
 
-            //3
-            // function addAll() {
-            //     let result = arguments[0] + arguments[1] + arguments[2] + arguments[3];
-            //     console.log(result);
-            // }
-            // addAll(1, 2, 3, 4, 5);
+			//2
+			// function addAll() {
+			//     let result = arguments[0] + arguments[1] + arguments[2];
+			//     console.log(result);
+			// }
+			// addAll(1, 2, 3, 4, 5);
 
-            //4
-            function addAll() {
-                let result = 0;
-                for (const argument of arguments) {
-                    result += argument;
-                }
-                console.log(result);
-            }
 
-            addAll(1, 2, 3, 4, 5);
+			//3
+			// function addAll() {
+			//     let result = arguments[0] + arguments[1] + arguments[2] + arguments[3];
+			//     console.log(result);
+			// }
+			// addAll(1, 2, 3, 4, 5);
 
-            /*()=> */
+			//4
+			function addAll() {
+				let result = 0;
+				for (const argument of arguments) {
+					result += argument;
+				}
+				console.log(result);
+			}
 
-            let arrowFunctionCalculateWithReturn = (a, b) => {
-                return a + b;
-            };
-            let arrowFunctionCalculateWithReturnCompact = (a, b) => a + b;
+			addAll(1, 2, 3, 4, 5);
 
-            let arrowFunctionCalculateWithCompact = (a, b) => console.log(a + b);
+			/*()=> */
 
-            /*recursion*/
+			let arrowFunctionCalculateWithReturn = (a, b) => {
+				return a + b;
+			};
+			let arrowFunctionCalculateWithReturnCompact = (a, b) => a + b;
 
-            // function recursion() {
-            //     console.log('loop ');
-            //     recursion();
-            // }
+			let arrowFunctionCalculateWithCompact = (a, b) => console.log(a + b);
 
-            function rec(i) {
-                console.log(i);
-                if (i < 5) {
-                    i++;
-                    rec(i)
-                } else {
-                    return;
-                }
-            }
+			/*recursion*/
 
-            rec(0);
-            //    для чего нужна рекурсия? для выполнения однотипных операций над вложнныит объекктами. пример путишествие
-            //    по папкам на компе или исследование объектов на любом уровне вложенности
-            let recUser = {
-                name: 'vasya',
-                age: 31,
-                address: {
-                    street: 'Lemkivska',
-                    number: 16
-                },
-                wife: {
-                    name: 'masha',
-                    age: 29,
-                    // mother : {
-                    //     name : 'kira',
-                    //     age: 89,
-                    ////     husband : {
-                    ////         name: 'kolya',
-                    ////         age : 123
-                    ////     }
-                    // }
+			// function recursion() {
+			//     console.log('loop ');
+			//     recursion();
+			// }
 
-                }
+			function rec(i) {
+				console.log(i);
+				if (i < 5) {
+					i++;
+					rec(i);
+				} else {
+					return;
+				}
+			}
 
-            };
+			rec(0);
+			//    для чего нужна рекурсия? для выполнения однотипных операций над вложнныит объекктами. пример путишествие
+			//    по папкам на компе или исследование объектов на любом уровне вложенности
+			let recUser = {
+				name: 'vasya',
+				age: 31,
+				address: {
+					street: 'Lemkivska',
+					number: 16
+				},
+				wife: {
+					name: 'masha',
+					age: 29,
+					// mother : {
+					//     name : 'kira',
+					//     age: 89,
+					////     husband : {
+					////         name: 'kolya',
+					////         age : 123
+					////     }
+					// }
 
-            console.log('==================');
+				}
 
-            function exploreUser(user) {
-                for (const userKey in user) {
-                    if (typeof user[userKey] == 'object') {
-                        console.log(user[userKey]);
-                        exploreUser(user[userKey]);
-                    }
-                }
-            }
+			};
 
-            exploreUser(recUser);
+			console.log('==================');
 
+			function exploreUser(user) {
+				for (const userKey in user) {
+					if (typeof user[userKey] == 'object') {
+						console.log(user[userKey]);
+						exploreUser(user[userKey]);
+					}
+				}
+			}
+
+			exploreUser(recUser);
+
+			// local function
+
+			function embededCalculator(a, b, action) {
+				function add(a, b) {return a + b;}
+
+				function minus(a, b) {return a - b;}
+
+				function multiply(a, b) {return a * b;}
+
+				function divide(a, b) {return a / b;}
+
+				if (action == '+') {
+					return add(a, b);
+				}else if (action == '-') {
+
+					return minus(a, b);
+				}else if (action == '*') {
+					return multiply(a, b);
+				}else if (action == '/') {
+					return divide(a, b);
+				}
+
+			}
 
 
         </script>
