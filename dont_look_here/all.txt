@@ -12,3 +12,4 @@ local storage
 Асинхронность timeouts, intervals
 прототипы, дескрипторы
 классы, наследование, функции конструкторы, call/apply/bind, замікания на примере инкапсуляции
+agdasjdgjasdhjasd
