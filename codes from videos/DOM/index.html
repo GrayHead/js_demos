@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM</title>
+    </head>
+    <body>
+        <div id="point"></div>
+        <div class="target"></div>
+        <p class="target"></p>
+
+        <script>
+
+			let h1 = document.createElement('h1');
+			h1.innerText = 'hello owu';
+			console.log(h1);
+
+			// document.body.appendChild(h1);
+			let point = document.getElementById('point');
+			point.appendChild(h1);
+
+			// let targets = document.getElementsByClassName('target');
+			// let cloneNodeH1 = h1.cloneNode(true);
+			// targets[0].appendChild(cloneNodeH1);
+
+
+			let targets = document.getElementsByClassName('target');
+			for (const target of targets) {
+				let node = h1.cloneNode(true);
+				target.appendChild(node);
+			}
+
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM+loops+arrays</title>
+        <style>
+            .user {
+                width: 200px;
+                background: silver;
+                margin-bottom: 5px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div id="container"></div>
+
+
+        <script>
+
+			let users = [
+				{color: 'red', name: 'vasya', age: 31, status: false},
+				{color: 'green', name: 'petya', age: 30, status: true},
+				{color: 'silver', name: 'kolya', age: 29, status: true},
+				{color: 'gray', name: 'olya', age: 28, status: false},
+				{color: 'blue', name: 'max', age: 30, status: true},
+				{color: 'yellow', name: 'anya', age: 31, status: false},
+				{color: '#2b9dff', name: 'oleg', age: 28, status: false},
+				{color: '#333', name: 'andrey', age: 29, status: true},
+				{color: 'orange', name: 'masha', age: 30, status: true},
+				{color: 'brown', name: 'olya', age: 31, status: false},
+				{color: 'pink', name: 'max', age: 31, status: true}
+			];
+
+			// for (let i = 0; i < 10; i++) {
+			// 	let div = document.createElement('div');
+			// 	div.innerText = `iteration ${i}`;
+			// 	document.body.appendChild(div);
+			// }
+
+			// let container = document.getElementById('container');
+			// for (const user of users) {
+			// 	let divElement = document.createElement('div');
+			// 	divElement.style.backgroundColor = user.color;
+			// 	divElement.innerText = `${user.name} - ${user.age} - ${user.status}`;
+			//
+			//
+			// 	// document.body.appendChild(divElement);
+			// 	container.appendChild(divElement);
+			//
+			//
+			// }
+
+			let container = document.getElementById('container');
+			for (const user of users) {
+				let outerDIV = document.createElement('div');
+				outerDIV.classList.add('user');
+
+				for (const field in user) {
+					let innerDIV = document.createElement('div');
+					innerDIV.innerText = `${user[field]}`;
+					innerDIV.classList.add(field);
+					outerDIV.appendChild(innerDIV);
+				}
+
+				container.appendChild(outerDIV);
+			}
+
+
+        </script>
+    </body>
+</html>

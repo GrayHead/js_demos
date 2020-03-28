@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Objects</title>
+    </head>
+    <body>
+
+        <div id="point"></div>
+
+        <script>
+
+			let user1 = {name: 'Vasya', age: 31, skills: ['java', 'js']};
+			console.log(user1.name); // vasay
+			console.log(user1['name']); // vasay
+			console.log(user1.age); // 31
+			console.log(user1['age']); // 31
+			user1['wife'] = {name: 'Masha', age: 29};
+			console.log(user1);
+			console.log(user1['wife']['age']);
+
+			delete user1.wife;
+			console.log(user1);
+
+			let keys = Object.keys(user1);
+			console.log(keys);
+
+
+			for (const filed in user1) {
+				// console.log(filed);
+				console.log(filed, user1[filed]);
+			}
+
+			let user2 = user1;
+			user2.name = 'asfasghdfhasd';
+			console.log(user2);
+			console.log(user1);
+
+			let users = [
+				{name: 'vasya', age: 31, status: false},
+				{name: 'petya', age: 30, status: true},
+				{name: 'kolya', age: 29, status: true},
+				{name: 'olya', age: 28, status: false},
+				{name: 'max', age: 30, status: true},
+				{name: 'anya', age: 31, status: false},
+				{name: 'oleg', age: 28, status: false},
+				{name: 'andrey', age: 29, status: true},
+				{name: 'masha', age: 30, status: true},
+				{name: 'olya', age: 31, status: false},
+				{name: 'max', age: 31, status: true}
+			];
+
+			console.log(users[2].name);
+			console.log(users[2].age);
+			console.log(users[2].status);
+
+			for (const user of users) {
+				console.log(user);
+			}
+
+        </script>
+
+    </body>
+</html>
