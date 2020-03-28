@@ -11,6 +11,7 @@
         // Object.keys
         // Object ref object
         // arrays of objects
+        //JSON
         // get elem by id
         // style
         // innerText
@@ -84,6 +85,12 @@
 			console.log(listOfSimpleUser[0].name);
 			console.log(listOfSimpleUser[2].status);
 			console.log(listOfSimpleUser[1].skills[0]);
+
+			let car = {manufact: 'subaru', model: 'legacy'};
+			let stringifyCar = JSON.stringify(car);
+			let parseCar = JSON.parse(stringifyCar);
+			let stringifyList = JSON.stringify(listOfSimpleUser);
+			let parseList = JSON.parse(stringifyList);
 
 
 			// Для чего это все можно использовать?
