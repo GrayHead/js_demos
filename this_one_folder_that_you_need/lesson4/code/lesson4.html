@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Functions</title>
+    </head>
+    <body>
+
+
+        // string functions
+        // functions
+        // functions return
+        // scope
+        // func with func
+        // hoisting
+        // func expression
+        // arrow
+        // ref in function
+        // arguments
+        // recursion
+        //selfinvoke
+        // local function
+
+
+        <script>
+
+            // what for?
+            // you need to add to body new element with dif content
+
+			let s = 'lorem ipsum dolor sit';
+			let indexOf_O = s.indexOf('o');
+			let lastIndexOf_O = s.lastIndexOf('o');
+			let charAt_index_1 = s.charAt(1);
+			let unicodeAt_1 = s.charCodeAt(1);
+
+			let concat = s.concat('xxx');
+			console.log(concat, s);
+
+			let replace = s.replace('o', '!!!');
+			// let replace = s.replace(/o/g, '!!!');
+			// let replace = s.replace(/o/gi, '!!!');
+			console.log(replace, s);
+
+			let charAt3 = s.charAt(3);
+
+			let slice = s.slice(2, 8);
+			console.log(slice, s);
+
+			let split = s.split(' ');
+			console.log(split);
+
+			let lowerCase = s.toLowerCase();
+			let toUpperCase = s.toUpperCase();
+			let startsWith = s.startsWith('l');
+			let endsWith = s.endsWith('x');
+			let includes = s.includes('rem');
+
+			// function declaration
+			function name(arg1, arg2, arg3) {
+				//...some logic
+			}
+
+			// Функиця - формаула
+
+			// Функція спроможна обробляти результат
+			function squarePerimeter(a, b) {
+				let result = (a + b) * 2;
+				console.log(result);
+			}
+
+			// Виклик функії
+			squarePerimeter(10, 20); // a = 10, b =20
+
+			// Або обробити та повернути для наступного використання
+			function squarePerimeterReturn(a, b) {
+				let result = (a + b) * 2;
+				console.log(result);
+				// повертає результат в місце виклику функції
+				return result;
+			}
+
+			let perimeterReturn = squarePerimeterReturn(10, 20); // a = 10, b =20,  perimeterReturn = return = 30
+			// let perimeterReturn = 30;
+			console.log(perimeterReturn);
+
+			let x = 200;
+			let y = 300;
+			let result = squarePerimeterReturn(x, y);
+
+			function scope() {
+				let z = 100;
+				var q = 'local var';
+			}
+
+			// console.log(z); //error
+			// console.log(q); //error
+
+			// функція використовує іншу функцію
+			function add2num(x, y) {
+				return x + y;
+			}
+
+			function per(a, b) {
+				add2num(a, b) * 2;
+			}
+
+			// hoisting
+			foo();
+
+			function foo() {
+				console.log('bar');
+			}
+
+			// function expression
+
+			//bar();// error
+			let bar = function () {
+				console.log('foopbar');
+			};
+			bar(); // ok
+
+
+			// arrow
+
+			let calculate1 = (a, b) => {return a + b;};
+			let calculate2 = (a, b) => { a + b;};
+			let calculate3 = (a, b) => a + b;
+			let calculate4 = (a, b) => {
+				let result = a + b;
+				return result;
+			};
+
+
+			// arguments
+			function someFunction(a, b, c) {
+				console.log(arguments);
+			}
+
+
+			// поведінка примітивів та сслиочних типів
+
+			// primitives
+			let primal = 10;
+
+			function increment(value) {
+				value++;
+				console.log(value);
+
+			}
+
+			increment(primal); // 1
+			console.log(primal); // 0
+
+
+			// refs
+			let ref = {x: 0};
+
+			function incrementRef() {
+				ref.x++;
+				console.log(ref);
+			}
+
+			incrementRef();
+
+			console.log(ref);
+
+			// arrays
+			let arr = [];
+
+			function fillArray() {
+				arr = [1, 2, 3];
+			}
+
+			fillArray();
+			console.log(arr);
+
+			// recursion - процес при якому функція викликає сама себе. Небезпечна тим, що призводить до stack overflow
+			function rec(i) {
+				console.log(i);
+				i++;
+				rec(i);
+			}
+
+
+			//    для чего нужна рекурсия? для выполнения однотипных операций над вложнныит объекктами. пример путишествие
+			//    по папкам на компе или исследование объектов на любом уровне вложенности
+			let recUser = {
+				name: 'vasya',
+				age: 31,
+				address: {
+					street: 'Lemkivska',
+					number: 16
+				},
+				wife: {
+					name: 'masha',
+					age: 29,
+					// mother : {
+					//     name : 'kira',
+					//     age: 89,
+					////     husband : {
+					////         name: 'kolya',
+					////         age : 123
+					////     }
+					// }
+
+				}
+
+			};
+
+			console.log('==================');
+
+			function exploreUser(user) {
+				for (const userKey in user) {
+					if (typeof user[userKey] == 'object') {
+						console.log(user[userKey]);
+						exploreUser(user[userKey]);
+					}
+				}
+			}
+
+			exploreUser(recUser);
+
+
+			//anon selfinvoke
+			(function () {
+				console.log('hello');
+			})()
+
+			(function (msg) {
+				console.log('hello ' + msg);
+			})('all');
+
+
+			// local function
+
+
+			// function per(a, b) {
+			// 	function add2num(x, y) {
+			// 		return x + y;
+			// 	}
+            //
+			// 	add2num(a, b) * 2;
+			// }
+
+        </script>
+
+    </body>
+</html>

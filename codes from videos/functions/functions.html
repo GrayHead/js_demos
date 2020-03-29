@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Functions</title>
+    </head>
+    <body>
+        <script>
+
+			// function name(arg1, agr2) {
+			//
+			// }
+
+			function squarePerimeter(a, b) {
+				let result = (a + b) * 2;
+				console.log(result);
+			}
+
+			// console.log(result);
+			squarePerimeter(10, 20);
+			squarePerimeter(20, 100);
+
+			function squarePerimeterReturn(a, b) {
+				let result = (a + b) * 2;
+				console.log(result);
+				return result;
+			}
+
+			let perimeterReturn = squarePerimeterReturn(10, 20); //60
+			console.log(perimeterReturn);
+
+			let x = 100;
+			let y = 90;
+			let return1 = squarePerimeterReturn(x, y);
+			console.log(return1);
+
+
+			function add2nums(x, y) {
+				return x + y;
+
+			}
+
+			function perim(a, b) {
+				return add2nums(a, b) * 2;
+			}
+
+			console.log(perim(10, 20));
+
+			console.log(calculate(10, 20, '+'));
+
+			function calculate(a, b, action) {
+				if (action === '+') {
+					return add2nums(a, b);
+				} else if (action === '-') {
+					return a - b;
+				} else {
+					//.....
+				}
+
+			}
+
+
+        </script>
+    </body>
+</html>

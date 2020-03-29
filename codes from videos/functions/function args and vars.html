@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>function args and vars</title>
+    </head>
+    <body>
+
+        <script>
+			// function calculator(a, b, c) {
+			//
+			// 	console.log(arguments);
+			// }
+			//
+			// calculator(10, 20, 30);
+
+			function calculator() {
+
+				console.log(arguments);
+				let sum = 0;
+				for (const argument of arguments) {
+					sum += argument;
+				}
+				console.log(sum);
+				return sum;
+
+			}
+
+			calculator(10, 20, 30, 40);
+			calculator(10, 20, 30, 40, 100500);
+
+
+        </script>
+
+    </body>
+</html>

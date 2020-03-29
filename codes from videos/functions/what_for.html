@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>What for?</title>
+    </head>
+    <body>
+
+        <script>
+
+			function appender(type, content) {
+				let element = document.createElement(type);
+				element.innerText = content;
+				document.body.appendChild(element);
+			}
+
+			appender('div', 'hello guys');
+
+			appender('h2', 'title');
+
+
+        </script>
+    </body>
+</html>

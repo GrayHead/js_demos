@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fetch</title>
+    </head>
+    <body>
+
+        <script>
+			// fetch().then(value => value.json()).then(value => console.log(value));
+
+			fetch('https://jsonplaceholder.typicode.com/albums')
+				.then(values => values.json())
+				.then(values => {
+
+					for (const album of values) {
+						let div = document.createElement('div');
+						div.innerText = `${album.id}--${album.title}--${album.userId}`;
+						document.body.appendChild(div);
+					}
+
+				})
+
+			;
+        </script>
+    </body>
+</html>

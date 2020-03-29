@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>string functions</title>
+    </head>
+    <body>
+        <script>
+
+			let s = 'lorem ipsum dolor sit';
+			let indexOf = s.indexOf('o');
+			console.log(indexOf);
+			let lastIndexOf = s.lastIndexOf('o');
+			console.log(lastIndexOf);
+			let charAt = s.charAt(1);
+			console.log(charAt);
+
+			// let replace = s.replace('o', '!!!!');
+			let replace = s.replace(/l/g, '!!!!');
+			console.log(replace);
+			let slice = s.slice(2, 8);
+			console.log(slice);
+			let split = s.split(' ');
+			console.log(split);
+
+			let toUpperCase = s.toUpperCase();
+			console.log(toUpperCase);
+			let lowerCase = toUpperCase.toLowerCase();
+			console.log(lowerCase);
+
+			let startsWith = s.startsWith('lo');
+			console.log(startsWith);
+			let endsWith = s.endsWith('it');
+			console.log(endsWith);
+
+			let includes = s.includes('asdhfahsd');
+			console.log(includes);
+
+
+        </script>
+    </body>
+</html>
