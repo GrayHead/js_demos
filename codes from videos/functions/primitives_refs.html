@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Primitives and refs</title>
+    </head>
+    <body>
+
+        <script>
+
+			let a = 0;
+
+			function increment(x) {
+				x++;
+
+			}
+
+			increment(a);
+
+			console.log(a);
+
+
+			let b = {i: 0};
+
+			function refIncrement(x) {
+				x.i++;
+			}
+
+			refIncrement(b);
+
+			console.log(b);
+
+
+
+        </script>
+
+    </body>
+</html>
