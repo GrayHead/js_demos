@@ -1,51 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Fight Club</title>
-    </head>
-    <body>
-        <div id="content"></div>
-        <h1>Правила бойцовского клуба</h1>
-        <div id="wrap">
-            <div class="rules rule1">
-                <h2>Первое правило Бойцовского клуба.</h2>
-                <p>Никому не рассказывать о Бойцовском клубе.</p>
-            </div>
-            <div class="rules rule2">
-                <h2>Второе правило Бойцовского клуба.</h2>
-                <p>Никогда никому не рассказывать о Бойцовском клубе.</p>
-            </div>
-            <div class="rules rule3">
-                <h2>Третье правило Бойцовского клуба.</h2>
-                <p>В схватке участвуют только двое.</p>
-            </div>
-            <div class="rules rule4">
-                <h2>Четвертое правило Бойцовского клуба.</h2>
-                <p>Не более одного поединка за один раз.</p>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Fight Club</title>
+    <style>
+        .comment {
+            width: 500px;
+            border: 2px solid deepskyblue;
+            border-radius: 5px;
+            background-color: deepskyblue;
+            margin-bottom: 20px;
+            margin-left: 30px;
+        }
+        .comment-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 5px;
+            background-color: blueviolet;
+        }
+        .com-name {
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            flex-wrap: wrap;
+        }
+        .com-email {
+            font-style: italic;
+            flex-shrink: 0;
+        }
+        .com-body {
+            padding: 10px 5px;
+        }
 
-            <div class="rules rule5">
-                <h2>Пятое правило Бойцовского клуба.</h2>
-                <p>Бойцы сражаются без обуви и голые по пояс.</p>
-            </div>
-            <div class="rules rule6">
-                <h2>Шестое правило Бойцовского клуба.</h2>
-                <p>Поединок продолжается столько, сколько потребуется.</p>
-            </div>
-            <div class="rules rule7">
-                <h2>Седьмое правило Бойцовского клуба.</h2>
-                <p>Если противник потерял сознание или делает вид, что потерял, или говорит «Хватит» — поединок
-                    окончен.</p>
-            </div>
-            <div class="rules rule8">
-                <h2>Восьмое и последнее правило Бойцовского клуба.</h2>
-                <p>Новичок обязан принять бой.</p>
-            </div>
+        /*posts & comments*/
+        .post {
+            width: 100%;
+            background-color: lightgrey;
+        }
+        .post-title {
+
+        }
+        .post-text {
+
+        }
+        .post-container {
+
+        }
+    </style>
+</head>
+<body>
+<div id="content"></div>
+<h1>Правила бойцовского клуба</h1>
+<div id="wrap">
+    <div class="rules rule1">
+        <h2>Первое правило Бойцовского клуба.</h2>
+        <p>Никому не рассказывать о Бойцовском клубе.</p>
+    </div>
+    <div class="rules rule2">
+        <h2>Второе правило Бойцовского клуба.</h2>
+        <p>Никогда никому не рассказывать о Бойцовском клубе.</p>
+    </div>
+    <div class="rules rule3">
+        <h2>Третье правило Бойцовского клуба.</h2>
+        <p>В схватке участвуют только двое.</p>
+    </div>
+    <div class="rules rule4">
+        <h2>Четвертое правило Бойцовского клуба.</h2>
+        <p>Не более одного поединка за один раз.</p>
+    </div>
+
+    <div class="rules rule5">
+        <h2>Пятое правило Бойцовского клуба.</h2>
+        <p>Бойцы сражаются без обуви и голые по пояс.</p>
+    </div>
+    <div class="rules rule6">
+        <h2>Шестое правило Бойцовского клуба.</h2>
+        <p>Поединок продолжается столько, сколько потребуется.</p>
+    </div>
+    <div class="rules rule7">
+        <h2>Седьмое правило Бойцовского клуба.</h2>
+        <p>Если противник потерял сознание или делает вид, что потерял, или говорит «Хватит» — поединок
+            окончен.</p>
+    </div>
+    <div class="rules rule8">
+        <h2>Восьмое и последнее правило Бойцовского клуба.</h2>
+        <p>Новичок обязан принять бой.</p>
+    </div>
+</div>
+<div class="myClass" id="myId">
+    Тут має бути якійсь довільний текст, але так як в мене немає фантазії, то тут буде це.
+</div>
+
+<template id="comment">
+    <div class="comment">
+        <div class="comment-head">
+            <div class="com-name"> </div>
+            <div class="com-email"></div>
         </div>
+        <div class="com-body">
 
-        <script>
-			// Your awesome code here.....
-        </script>
-    </body>
+        </div>
+    </div>
+</template>
+
+<template id="comPost">
+    <div class="post-container">
+        <div class="post">
+            <h2 class="post-title"></h2>
+            <div class="post-text"></div>
+        </div>
+        <div class="comments">
+
+        </div>
+    </div>
+</template>
+
+<script src="script.js"></script>
+<script>
+
+
+</script>
+</body>
 </html>
