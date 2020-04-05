@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Class</title>
+    </head>
+    <body>
+        <script>
+
+            class User {
+
+                constructor(name, age) {
+                    this.name = name;
+                    this.age = age;
+                }
+
+
+                greeting(msg) {
+                    console.log(`${msg} my name is ${this.name}`);
+                }
+            }
+
+            let user = new User('vasya', 123);
+            console.log(user);
+
+
+            class Customer extends User {
+
+                constructor(name, age, status) {
+                    super(name, age);
+                    this.status = status;
+                }
+
+
+            }
+
+            let customer = new Customer('kokos', 243,true);
+            console.log(customer);
+            customer.greeting('ola');
+
+
+        </script>
+    </body>
+</html>
