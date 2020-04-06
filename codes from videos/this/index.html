@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>this</title>
+    </head>
+    <body>
+        <script>
+
+            let user2 = {
+                name: 'vasya',
+                age: 31,
+                greeting: function () {
+                    console.log(`hello my name is ${this.name}`);
+                }
+            };
+            user2.greeting();
+
+        </script>
+    </body>
+</html>

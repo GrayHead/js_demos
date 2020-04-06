@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Constructors</title>
+    </head>
+    <body>
+        <script>
+
+            let users = [
+                new User('vasya', 31, true),
+                {name: 'petya', age: 30, status: true},
+                {name: 'kolya', age: 29, status: true},
+                {name: 'olya', age: 28, status: false},
+                {name: 'max', age: 30, status: true},
+                {name: 'anya', age: 31, status: false},
+                {name: 'oleg', age: 28, status: false},
+                {name: 'andrey', age: 29, status: true},
+                {name: 'masha', age: 30, status: true},
+                {name: 'olya', age: 31, status: false},
+                {name: 'max', age: 31, status: true}
+            ];
+
+            function User(name, age, status) {
+                this.name = name;
+                this.age = age;
+                this.status = status;
+                this.greeting = function (msg) {
+                    console.log(`${msg} my name ${this.name}`)
+                }
+            }
+
+            let user = new User('kokos', 123, false);
+            console.log(user);
+            user.greeting('hi!');
+
+
+            function UserWithWife(name = 'john', age = 30, wife = {name: 'tina', age: 29}) {
+                this.name = name;
+                this.age = age;
+                this.wife = wife;
+            }
+
+            let userWithWife = new UserWithWife('vasya', 31, {name: 'oly', age: 34});
+            console.log(userWithWife);
+
+            function UserWithWifeAgreg(name, age, wName, wAge) {
+                this.name = name;
+                this.age = age;
+                this.wife = {name: wName, age: wAge};
+            }
+
+            let userWithWifeAgreg = new UserWithWifeAgreg('asd', 123, 'qwe', 234);
+            console.log(userWithWifeAgreg);
+
+
+        </script>
+    </body>
+</html>
