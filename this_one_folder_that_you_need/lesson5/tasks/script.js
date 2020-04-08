@@ -166,3 +166,119 @@ console.log(pegueot);
 // --Створити 10 попелюшок , покласти їх в масив
 // --Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 // -- за допоиоги циклу знайти яка попелюшка повинна бути з принцом
+
+/*class Cinderella {
+    constructor(name, age, footSize) {
+        this.name = name;
+        this.age = age;
+        this.footSize = footSize;
+    }
+}
+let nadya = new Cinderella("Nadya", 18, 34);
+let vika = new Cinderella("Vika", 21, 36);
+let igor = new Cinderella("Igor", 48, 44);
+let lusya = new Cinderella("Lusya", 24, 35);
+let alla = new Cinderella("Alla", 31, 37);
+let olya = new Cinderella("Olya", 14, 28);
+let nastya = new Cinderella("Nastya", 26, 35);
+let katya = new Cinderella("Katya", 24, 34);
+let ira = new Cinderella("Ira", 36, 35);
+let masha = new Cinderella("Masha", 19, 36);
+
+let cinderellas = [nadya, vika, igor, lusya, alla, olya, nastya, katya, ira, masha];
+
+class Princ extends  Cinderella{
+    constructor(name, age, findedSize) {
+        super(name, age);
+        this.findedSize = findedSize;
+        delete this.footSize;
+    }
+
+}
+
+let princ = new Princ("Vitalik", 20, 45);
+
+let princWife = [];
+
+for (const cind of cinderellas) {
+    if (cind.footSize === princ.findedSize) {
+        princWife.push(JSON.parse(JSON.stringify(cind)));
+        console.log(princWife);
+    }
+}
+if (princWife.length > 1){
+    document.write(`Выбирай!!! <br>`);
+    for (const obj of princWife) {
+        document.write(`${obj.name}, ${obj.age} лет <br>`);
+    }
+} else if (princWife.length === 1){
+    let wife = princWife[0];
+    document.write(`Вот она, твоя любимая!!! <br>`);
+    document.write(`${wife.name}, ${wife.age} лет <br>`);
+} else {
+    document.write(`Drochi! <br>`);
+}*/
+// -створити функцію конструктор попелюшка з полями ім'я, вік, розмір ноги
+function Cinderella2(name, age, footSize) {
+    this.name = name;
+    this.age = age;
+    this.footSize = footSize;
+}
+
+let nadya2 = new Cinderella2("Nadya", 18, 34);
+let vika2 = new Cinderella2("Vika", 21, 36);
+let igor2 = new Cinderella2("Igor", 48, 44);
+let lusya2 = new Cinderella2("Lusya", 24, 35);
+let alla2 = new Cinderella2("Alla", 31, 37);
+let olya2 = new Cinderella2("Olya", 14, 28);
+let nastya2 = new Cinderella2("Nastya", 26, 35);
+let katya2 = new Cinderella2("Katya", 24, 34);
+let ira2 = new Cinderella2("Ira", 36, 35);
+let masha2 = new Cinderella2("Masha", 19, 36);
+
+let cinderellas2 = [nadya2, vika2, igor2, lusya2, alla2, olya2, nastya2, katya2, ira2, masha2];
+function Princ2(name, age, findedSize) {
+    this.name = name;
+    this.age = age;
+    this.findedSize = findedSize;
+
+    this.findCinderella = function (cinderellas) {
+        var sizeToFind
+        if (arguments.length === 1) {
+            sizeToFind = this.findedSize;
+        } else {
+            sizeToFind = arguments[1];
+        }
+        console.log(arguments.length);
+        console.log(cinderellas);
+        console.log(sizeToFind);
+        /*if (arguments.length > 1) {
+            this.findedSize = arguments[1];
+        }
+        let sizeToFind = this.findedSize;*/
+        let princWife = [];
+        for (const cind of cinderellas) {
+            if (cind.footSize === sizeToFind) {
+                princWife.push(JSON.parse(JSON.stringify(cind)));
+            }
+        }
+        console.log(princWife);
+        if (princWife.length > 1){
+            document.write(`Выбирай!!! <br>`);
+            for (const obj of princWife) {
+                document.write(`${obj.name}, ${obj.age} лет <br>`);
+            }
+            return  princWife;
+        } else if (princWife.length === 1){
+            let wife = princWife[0];
+            document.write(`Вот она, твоя любимая!!! <br>`);
+            document.write(`${wife.name}, ${wife.age} лет <br>`);
+            return wife;
+        } else {
+            document.write(`Left Hand :)`);
+        }
+        console.log(sizeToFind);
+    }
+}
+let princ2 = new Princ2("Vitalik", 20, 44);
+princ2.findCinderella(cinderellas2);
