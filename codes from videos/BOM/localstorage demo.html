@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>LS demo</title>
+    </head>
+    <body>
+        <script>
+
+			let users = [
+				{name: 'vasya', age: 31, status: false},
+				{name: 'petya', age: 30, status: true},
+				{name: 'kolya', age: 29, status: true},
+				{name: 'olya', age: 28, status: false},
+				{name: 'max', age: 30, status: true},
+				{name: 'anya', age: 31, status: false},
+				{name: 'oleg', age: 28, status: false},
+				{name: 'andrey', age: 29, status: true},
+				{name: 'masha', age: 30, status: true},
+				{name: 'olya', age: 31, status: false},
+				{name: 'max', age: 31, status: true}
+			];
+			for (const user of users) {
+				let div = document.createElement('div');
+				div.innerText = JSON.stringify(user);
+				let btn = document.createElement('button');
+				btn.innerText = 'add to favorites';
+				div.appendChild(btn);
+				btn.onclick = function (e) {
+
+					let favorite = JSON.parse(localStorage.getItem('favorite'));
+					if (Array.isArray(favorite) && localStorage.getItem('favorite') != null) {
+						favorite.push(user);
+						localStorage.setItem('favorite', JSON.stringify(favorite));
+					} else {
+						let usersFavArray = [];
+						usersFavArray.push(user);
+						localStorage.setItem('favorite', JSON.stringify(usersFavArray));
+					}
+				};
+				document.body.appendChild(div);
+			}
+
+
+        </script>
+    </body>
+</html>

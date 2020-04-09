@@ -8,6 +8,15 @@
         closures
         call apply bind
         define properties
+        proto
+
+        <script>
+			Array.prototype.myPrint = function () {
+				console.log(this);
+			};
+
+			[1, 2, 3, 4].myPrint();
+        </script>
 
     </body>
 </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM</title>
+    </head>
+    <body><a href="" id="x">anchor</a><!--        asjhdhsagfd--><a href="" id="x">anchor</a>
+        <div class="target">lorem</div>
+        <div class="target">ipsum</div>
+
+        <script>
+
+			let elementX = document.querySelector('body #x');
+			console.log(elementX);
+			let elementsX = document.querySelectorAll('body #x');
+			console.log(elementsX);
+
+			let childNodes = document.body.childNodes;
+			console.log(childNodes);
+
+			let children = document.body.children;
+			console.log(children);
+
+			for (const child of children) {
+				child.setAttribute('xxx', 'yyy');
+				console.log(child.hasAttribute('class'));
+				console.log(child.getAttribute('class'));
+				console.log(child.parentElement);
+				console.log(child.parentNode);
+
+			}
+
+
+        </script>
+    </body>
+</html>

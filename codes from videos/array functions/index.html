@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <script>
+
+			// let numbers = [11, -1, 12, 45, 0];
+			// // let resultNumberSort = numbers.sort();
+			// // console.log(resultNumberSort);
+			//
+			//
+			// let sort = numbers.sort(function (a, b) {
+			// 	return b - a;
+			// });
+			// console.log(sort);
+			//
+			// let filter = numbers.filter(function (num) {
+			// 	if (num % 2 === 0) {
+			// 		return true;
+			// 	} else {
+			// 		return false;
+			// 	}
+			// });
+			//
+			// console.log(filter);
+			//
+			// numbers.forEach(function (num) {
+			// 	console.log(num);
+			// });
+			//
+			// let map = numbers.map(function (num) {
+			// 	return num * 3;
+			// });
+			//
+			// console.log(map);
+
+			let numbersWithSurprise = [1, 2, 3, 'surprise', 4, 5, 6];
+
+			let find = numbersWithSurprise.find(element => typeof element === 'string');
+
+			console.log(find);
+
+			let uwa = [
+				{
+					id: 1,
+					name: 'vasya',
+					age: 31,
+					status: false,
+					address: {city: 'Lviv', street: 'Shevchenko', number: 16}
+				},
+				{id: 2, name: 'petya', age: 30, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 1}},
+				{
+					id: 3,
+					name: 'kolya',
+					age: 29,
+					status: true,
+					address: {city: 'Lviv', street: 'Shevchenko', number: 121}
+				},
+				{
+					id: 4,
+					name: 'olya',
+					age: 28,
+					status: false,
+					address: {city: 'Lviv', street: 'Shevchenko', number: 90}
+				},
+				{id: 5, name: 'max', age: 30, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 115}},
+				{id: 6, name: 'anya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 2}},
+				{
+					id: 7,
+					name: 'oleg',
+					age: 28,
+					status: false,
+					address: {city: 'Lviv', street: 'Shevchenko', number: 22}
+				},
+				{
+					id: 8,
+					name: 'andrey',
+					age: 29,
+					status: true,
+					address: {city: 'Lviv', street: 'Shevchenko', number: 43}
+				},
+				{
+					id: 9,
+					name: 'masha',
+					age: 30,
+					status: true,
+					address: {city: 'Lviv', street: 'Shevchenko', number: 12}
+				},
+				{
+					id: 10,
+					name: 'olya',
+					age: 31,
+					status: false,
+					address: {city: 'Lviv', street: 'Shevchenko', number: 16}
+				},
+				{id: 11, name: 'max', age: 31, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 121}}
+			];
+
+
+			let sort = uwa.sort((user1, user2) => user1.address.number - user2.address.number);
+			console.log(sort);
+
+
+			function calculate(a, b, callback) {
+				console.log(callback(a, b));
+
+			}
+
+			calculate(10, 20, function (a, b) {
+
+				return a + b;
+			});
+
+			calculate(10, 20, function (a, b) {
+				return a * b - a;
+			});
+
+
+			function customPrintArray(array, callback) {
+				callback(array);
+			}
+
+			customPrintArray([1, 2, 3, 4], function (arr) {
+				for (const arrElement of arr) {
+					console.log(arrElement);
+				}
+			});
+
+
+			customPrintArray([1, 2, 3, 4], (arr) => {
+				for (let i = arr.length - 1; i >= 0; i--) {
+					const arrElement = arr[i];
+					console.log(arrElement);
+				}
+			});
+
+
+        </script>
+    </body>
+</html>
+
+

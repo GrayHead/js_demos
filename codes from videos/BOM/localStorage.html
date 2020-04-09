@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>LS</title>
+    </head>
+    <body>
+
+        <script>
+
+			// localStorage.setItem('key', 'value');
+			// localStorage.setItem('key', 'asdqew');
+
+			localStorage.setItem('user', JSON.stringify({name: 'vasya'}));
+
+			// localStorage.clear();
+			let item = localStorage.getItem('user');
+			console.log(JSON.parse(item));
+
+        </script>
+    </body>
+</html>
