@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <script>
+
+			// function calculate(a, b, action) {
+			// 	if (action === '+') {
+			// 		return a + b;
+			// 	} else if (action === '-') {
+			// 		return a + b;
+			// 	} else if (action === '/') {
+			// 		return a / b;
+			// 	} else if (action === '*') {
+			// 		return a * b;
+			// 	} else {
+			// 		return 0;
+			// 	}
+			// }
+			//
+			//
+			// let promise = new Promise(function (resolve, reject) {
+			//
+			// 	setTimeout(function () {
+			// 		let result = calculate(10, 20, '+');
+			// 		resolve(result);
+			//
+			// 	}, 2000);
+			//
+			// });
+			//
+			// promise
+			// 	.then(function (value) {
+			// 		console.log(value);
+			// 		return new Promise(resolve => {
+			// 			setTimeout(function () {
+			// 				let result = calculate(value, 20, '+');
+			// 				resolve(result);
+			// 			}, 2000);
+			// 		});
+			// 	})
+			// 	.then(function (value) {
+			// 		console.log(value);
+			// 		return new Promise(function (resolve) {
+			//
+			// 			setTimeout(function () {
+			// 				let result = calculate(value, 100, '+');
+			// 				resolve(result);
+			//
+			// 			}, 2000);
+			//
+			//
+			// 		});
+			// 	})
+			// 	.then(value => {
+			// 		console.log(value);
+			// 	});
+
+
+			function asyncFoo(msg, timeout) {
+
+				return new Promise(resolve => {
+					setTimeout(function () {
+						console.log(msg);
+						resolve('resulst');
+					}, timeout);
+				});
+			}
+
+
+			Promise.all([asyncFoo('hello', 2000), asyncFoo('hi', 3000)]).then(value => {
+				console.log('done',value);
+			});
+
+        </script>
+
+    </body>
+</html>
