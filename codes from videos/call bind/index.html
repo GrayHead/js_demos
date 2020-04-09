@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <script>
+			let user1 = {
+				name: 'vasya',
+				age: 31,
+				greeting: function (msg) {
+					console.log(`${msg} my name is ${this.name}`);
+				}
+			};
+
+			let user2 = {
+				name: 'petya',
+				age: 21
+			};
+
+			user1.greeting.apply(user2, ['hello', 'asdads', 'qewqwe']);
+			user1.greeting.call(user2, 'hi');
+			let greetingNew = user1.greeting.bind(user2, 'yo!');
+			greetingNew();
+
+
+        </script>
+    </body>
+</html>

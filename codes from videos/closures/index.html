@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+
+        <script>
+
+			function createUser(name,age) {
+				let user = {name: name, age: age};
+				return {
+					getName: function () {
+						return user.name;
+					},
+					getAge: function () {
+						return user.age;
+					},
+					setName: function (newName) {
+						user.name = newName;
+
+					},
+					setAge: function (newAge) {
+						if (newAge < 0) {
+							alert('age must be > 0');
+						} else {
+							user.age = newAge;
+
+						}
+
+					},
+
+				};
+			}
+
+			let user = createUser('kokos',123);
+			user.name = 'ajhdfhagsfd';
+			console.log(user);
+			user.setName('ahsdghagfdhgafdhgasfdh');
+			console.log(user.getName());
+			user.setAge(-10);
+			console.log(user.getAge());
+
+        </script>
+    </body>
+</html>
