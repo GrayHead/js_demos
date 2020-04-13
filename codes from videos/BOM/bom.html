@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>BOM</title>
+    </head>
+    <body>
+
+        <video id="video" style="width: 200px;height: 200px;"></video>
+        <script>
+
+			console.log(window);
+			console.log(innerHeight);
+			console.log(innerWidth);
+
+			console.log(screen.width);
+			console.log(screen.height);
+
+			console.log(navigator.platform);
+			console.log(navigator.language);
+			console.log(navigator.languages);
+			console.log(navigator.onLine);
+			console.log(navigator.maxTouchPoints);
+			console.log(navigator.hardwareConcurrency);
+
+			// navigator.getBattery().then(function (bat) {
+			// 	console.log(bat);
+			//
+			// });
+
+			// navigator.geolocation.getCurrentPosition(function (position) {
+			// 	console.log(position);
+			// })
+			// navigator.geolocation.watchPosition(function (position) {
+			// 	console.log(position);
+			// })
+
+			// navigator.mediaDevices.getUserMedia({video: true}).then(function (stream) {
+			// 	let video = document.getElementById('video');
+			// 	video.srcObject = stream;
+			// 	video.play();
+            //
+			// });
+
+			console.log(location.host);
+			console.log(location.href);
+			console.log(location.pathname);
+			console.log(location.protocol);
+
+
+			history.forward();
+			history.back();
+
+			// setInterval(function () {
+			// 	console.log('hello');
+            //
+			// }, 500);
+
+			setTimeout(function () {
+				console.log('hello');
+
+			}, 2000);
+
+
+        </script>
+    </body>
+</html>

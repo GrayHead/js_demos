@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            .target {
+                width: 200px;
+                height: 200px;
+                background: silver;
+                margin-bottom: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam explicabo placeat, quaerat
+            quia soluta tenetur ullam! Accusamus, adipisci at consequatur enim id illum itaque modi natus, quibusdam,
+            rerum sunt ut.
+        </div>
+
+        <script>
+
+			let target = document.querySelector('.target');
+			// target.onmousedown = function () {
+			// 	console.log('down');
+			//
+			// }
+			//
+			// target.onmouseup = function () {
+			// 	console.log('up');
+			// }
+			// target.onmouseover = function () {
+			// 	console.log('over');
+			// };
+			// target.onmouseleave = function () {
+			// 	console.log('leave');
+			// };
+			document.onkeypress = function (e) {
+				console.log(e.code);
+			};
+
+			document.onwheel = function () {
+				console.log(e.deltaX);
+				console.log(e.deltaY);
+			};
+
+			document.body.onmouseup = function () {
+				console.log(document.getSelection().toString());
+
+			};
+
+
+        </script>
+    </body>
+</html>

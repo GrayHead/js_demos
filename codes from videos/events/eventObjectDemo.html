@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+
+            .target {
+                width: 200px;
+                height: 200px;
+                background: #000;
+                margin-bottom: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="target"></div>
+
+        <script>
+			let target = document.querySelector('.target');
+			target.addEventListener('mousemove', function (e) {
+				console.log(e.clientX, e.clientY);
+				let r = e.clientX;
+				let g = e.clientY;
+				let b = Math.floor((e.clientX + e.clientY) / 2);
+				console.log(r,g,b);
+
+				this.style.background = `rgb(${r},${g},${b})`;
+
+			});
+
+
+        </script>
+    </body>
+</html>

@@ -5,9 +5,15 @@
         <title>Title</title>
     </head>
     <body>
-        closures
-        call apply bind
-        define properties
+
+
+        <script>
+			Array.prototype.myPrint = function () {
+				console.log(this);
+			};
+
+			[1, 2, 3, 4].myPrint();
+        </script>
 
     </body>
 </html>
