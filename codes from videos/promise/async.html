@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>async</title>
+    </head>
+    <body>
+        <script>
+
+			function asyncCalc(a, b) {
+				return new Promise(resolve => {
+					setTimeout(function () {
+						resolve(a + b);
+					}, 2000);
+				});
+			}
+
+
+			async function foobar() {
+				let res = await asyncCalc(10, 20);
+				console.log(res);
+
+			}
+
+			foobar();
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <script>
+
+
+			function calculate(a, b, action) {
+				if (action === '+') {
+					return a + b;
+				} else if (action === '-') {
+					return a + b;
+				} else if (action === '/') {
+					return a / b;
+				} else if (action === '*') {
+					return a * b;
+				} else {
+					return 0;
+				}
+			}
+
+			let a = 10;
+			let b = 0;
+
+			let promise = new Promise(function (resolve, reject) {
+
+				setTimeout(function () {
+					if (b != 0) {
+						let result = calculate(a, b, '/');
+						resolve(result);
+
+					} else if (b == 0) {
+						reject('ERROR!!!!');
+					}
+
+				}, 2000);
+
+			});
+
+			promise.then(value => console.log(value)).catch(reason => {
+				console.log(reason);
+
+			});
+
+        </script>
+
+    </body>
+</html>

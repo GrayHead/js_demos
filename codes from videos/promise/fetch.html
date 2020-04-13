@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>fetch</title>
+    </head>
+    <body>
+        <script>
+
+			fetch('https://jsonplaceholder.typicode.com/users')
+				.then(value => value.json())
+				.then(value => {console.log(value);});
+
+			console.log('1');
+			console.log('2');
+			console.log('3');
+
+        </script>
+    </body>
+</html>
