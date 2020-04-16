@@ -15,7 +15,8 @@ console.log(numberToOne(number3));
 console.log(numberToOne(number4));
 
 function numberToOne2(num) {
-    do {num = num.toString().split("").reduce((a, b) => +a + +b);
+    do {
+        num = num.toString().split("").reduce((a, b) => +a + +b);
     } while (num > 9)
     return num;
 }

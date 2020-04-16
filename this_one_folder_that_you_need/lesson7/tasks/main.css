@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+body {
+
+}
+ul, li {
+    list-style: none;
+}
+
+body>* {
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+}
+#text   {
+    padding: 30px;
+    background-color: greenyellow;
+}
+input {
+    padding: 10px;
+}
+
+/*Menu*/
+#menuBtn {
+    outline: none;
+    background-color: aquamarine;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+#mainNav {
+    position: relative;
+    left: -400px;
+    transition: left .8s linear;
+    background-color: aquamarine;
+    width: 200px;
+
+    /*display: none;*/
+}
+#mainNav li {
+    margin: 0;
+    padding: 10px 20px;
+    border-bottom: 2px solid grey;
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+    transition: background-color .8s linear;
+}
+#mainNav li:hover {
+    background-color: darkorchid;
+}
+#mainNav li ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-left: 2px solid grey;
+    background-color: aquamarine;
+    opacity: 0;
+    transition: opacity .8s linear, left .8s linear;
+}
+
+.visible {
+    opacity: 1 !important;
+    left: 100% !important;
+}
+
+/*Comments*/
+.comment-container {
+    padding: 20px;
+    width: 60%;
+}
+.comment-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+
+.comment-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment-title {
+
+}
+/*btn*/
+.comment-head button {
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.comment-head button::before,
+.comment-head button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 35%;
+    height: 3px;
+    background-color: #333;
+
+    transition: transform .2s linear;
+}
+.comment-head button::before {
+    top: 40%;
+    right: 45%;
+    transform: rotateZ(40deg);
+}
+.comment-head button::after {
+    top: 40%;
+    left: 45%;
+    transform: rotateZ(-40deg);
+}
+.active .comment-head button::before {
+    bottom: 40%;
+    right: 45%;
+    transform: rotateZ(-40deg);
+}
+.active .comment-head button::after {
+    bottom: 40%;
+    left: 45%;
+    transform: rotateZ(40deg);
+}
+
+.comment-body {
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+.comment-text {
+    display: block;
+    /*position: absolute;
+    top: -300px;
+    left: 0;*/
+    height: 0;
+    z-index: 10;
+    transform: translateY(-200px);
+    transition: transform .2s linear, height .5s linear;
+    overflow: hidden;
+}
+.active .comment-text {
+    height: initial;
+    transform: translateY(0px);
+    margin: 10px 0;
+}
+.comment-mail {
+
+}
+
+/*TABLE FORM*/
+#table-generator {
+    margin-top: 20px;
+}
+#table-generator form {
+
+}
+#table-generator label {
+    display: block;
+    margin-bottom: 10px;
+}
+#table-generator input {
+    width: 100%;
+}
+
+/*CAROUSEL*/
+img {
+    width: 100%;
+    height: auto;
+}
+#carousel {
+
+}
+
+#carousel .prev-btn {
+
+}
+#carousel .next-btn {
+
+}
+
+#carousel .carousel-container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+#carousel .carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+#carousel .carousel-item.active {
+    opacity: 1;
+}
+
+/*Version 2*/
+#carousel2 {
+    width: 600px;
+    border: 5px solid black;
+    overflow: hidden;
+}
+#carousel2 .carousel-container {
+    position: relative;
+    left: 0;
+    transition: all ease .5s;
+}
+#carousel2 .carousel-item {
+    width: 200px;
+    position: relative;
+    float: left;
+}
+
+/*MAT FORM*/
+#matForm {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid deeppink;
+    border-radius: 10px;
+    background-color: hotpink;
+}
+#matForm > * {
+    margin-bottom: 10px;
+}
+#matForm input {
+    width: 100%;
+}
+#matForm #matBtn {
+    cursor: pointer;
+    padding: 10px;
+}
+#mat-pop_up {
+    width: 700px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+
+    background-color: #eee;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #eeeeee;
+    border-radius: 30px;
+}
+#mat-pop_up div {
+    line-height: 2;
+    text-align: center;
+}
+#mat-pop_up button {
+    cursor: pointer;
+}
+#mat-pop_up.active {
+    display: flex;
+}

@@ -3,48 +3,116 @@
     <head>
         <meta charset="UTF-8">
         <title>Fight Club</title>
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <div id="content"></div>
-        <h1>Правила бойцовского клуба</h1>
         <div id="wrap">
-            <div class="rules rule1">
-                <h2>Первое правило Бойцовского клуба.</h2>
-                <p>Никому не рассказывать о Бойцовском клубе.</p>
-            </div>
-            <div class="rules rule2">
-                <h2>Второе правило Бойцовского клуба.</h2>
-                <p>Никогда никому не рассказывать о Бойцовском клубе.</p>
-            </div>
-            <div class="rules rule3">
-                <h2>Третье правило Бойцовского клуба.</h2>
-                <p>В схватке участвуют только двое.</p>
-            </div>
-            <div class="rules rule4">
-                <h2>Четвертое правило Бойцовского клуба.</h2>
-                <p>Не более одного поединка за один раз.</p>
+            <button type="button" id="button">Кнопка</button>
+            <div id="text">This text must dissapears</div>
+            <button class="hiddenBtn" type="button">Это магическая кнопка</button>
+            <form name="checkAge">
+                <div>Введите ваш возраст:</div>
+                <input type="text" id="ageField">
+                <button id="ageChecker">OK</button>
+            </form>
+
+            <button id="menuBtn">Menu</button>
+            <ul id="mainNav">
+                <li>First</li>
+                <li>Click me
+                    <ul>
+                        <li>first ins</li>
+                        <li>2 dasfsd</li>
+                        <li>3 fsfaf</li>
+                    </ul>
+                </li>
+                <li>Third</li>
+                <li>And me
+                    <ul>
+                        <li>1 sfsf</li>
+                        <li>2 afa</li>
+                        <li>3 gfgs</li>
+                        <li>4 gd</li>
+                        <li>5 hfh</li>
+                        <li>6 esfsd</li>
+                    </ul>
+                </li>
+                <li>Fivth
+                    <ul>
+                        <li>1 324</li>
+                        <li>1 fghgdshd</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div id="comments-block">
+
             </div>
 
-            <div class="rules rule5">
-                <h2>Пятое правило Бойцовского клуба.</h2>
-                <p>Бойцы сражаются без обуви и голые по пояс.</p>
+            <div id="forms-container">
+                <h2>Аукцион</h2>
+                <form name="player1">
+                    <h3>Игрок 1</h3>
+                    <label>Ваше имя : <input type="text" name="name"></label>
+                    <label>Назовите сумму : <input type="text" name="money"></label>
+                </form>
+                <form name="player2">
+                    <h3>Игрок 2</h3>
+                    <label>Ваше имя : <input type="text" name="name"></label>
+                    <label>Назовите сумму : <input type="text" name="money"></label>
+                </form>
+                <button>Поставить на торги</button>
+                <div id="winer" style="display: inline-block; margin-left: 30px;"></div>
             </div>
-            <div class="rules rule6">
-                <h2>Шестое правило Бойцовского клуба.</h2>
-                <p>Поединок продолжается столько, сколько потребуется.</p>
+            <div id="table-generator">
+                <form name="tableInput">
+                    <label>Number of rows<input type="number" name="rows"></label>
+                    <label>Number of cols<input type="number" name="cols"></label>
+                    <label>Col`s content(Вводить через пробел)<input type="text" value="some text" name="content"></label>
+                    <button>Generate</button>
+                </form>
             </div>
-            <div class="rules rule7">
-                <h2>Седьмое правило Бойцовского клуба.</h2>
-                <p>Если противник потерял сознание или делает вид, что потерял, или говорит «Хватит» — поединок
-                    окончен.</p>
+       </div> <!--   wrap-->
+
+        <div id="carousel">
+            <div class="carousel-container">
+                <div class="carousel-item active"><img src="img/sticker1.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker2.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker3.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker4.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker5.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker6.webp" alt=""></div>
             </div>
-            <div class="rules rule8">
-                <h2>Восьмое и последнее правило Бойцовского клуба.</h2>
-                <p>Новичок обязан принять бой.</p>
-            </div>
+            <button id="prev-btn" onclick="plusSlides(-1)">Prev</button>
+            <button id="next-btn" onclick="plusSlides(1)">Next</button>
         </div>
 
-        <script>
+        <div id="carousel2">
+            <div class="carousel-container">
+                <div class="carousel-item active"><img src="img/sticker1.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker2.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker3.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker4.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker5.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker6.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker3.webp" alt=""></div>
+                <div class="carousel-item"><img src="img/sticker2.webp" alt=""></div>
+            </div>
+            <button id="prev-btn2" onclick="plusSlides2(1)">Prev</button>
+            <button id="next-btn2" onclick="plusSlides2(-1)">Next</button>
+        </div>
+
+        <form name="matForm" id="matForm">
+            <label for="matField">Ваше приветствие: </label>
+            <input type="text" name="matField" id="matField">
+            <button id="matBtn">Послать</button>
+        </form>
+        <div id="mat-pop_up">
+            <div>Ты че, ехуел, пидор?<br>Покультурней будь, уебок ссаный!!</div>
+            <button type="button" onclick="removePopUp()">Та понял я все :(</button>
+        </div>
+
+        <script src="script.js">
 			// Your awesome code here.....
         </script>
     </body>
