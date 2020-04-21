@@ -300,7 +300,6 @@ let matWords = ["сука","блядь","нахуй","уебок","пидор","
 let matBtn = document.getElementById("matBtn");
 let matPopUp = document.getElementById("mat-pop_up");
 let popUpContent = matPopUp.innerHTML;
-
 matBtn.onclick = function (e) {
     e.preventDefault();
     let text = document.forms.matForm.matField.value;
@@ -313,7 +312,6 @@ matBtn.onclick = function (e) {
             flag = true;
         }
     }
-
     if (flag) {
         matPopUp.innerHTML = popUpContent;
         matPopUp.classList.add("active");
@@ -328,3 +326,210 @@ function removePopUp() {
     matPopUp.classList.remove("active");
 }
 
+// -- создать скрипт, который берет считывает на странице (rules.html) текст и делает сбоку меню-оглавление
+// по всем заголовкам которые есть в тексте.
+//     При клике на пункт оглавления вы должны отправляться к этому пункту в тексте
+let rulesContainer = document.getElementById("rules-wrap");
+let contentList = rulesContainer.querySelector(".content ul");
+let rules = rulesContainer.querySelectorAll(".rules");
+
+for (let i = 0; i < rules.length; i++) {
+
+    let contentListItem = document.createElement("li");
+    let liItem = document.createElement("a");
+    liItem.innerHTML = rules[i].querySelector("h2").innerHTML;
+    contentListItem.appendChild(liItem).setAttribute("href", `#rule${i+1}`);
+
+    contentList.appendChild(contentListItem);
+
+    contentListItem.onclick = function (e) {
+        rules[i].style.transition = "none";
+        rules[i].style.backgroundColor = "#ff0000";
+        setTimeout(function () {
+            rules[i].style.transition = "background-color .8s linear";
+            rules[i].style.backgroundColor = "#ffffff";
+        }, 1000);
+    }
+}
+// Создать три чекбокса. Каждый из них активирует фильтр для вышеуказаного массива.
+//     Фильтры могут работать как вместе так и по отдельности.
+// 1й - отфильтровывает пользователей со статусом false (осталяет со статусом false)
+// 2й - оставляет старше 29 лет включительно
+// 3й - оставляет тех у кого город киев
+// Данные выводить в документ
+let usersWithAddress = [
+    {id:1,name: 'vasya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
+    {id:2,name: 'petya', age: 30, status: true, address: {city: 'Kyiv', street: 'Shevchenko', number: 1}},
+    {id:3,name: 'kolya', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 121}},
+    {id:4,name: 'olya', age: 28, status: false, address: {city: 'Ternopil', street: 'Shevchenko', number: 90}},
+    {id:5,name: 'max', age: 30, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 115}},
+    {id:6,name: 'anya', age: 31, status: false, address: {city: 'Kyiv', street: 'Shevchenko', number: 2}},
+    {id:7,name: 'oleg', age: 28, status: false, address: {city: 'Ternopil', street: 'Shevchenko', number: 22}},
+    {id:8,name: 'andrey', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 43}},
+    {id:9,name: 'masha', age: 30, status: true, address: {city: 'Kyiv', street: 'Shevchenko', number: 12}},
+    {id:10,name: 'olya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
+    {id:11,name: 'max', age: 31, status: true, address: {city: 'Ternopil', street: 'Shevchenko', number: 121}}
+];
+let usersMainContainer = document.getElementById("users-container");
+let usersBox = usersMainContainer.querySelector(".users");
+// Просто функция которая печатает массив
+function deepWrite(arrOfObj) {
+    for (const obj of arrOfObj) {
+        let div = document.createElement("div");
+        for (const key in obj) {
+            if (typeof obj[key] === "object") {
+                div.innerText += `${key.toUpperCase()}: `;
+                for (const key2 in obj[key]) {
+                    div.innerText += `${key2}:  ${obj[key][key2]}, `;
+                }
+            } else {
+                div.innerText += `${key}:  ${obj[key]}, `;
+            }
+        }
+        usersBox.appendChild(div);
+    }
+    return "<br>";
+}
+// А тут уже программа
+let userObj = JSON.parse(JSON.stringify(usersWithAddress));
+deepWrite(userObj);
+
+
+
+let falseCheck = document.forms.usersCheckBoxes.falseCheck;
+let ageCheck = document.forms.usersCheckBoxes.ageCheck;
+let kyivCheck = document.forms.usersCheckBoxes.kyivCheck;
+let allCheckboxes = [falseCheck, ageCheck, kyivCheck];
+
+for (const checkbox of allCheckboxes) {
+    checkbox.onclick = function (e) {
+        usersBox.innerHTML = "";
+        let filteredArr = JSON.parse(JSON.stringify(userObj));
+        if (falseCheck.checked) {
+            filteredArr = filterFalse(filteredArr);
+        }
+        if (ageCheck.checked) {
+            filteredArr = filterAge(filteredArr);
+        }
+        if (kyivCheck.checked) {
+            filteredArr = filterKyiv(filteredArr);
+        }
+        deepWrite(filteredArr);
+    }
+}
+/*
+falseCheck.onclick = function (e) {
+    let newUsers;
+    if (this.checked) {
+        newUsers = userObj.filter(user => !user.status);
+        usersBox.innerHTML = "";
+        deepWrite(newUsers);
+    } else {
+        deepWrite(userObj);
+    }
+    console.log(newUsers);
+}
+
+*/
+
+
+function filterFalse(arr) {
+    let newArr = arr.filter(obj => !obj.status);
+    return newArr;
+}
+function filterAge(arr) {
+    let newArr = arr.filter(obj => obj.age >= 29);
+    return newArr;
+}
+function filterKyiv(arr) {
+    let newArr = arr.filter(obj => obj.address.city === 'Kyiv');
+    return newArr;
+}
+
+// *****(Прям овердоз с рекурсией) Создать функцию которая принимает какой-либо элемент DOM-структуры .
+//     Функция создает в боди 2 кнопки (назад/вперед)при нажатии вперед, вы переходите к дочернему элементу,
+//     при еще одном нажатии на "вперед", вы переходите к следующему
+// дочернему элементу (лежащему на одном уровне) НО если у (какого-либо)дочеренего элемента есть дети,
+//     то ажатие "вперед" позволяет нам войти внутрь элемента и выводит первого ребенка. и тд.Когда все дети заканчиваются,
+//     мы выходим из данного дочернего элемента и переходим к следующему, лежащему с ним на одном уровне
+
+let recursionContainer = document.getElementById("recursion-list");
+let idNum = 1;
+let marginCount = 0;
+function elementRecursion(container) {
+    let elements = container.children;
+    for (const elem of elements) {
+
+            if (elem.hasChildNodes()) {
+                marginCount++;
+                elem.setAttribute("id", `recurs${idNum++}`);
+                // console.log(elem);
+                elementRecursion(elem);
+                marginCount--;
+            } else {
+                elem.style.width = "200px";
+                elem.style.height = "20px";
+                elem.style.margin = "10px";
+                elem.style.marginLeft = `${marginCount * 20}px`;
+                elem.style.backgroundColor = "transparent";
+                elem.style.border = "3px solid green";
+                elem.setAttribute("id", `recurs${idNum++}`);
+                // elem.classList.add(`class${classNum++}`)
+                // console.log(elem);
+            }
+
+    }
+
+    if (recursionContainer === container) {
+        let leftBtn = document.createElement("button");
+        leftBtn.innerText = "UP";
+        leftBtn.setAttribute("onclick", "changeRecursionId(-1)");
+        container.appendChild(leftBtn);
+
+        let rightBtn = document.createElement("button");
+        rightBtn.innerText = "DOWN";
+        rightBtn.setAttribute("onclick", "changeRecursionId(1)");
+        container.appendChild(rightBtn);
+    }
+}
+elementRecursion(recursionContainer);
+
+let madeElements = recursionContainer.querySelectorAll("div");
+
+let recursionId = 1;
+madeElements[recursionId - 1].style.backgroundColor = "darkred";
+function changeRecursionId(n) {
+    recursionId += n;
+    if (recursionId < 1) {
+        recursionId = idNum-1;
+    }
+    if (recursionId > idNum-1) {
+        recursionId = 1;
+    }
+    for (const el of madeElements) {
+        el.style.backgroundColor = "transparent";
+    }
+    console.log(recursionId);
+    madeElements[recursionId - 1].style.backgroundColor = "darkred";
+    console.log(madeElements[recursionId - 1]);
+    // newSelectedElement.style.backgroundColor = "blue";
+}
+
+// *** При виділені сегменту тексту на сторінці він стає жирний/курсивний/або якось іншим способом змінює свій стан
+let markupContainer = document.getElementById("text-markup");
+markupContainer.onmouseup = function (e) {
+    console.log(document.getSelection().toString());
+    let selection = document.getSelection().toString();
+    let arrText = markupContainer.innerText.split(selection);
+
+    /*let span = document.createElement("span");
+    span.style.backgroundColor = "blue";
+    span.innerText = selection;*/
+    // `<span>${selection}</span>`
+    if (selection) {
+        markupContainer.innerHTML = arrText[0];
+        markupContainer.innerHTML += `<span style="background-color: darkblue; color: #fff;">${selection}</span>`;
+        markupContainer.innerHTML += arrText[1];
+    }
+
+}

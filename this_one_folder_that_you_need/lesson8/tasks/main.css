@@ -1,0 +1,11 @@
+/*PERSONAL FORM*/
+
+#personalForm input{
+    margin-bottom: 20px;
+}
+#personalForm label {
+    display: block;
+}
+#personalForm .radios label{
+    display: inline-block;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 8</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<form name="textAreaForm">
+    <textarea name="textAreaInput" id="textAreaInput" cols="40" rows="10"></textarea>
+</form>
+
+<h2>Персональная форма</h2>
+<form name="personalForm" id="personalForm">
+    <label for="firstName">Имя</label>
+    <input type="text" name="firstName" id="firstName">
+
+    <label for="lastName">Фамилия</label>
+    <input type="text" name="lastName" id="lastName">
+
+    <label>Возраст<input type="number" min="0" name="age" id="age"></label>
+
+    <label>Даете ли вы согласие на обработку информации <br>Да:
+        <input type="checkbox" name="agreement" id="agreement">
+    </label>
+
+    <div class="radios">Какой тарифный план выбираете? <br>
+        <label>Лайт<input type="radio" name="package" id="package1" value="lite"></label>
+        <label>Продвинутый<input type="radio" name="package" id="package2" value="advanced"></label>
+        <label>Проффесиональный<input type="radio" name="package" id="package3" value="proffesional"></label>
+    </div>
+
+    <label for="region"></label>
+    <select name="region" id="region">
+        <option value="Russia">Россия</option>
+        <option value="Ukraina">Украина</option>
+        <option value="Poland">Польша</option>
+        <option value="Hungary">Венгрия</option>
+        <option value="Germany">Германия</option>
+    </select>
+
+    <label for="wishes">Ваши пожелания:</label>
+    <textarea name="wishes" id="wishes" cols="30" rows="10"></textarea>
+</form>
+<script src="script.js"></script>
+</body>
+</html>

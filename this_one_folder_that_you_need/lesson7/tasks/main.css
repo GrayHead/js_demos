@@ -271,3 +271,59 @@ img {
 #mat-pop_up.active {
     display: flex;
 }
+
+
+/*RULES*/
+.content {
+    width: 80%;
+}
+#rules-wrap {
+
+}
+.rules {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.rules h2 {
+    margin-bottom: 10px;
+}
+
+/*USERS FILTER*/
+#users-container {
+
+}
+h2 {
+    text-align: center;
+}
+.users {
+    padding: 20px;
+}
+.users div {
+    padding: 10px;
+}
+.check-boxes form {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*RECURSION*/
+#recursion-list {
+    width: 600px;
+}
+
+#recursion-list > div{
+    border: 5px solid greenyellow;
+}
+/*
+#recursion-list > div > div {
+
+}
+#recursion-list > div > div > {
+
+}
+#recursion-list * :last-child {
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+}*/
