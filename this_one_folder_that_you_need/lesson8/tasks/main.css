@@ -1,5 +1,18 @@
 /*PERSONAL FORM*/
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li {
+    list-style: none;
+}
+button {
+    outline: none;
+    background-color: #eeeeee;
+    border: 1px solid #333333;
+    border-radius: 4px;
+}
 #personalForm input{
     margin-bottom: 20px;
 }
@@ -8,4 +21,172 @@
 }
 #personalForm .radios label{
     display: inline-block;
+}
+
+/*TEXT AREA HISTORY*/
+#comment-history ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#comment-history li {
+    /*display: inline-block;*/
+    width: 50%;
+    position: relative;
+    padding: 10px;
+}
+#comment-history li p {
+    display: block;
+    width: 100%;
+    text-wrap: normal;
+}
+#comment-history li button {
+    padding: 3px 8px;
+}
+/*Окно подтверждения*/
+#comment-history .confirmation {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    /*padding: 15px;*/
+    background-color: #eeeeee;
+    display: none;
+}
+#comment-history .confirmation.active {
+    display: block;
+}
+/*Кнопка сохранения*/
+#save-comment {
+    padding: 10px 20px;
+}
+/*Кнопка редактирования*/
+#comment-history .edit-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    display: none;
+}
+#comment-history .edit-box.active {
+    display: block;
+}
+#comment-history #editArea {
+    width: 100%;
+    height: 100%;
+}
+
+/*editStory*/
+#editStory textarea {
+    display: block;
+}
+#editStory button {
+    padding: 10px 20px;
+}
+.story-points div{
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+
+/*TELEPHONE BOOK*/
+#telephone-book {
+    display: flex;
+}
+#telephone-book .contacts {
+    width: 300px;
+    padding: 10px;
+    margin-right: 40px;
+}
+#telephone-book #add-contact {
+    display: block;
+    font-size: 30px;
+    color: dodgerblue;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+/*CONTACT TEMPLATE*/
+#telephone-book .contact-item button {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+    background-color: white;
+    border: none;
+}
+#telephone-book .contact-item div {
+    margin-bottom: 5px;
+}
+#telephone-book .contact-item {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#telephone-book .contact-name {
+    text-transform: uppercase;
+
+}
+#telephone-book .contact-phone {
+    font-size: 20px;
+}
+#telephone-book .contact-phone i {
+    color: forestgreen;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+#telephone-book .contact-additional {
+    display: flex;
+    align-items: center;
+}
+#telephone-book .contact-job {
+    flex: 1 1;
+}
+#telephone-book .contact-age {
+    flex: 1 1;
+}
+
+#telephone-book .contact-birsday {
+
+}
+/*CONTACT FORM*/
+#telephone-book .contact-form {
+    padding: 10px;
+    display: none;
+}
+#telephone-book .contact-form.active {
+    display: block;
+}
+#telephone-book .contact-form label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#telephone-book .contact-form input {
+    padding: 5px;
+    border-radius: 5px;
+}
+#telephone-book .contact-form input[type="color"] {
+    width: 100px;
+    padding: 0;
+}
+#telephone-book .contact-form #save-contact {
+    padding: 10px 20px;
+    /*background-color: white;*/
+    cursor: pointer;
 }

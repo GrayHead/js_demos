@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Lesson 8</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/fa3442229c.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -43,6 +44,78 @@
     <label for="wishes">Ваши пожелания:</label>
     <textarea name="wishes" id="wishes" cols="30" rows="10"></textarea>
 </form>
+
+<h2>История комментариев</h2>
+
+<textarea name="textArea" id="textArea" cols="70" rows="10"></textarea>
+<button type="button" id="save-comment">Save</button>
+<div id="comment-history">
+    <ul></ul>
+</div>
+
+<h2>Edit Story</h2>
+<div id="editStory">
+    <button id="rollBack" onclick="rollText(-1)">Back</button>
+    <button id="rollForward" onclick="rollText(1)">Forward</button>
+    <div class="story-points"></div>
+    <textarea name="textField" id="textField" cols="60" rows="10"></textarea>
+    <button id="push">Push</button>
+</div>
+
+<h2>Telephone Book</h2>
+<div id="telephone-book">
+    <div class="contacts">
+        <button type="button" id="add-contact"><i class="fas fa-user-plus"></i></button>
+
+    </div>
+
+    <div class="contact-form">
+        <form name="contactForm" id="contactForm">
+            <label>Name: <input type="text" name="name" id="name"></label>
+            <label>Surname: <input type="text" name="surname" id="surname"></label>
+            <label>Age: <input type="number" name="age" id="age"></label>
+            <label>Phone number: <input type="text" minlength="5" maxlength="15" value="+38" name="phone" id="phone"></label>
+            <label>Mail address: <input type="email" name="mail" id="mail"></label>
+            <label>You job: <input type="text" name="job" id="job"></label>
+            <label>Birthday: <input type="date" name="birthday" id="birthday"></label>
+            <label>Favourite color: <input type="color" name="color" id="color" value="#ffffff"></label>
+            <button id="save-contact">Save contact</button>
+        </form>
+    </div>
+</div>
+
+<template id="comment-template">
+    <li>
+        <div class="comment-text"></div>
+        <button id="remove-btn">Remove</button>
+        <button id="edit-btn">Edit</button>
+        <button id="paste-btn">Paste</button>
+        <div class="confirmation">
+            <p>Вы уверены?</p>
+            <button type="button" id="confirm-no">Нет</button>
+            <button type="button" id="confirm-yes">Да</button>
+        </div>
+        <div class="edit-box">
+            <textarea name="editArea" id="editArea"></textarea>
+            <button type="button" id="save-edit">Save changes</button>
+            <button type="button" id="cancel-edit">Cancel changes</button>
+        </div>
+    </li>
+</template>
+
+<template id="contactTempl">
+    <div class="contact-item">
+        <button type="button" id="remove-contact"><i class="fas fa-times"></i></button>
+        <div class="contact-name"></div>
+        <div class="contact-phone"><i class="fas fa-phone-square-alt"></i></div>
+        <div class="contact-additional">
+            <div class="contact-job">Work: </div>
+            <div class="contact-age">Age: </div>
+        </div>
+        <div class="contact-mail">Mail:  </div>
+        <div class="contact-birsday">Birth Date:  </div>
+    </div>
+</template>
 <script src="script.js"></script>
 </body>
 </html>
