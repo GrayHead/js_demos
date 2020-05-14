@@ -1,0 +1,46 @@
+select * from users;
+SELECT * FROM users WHERE name = 'Vitali';
+SELECT * FROM users WHERE age = 35;
+select * from users;
+
+SELECT * FROM users WHERE name LIKE 'v%';
+SELECT * FROM users WHERE name LIKE '%a';
+SELECT * FROM users WHERE name LIKE '%y%';
+SELECT * FROM users WHERE name LIKE '%l_';
+
+SELECT * FROM users WHERE LENGTH(name) = 5;
+
+SELECT * FROM users ORDER BY age;
+SELECT * FROM users ORDER BY age DESC;
+
+SELECT * FROM users WHERE gender LIKE 'm%' ORDER BY age;
+
+SELECT * FROM users ORDER BY age LIMIT 2;
+select * from users;
+SELECT * FROM users LIMIT 2 OFFSET 2;
+
+SELECT * FROM users WHERE age >= 23;
+SELECT * FROM users WHERE age != 35;
+
+SELECT * FROM users WHERE age != 35 AND name LIKE 'v%';
+SELECT * FROM users WHERE age > 23 OR name LIKE 'k%';
+
+SELECT * FROM users WHERE age BETWEEN 23 AND 30;
+
+# АГРЕГАТНІ ФУНКЦІЇ
+SELECT MAX(age) FROM users;
+SELECT MIN(age) FROM users;
+SELECT AVG(age) FROM users;
+SELECT MAX(age),MIN(age) FROM users;
+
+SELECT COUNT(name) FROM users;
+
+SELECT COUNT(name) FROM users WHERE age > 23;
+# SELECT AVG(rating) FROM students WHERE students_id = 5;
+SELECT AVG(age) AS avg FROM users;
+
+SELECT SUM(age) FROM users;
+
+UPDATE users SET name = 'pizduk' WHERE age < 18;
+
+SELECT * FROM users WHERE age < 18;

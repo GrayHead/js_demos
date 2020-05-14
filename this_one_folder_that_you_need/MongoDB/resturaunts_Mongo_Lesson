@@ -1,0 +1,128 @@
+// db.getCollection('resturaunts').find({
+//        model: 'Yamaha'
+// })
+// Вставка :
+// db.getCollection('resturaunts').insert({
+//     model: 'Yamaha',
+//     price: 9000,
+//     year: 2008
+// })
+
+// db.getCollection('resturaunts').insert({
+//     name: "Dima",
+//     proffesion: 'Barista',
+//     cars: ['Volvo', 'Lada', "Mers"]
+// })
+
+// Аналог і
+// db.getCollection('resturaunts').find({
+//          borough: 'Bronx',
+//          cuisine: 'Bakery'
+// })
+
+// Аналог або
+// db.getCollection('resturaunts').find({
+//     $or: [
+//         { borough: 'Bronx'  },
+//         { cuisine: 'Bakery' }
+//     ]
+// })
+
+// Путешествие по вложеным обьектам
+// db.getCollection('resturaunts').find({
+// //     'address.building': '1007'
+//     'address.building': { $gt: 1000 }
+// })
+
+// grades - массив. Монго сам перебирает елементы этого массива
+// в элементах которых есть ключ score
+// db.getCollection('resturaunts').find({
+//     'grades.score': {
+//         $gte: 80
+//     }
+// })
+
+// Лимитированная выдача
+// db.getCollection('resturaunts').find({}).limit(10).skip(50)
+
+
+// Аналог in в MySQL
+// db.getCollection('resturaunts').find({
+//     borough: {
+//             $in: ['Bronx',"Brooklyn"]
+//         }
+// })
+
+
+// Аналог not in в MySQL
+// db.getCollection('resturaunts').find({
+//     borough: {
+//             $nin: ['Bronx',"Brooklyn"]
+//         }
+// })
+
+// Рівне та не рівне
+// db.getCollection('resturaunts').find({
+//     "grades.score": {
+// //         $eq: 10
+//         $ne: 10
+//      }
+// })
+
+// Не( Отрицание)
+// db.getCollection('resturaunts').find({
+//     "grades.score": {
+//         $not: {
+//             $gt: 10
+//          }
+//      }
+// })
+
+// Доступ к елементам масива
+// db.getCollection('resturaunts').find({
+//     "address.coord.1": {
+//             $gt: 40
+//      }
+// })
+
+// Агрегации
+// db.getCollection('resturaunts').aggregate({
+//     {},
+//     {},
+//     {},
+//     {},
+//
+// })
+
+// Суммирование
+// db.getCollection('resturaunts').aggregate({
+//     {
+//         $group: {
+//              _id: "$borough",
+//               countOfRest: {
+//                   $sum: 1
+//               }
+//         }
+//     }
+// })
+
+
+// Рахує кількість всієї вибірки
+// db.getCollection('resturaunts').aggregate([
+//     {$count: 'allRest'}
+// ])
+
+
+//   Раскрывает массивы, считает количество оценок
+// db.getCollection("resturaunts").aggregate([
+//     {$unwind: "$grades"},
+//     {$group: {
+//              _id: "$grades",
+//               countOfRest: {
+//                   $sum: 1
+//               }
+//         }}
+// ])
+
+
+//
