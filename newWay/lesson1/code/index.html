@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+
+        <div class="wrap">
+            <div class="header">
+                <h1 class="title_style" id="main-header">some title h1</h1>
+                <p>some description</p>
+            </div>
+            <div class="main">
+                <h2 class="title_style">some title h2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cupiditate esse impedit inventore
+                    laborum laudantium necessitatibus officiis sed? Error et excepturi id illum iste iure natus nisi
+                    optio rerum, totam?
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, inventore, odit? Adipisci
+                    aliquam animi architecto at eius illo incidunt, inventore nemo, non praesentium quasi quo ratione
+                    repellendus totam ut. Ad architecto aspernatur at blanditiis est eveniet laudantium magni natus
+                    nihil optio, pariatur quae quo repudiandae totam ullam voluptatem voluptates! Corporis culpa dolor
+                    doloribus dolorum earum eius error illum, iure modi nam obcaecati officia officiis quam quibusdam,
+                    sit suscipit veritatis. Aperiam, expedita perspiciatis. A assumenda beatae cupiditate minima, quo
+                    saepe soluta. Esse fuga ipsa ipsam ipsum nam, nisi nostrum voluptate? Commodi deleniti error facilis
+                    illum iure nihil quam sapiente tempora voluptates!</p>
+            </div>
+        </div>
+
+        <!--        script-->
+
+        <script>
+
+			console.log(document);
+			let head = document.head;
+			console.log(head);
+			let body = document.body;
+			console.log(body);
+			let children = document.body.children;
+			console.log(children);
+			let mainHeader = document.getElementById('main-header');
+			console.log(mainHeader);
+			let allDivsOnPage = document.getElementsByTagName('div');
+			console.log(allDivsOnPage);
+			let allPOnPage = document.getElementsByTagName('p');
+			console.log(allPOnPage);
+			let allTitleStyleElementsOnPage = document.getElementsByClassName('title_style');
+			console.log(allTitleStyleElementsOnPage);
+			// what for refs?
+
+			console.log(mainHeader.innerText);
+			mainHeader.innerText = 'new text';
+			mainHeader.innerHTML = '<strong>new strong text</strong>';
+			mainHeader.style.background = 'silver';
+
+			console.log(allPOnPage[0]);
+			let p2 = allPOnPage[1];
+			console.log(p2);
+			console.log(allPOnPage[0].innerText);
+			allPOnPage[0].innerText = 'some new text for paragraph';
+
+
+			let message = 'hi, iam a new p data';
+
+			p2.innerText = message;
+			p2.style.background = 'tomato';
+
+			/*если нужно искать в сегменте*/
+			let mainList = document.getElementsByClassName('main');
+			let mainListElement = mainList[0];
+			let pElementsFromMain = mainListElement.getElementsByTagName('p');
+			console.log(pElementsFromMain);
+			console.log(pElementsFromMain[0]);
+			console.log(pElementsFromMain[1]);
+
+			console.log('----------querySelectors-----------');
+			console.log(document.querySelector('p'));
+			console.log(document.querySelector('main > p'));
+			console.log(document.querySelectorAll('p'));
+			console.log(document.querySelectorAll('main > p'));
+
+			// node vs elment
+			console.log(document.body.children);
+			console.log(document.body.childNodes);
+			console.log(document.body.childNodes[1]);
+
+
+        </script>
+
+    </body>
+</html>
