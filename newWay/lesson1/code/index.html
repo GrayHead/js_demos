@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <title>Title</title>
@@ -27,6 +28,9 @@
                     illum iure nihil quam sapiente tempora voluptates!</p>
             </div>
         </div>
+
+        <div id="target"></div>
+        <img src="" alt="" id="picture">
 
         <!--        script-->
 
@@ -84,6 +88,55 @@
 			console.log(document.body.children);
 			console.log(document.body.childNodes);
 			console.log(document.body.childNodes[1]);
+
+			/*2*/
+
+			let target = document.getElementById('target');
+			let word = 'hello';
+			target.innerText = word;
+			let num = 123;
+			target.innerText = num;
+			let bool = 5 > 6;
+			target.innerText = bool;
+			console.log(!!0);
+			console.log(!!null);
+			console.log(!!'');
+			console.log(!!NaN); // 'asdsad'/2
+			let a; // undefined
+			console.log(!!undefined);
+			console.log(!!-100); // true
+
+			let user = {name: 'vasya', age: 123};
+			target.innerText = user;
+			target.innerText = user.name;
+			target.innerText = user.age;
+			target.innerText = user.name + ' ' + user.age;
+			console.log(10 + 20); // number
+			console.log(typeof (10 + 20 + '')); // string
+			console.log(typeof ('' + 10 + 20)); // string
+
+			let products = ['apple', 'mango', 'milk'];
+			target.innerText = products;
+			target.innerText = products[0];
+			target.innerText = products[1];
+			target.innerText = products[2];
+			target.innerText = products[0] + '-' + products[1] + '-' + products[2];
+
+			let productObjects = [
+				{title: 'milk', price: 23},
+				{title: 'mango', price: 99},
+				{title: 'banana', price: 42},
+			];
+
+			target.innerText = productObjects[0].title + ' ' + productObjects[0].price;
+
+			// aka for reference
+			let firstProductObject = productObjects[0];
+			target.innerText = firstProductObject.title + ' ' + productObjects[0].price;
+			target.innerText = ` ${firstProductObject.title}  ${productObjects[0].price}`;
+
+			let picture = document.getElementById('picture');
+			picture.src = 'https://owu.com.ua/image/logo/webp/Blue-Big-Bird-Final-Logo.webp';
 
 
         </script>
