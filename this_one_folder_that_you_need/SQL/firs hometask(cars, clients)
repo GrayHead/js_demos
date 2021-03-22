@@ -1,0 +1,100 @@
+CREATE TABLE Clients (
+    id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    surname VARCHAR(255),
+    age INT,
+    email VARCHAR(255),
+    phone VARCHAR(255),
+    sex VARCHAR(255)
+);
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Vasya', 'Pupkin', 21, 'pupkin@bk.ru', '+380568945824', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Vitalii', 'Shlomenko', 20, 'gotbubu0@gmail.com', '+380996272349', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Maria', 'Shkumbatiuk', 25, 'shkumba.bumba@icloud.com', '+380865842314', 'female');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Euguenii', 'Teptya', 35, 'geniok@gmail.ua', '+380489621235', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Lisa', 'Simpson', 18, 'simpson@icloun.ru', '+380874521558', 'female');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Andrii', 'Riashko', 41, 'riashko.andrii@gmail.com', '+380365254723', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Sophia', 'Volska', 23, 'sonya.vov@mail.ua', '+380632198225', 'female');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Billy', 'Ailish', 25, 'singing.yov@mail.us', '+380695844110', 'female');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Bread', 'White', 18, 'eated.bread@gmail.com', '+380488556254', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Kostya', 'Dzu', 36, 'kostyan@bk.ru', '+380669888554', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Utech', 'Support', 6, 'support@help24.us', '+380888566521', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Katya', 'Gondzuk', 28, 'katya@mail.ua', '+380988585002', 'female');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Nazar', 'Perkatiuk', 24, 'nazikov@fap.ua', '+380665877441', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Lera', 'Bagmet', 28, 'bagmet.lera@gmail.com', '+380996252336', 'female');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Yana', 'Shimko', 31, 'yana.shimko@mail.ru', '+380222233654', 'female');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Vorobii', 'Andrii', 28, 'vvorobii.co@gmail.ru', '+380966333336', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Vova', 'Kovalenko', 16, 'bazuka@mail.ua', '+3806585556s5', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Kolya', 'Anikeev', 15, 'kolyamba@mail.ru', '+380877742142', 'male');
+INSERT INTO clients (name, surname, age, email, phone, sex) VALUE ('Oksana', 'Byc', 24, 'oksana@lpnu.ua', '+380699554445', 'female');
+
+# - достанет всех клиентов.
+SELECT * FROM clients;
+# - достанет всех клиентов мужского пола.
+SELECT * FROM clients WHERE sex LIKE 'm%';
+# - достанет всех клиентов женского пола.
+SELECT * FROM clients WHERE sex LIKE 'f%';
+# - достанет всех клиентов старше 18.
+SELECT * FROM clients WHERE age > 18;
+# - достанет всех клиентов старше 18 и младеше 60.
+SELECT * FROM clients WHERE age BETWEEN 19 AND 60;
+# - достанет всех клиентов старше 18 и младеше 60 мужского пола.
+SELECT * FROM clients WHERE age BETWEEN 19 AND 60 AND sex LIKE 'm%';
+# - достанет всех клиентов  младеше 60 женского пола.
+SELECT * FROM clients WHERE age < 60 AND sex LIKE 'f%';
+# - достать клиентов с id от 3 до 15.
+SELECT * FROM clients WHERE id BETWEEN 3 AND 15;
+# - достать клиентов с почтой от gmail.
+SELECT * FROM clients WHERE email LIKE '%@gmail.%';
+
+# - ---------------------------------------------------------------------
+CREATE TABLE cars (
+                      id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+                      model VARCHAR(255),
+                      horse_power int,
+                      year int,
+                      manufacturer VARCHAR(255),
+                      type VARCHAR(255),
+                      volume float(255,2)
+);
+
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('MX-5', 85, 2012, 'Mazda','Cabriolet', 1.6);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('X5', 310, 2018, 'BMW','Hatchback', 2.1);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('V50', 254, 2005, 'VOLVO','SUV', 2.4);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('Outlander', 235, 2019, 'Mitsubishi','Outlender', 2.1);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('Lancer', 96, 2018, 'Mitsubishi','Hatchback', 3.8);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('Golf 5', 265, 2018, 'Wolksvagen','Sedan', 2.4);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('Outlander', 254, 2019, 'Mercedes ','Outlender', 2.1);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('Shotkii', 254, 2009, 'Mitsubishi','Hatchback', 1.8);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('F350', 120, 2016, 'Ford','Pick Up', 3.1);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('X7', 350, 2020, 'BMW','Hatchback', 2.9);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('Moscvich', 50, 2005, 'Vaz','Sedan', 1.1);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('Pizdata', 300, 2019, 'Mazeratti','Outlender', 2.3);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('Lala', 320, 2020, 'Lamborgini','Hatchback', 3.2);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('Cascadia', 570, 2019, 'Freightliner','Truck', 6.2);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('Volga', 80, 2013, 'Vaz','Sedan', 1.5);
+INSERT INTO cars (model, horse_power, year, manufacturer, type, volume)  VALUE ('I8', 310, 2018, 'BMW','Sportcar', 3.1);
+
+# - достает все автомобили
+SELECT * FROM cars;
+# - достает все автомобили типа внедорожник
+SELECT * FROM cars WHERE type LIKE 'Out%';
+# - достает все автомобили типа спорткар
+SELECT * FROM cars WHERE type LIKE 'Sport%';
+# - достает все автомобили старше 2010
+SELECT * FROM cars WHERE year > 2010;
+# - достает все автомобили с объемом двигателя менне 2 литров
+SELECT * FROM cars WHERE volume < 2.0;
+# - достает все автомобили с объемом двигателя более 2 литров
+SELECT * FROM cars WHERE volume > 2.0;
+# - достает все автомобили с объемом двигателя более 2 литров и менее 3х литров
+SELECT * FROM cars WHERE volume BETWEEN 2.0 AND 3.0;
+# - достает все автомобили мощностью больше 100 лс
+SELECT * FROM cars WHERE horse_power > 100;
+# - достает все автомобили мощностью больше 100 лс и меньше 200 лс
+SELECT * FROM cars WHERE horse_power BETWEEN 100 AND 200;
+# - достает все автомобили мощностью больше 100 лс и объемом двигателя менне 2 литров
+SELECT * FROM cars WHERE horse_power > 100 AND volume < 2.0;
+# - достает все автомобили мощностью больше 100 лс и объемом двигателя более 2 литров
+SELECT * FROM cars WHERE horse_power > 100 AND volume > 2.0;
+# - достает все автомобили марки bmw мощностью больше 100 лс и объемом двигателя более 2 литров
+SELECT * FROM cars WHERE manufacturer LIKE 'BMW' AND horse_power > 100 AND volume > 2.0;

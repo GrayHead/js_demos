@@ -1,0 +1,156 @@
+// db.getCollection('teacher').find({})
+
+// Строго равно
+// db.getCollection('teacher').find({
+//     payment: 2000
+// })
+
+// Порівняння
+// db.getCollection('teacher').find({
+//     payment: {
+// //         Більше
+//         $gt: 2500
+// //         $gte: 2500 Більше або рівне
+// //         $lt: 2500 Less then
+// //         $lte: 2500 Less then equal
+//       }
+// })
+
+// Другий об'єкт вказує поля які треба вибрати(Поле _id вибирається завжди, якщо його явно не прописати в 0)
+// db.getCollection('teacher').find(
+//    {},
+//    {
+//        name: 1,
+//        payment: 1,
+//        _id: 0
+//    }
+// )
+
+// Множественный оператор И
+// db.getCollection('teacher').find({
+//     $and: [
+//         {class_curator: {$gt: 5}},
+//         {class_curator: {$lt: 8}},
+//         {payment: 2000}
+//     ]
+// })
+
+// Регулярные выражения
+// db.getCollection('teacher').find({
+// //     Кончается на
+//     name: /ch$/
+// //     Начинаеться на (i - нечуствительность к регистру)
+//     name: /^O/i
+// //     Посередине
+//     name: /.*tor.*/i
+//
+// })
+
+// Сортировка(1 - от наименьшего,  -1  - от наибольшего к наименьшему)
+// db.getCollection('teacher')
+// .find({})
+// .sort({ payment: -1})
+
+
+// Сортировка(1 - от наименьшего,  -1  - от наибольшего к наименьшему)
+// db.getCollection('teacher').update(
+// search object. Шукаэм елементи якы будем змынювати
+//     {payment: 2000},
+// update object. Что именно будем менять
+//     {car: true}, Таким образом поменяется весь обьект
+//     {
+//           $set: {
+//                 car: true,
+//               dog: 'Doggie'
+//               }
+//      },
+// options оbject. Без  multi: true  оно найдет только первый елемент
+//     {multi: true}
+// )
+
+
+// Длинна
+// db.getCollection('teacher').find({
+//     cars: {
+//             $size: 2
+//         }
+// })
+
+// Проверяет, есть ли такой елемент
+// db.getCollection('teacher').find({
+//     cars: {
+//             $exists: 0
+//         }
+// })
+
+
+// Агрегации
+// db.getCollection('teacher').aggregate({
+//     {
+//         Поиск
+//         $match: {
+//             car: true
+//         }
+//
+//         Групировка
+//         $group: {
+//             _id должен быть обязательно
+//             "_id": '$class_curator',
+//             Создаем новое поле
+//             'avgSum': {
+//                 $avg: '$payment'
+//                 $max: '$payment'
+//                 $min: '$payment'
+//             }
+//         }
+//     },
+// })
+
+
+// Агрегации 2
+// db.getCollection('teacher').aggregate({
+//     {
+// //         Групировка
+//         $group: {
+//             "_id": '$class_curator',
+//             'avgPay': {
+//                 $max: '$payment'
+//             }
+//         }
+//     },
+//     {
+//         $match: {
+//              'avgPay': {
+//                  $gt: 3000
+//              }
+//          }
+//     },
+//     {
+//         $sort: {'avgPay: -1'}
+//     },
+//     {
+//         $project: {
+// //             Добавляется поле с названием class и значениями из _id
+//             class: "$_id",
+//             avgPay: 1,
+// //             Забираем _id с выборки
+//             _id: 0
+//         }
+//     }
+// })
+
+
+// Меняет каждый елемент массива
+db.getCollection('teacher').update(
+    {
+        cars: {
+                $size: 2
+            }
+    },
+    {
+        $set: {
+            "cars.$[].model" : 'Vaz'
+        }
+    },
+    {multi: true}
+)
