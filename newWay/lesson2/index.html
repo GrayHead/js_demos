@@ -111,9 +111,6 @@
 			target.innerText = user.name;
 			target.innerText = user.age;
 			target.innerText = user.name + ' ' + user.age;
-			console.log(10 + 20); // number
-			console.log(typeof (10 + 20 + '')); // string
-			console.log(typeof ('' + 10 + 20)); // string
 
 			let products = ['apple', 'mango', 'milk'];
 			target.innerText = products;
@@ -130,7 +127,7 @@
 
 			target.innerText = productObjects[0].title + ' ' + productObjects[0].price;
 
-			// aka for reference
+			// alias for reference
 			let firstProductObject = productObjects[0];
 			target.innerText = firstProductObject.title + ' ' + productObjects[0].price;
 			target.innerText = ` ${firstProductObject.title}  ${productObjects[0].price}`;

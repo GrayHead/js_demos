@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>lesson #1</title>
+        <style>
+            .products {
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            .product-card {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background: silver;
+                margin-bottom: 10px;
+                width: 200px;
+                border-bottom: 2px solid cornflowerblue;
+            }
+
+            .product-card > img {
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <div class="products">
+
+            <div class="product-card" id="product-card-1">
+                <h2 id="product-card-1-title">title + price</h2>
+                <img id="product-card-1-img" src="./images/unnamed.png">
+            </div>
+
+            <div class="product-card" id="product-card-2">
+                <h2 id="product-card-2-title">title + price</h2>
+                <img id="product-card-2-img" src="./images/unnamed.png">
+            </div>
+
+            <div class="product-card" id="product-card-3">
+                <h2 id="product-card-3-title">title + price</h2>
+                <img id="product-card-3-img" src="./images/unnamed.png">
+            </div>
+
+            <div class="product-card" id="product-card-4">
+                <h2 id="product-card-4-title">title + price</h2>
+                <img id="product-card-4-img" src="./images/unnamed.png">
+            </div>
+
+        </div>
+
+        <script>
+
+
+			let products = [
+				{
+					title: 'milk',
+					price: 22,
+					image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+				},
+				{
+					title: 'juice',
+					price: 27,
+					image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+				},
+				{
+					title: 'tomato',
+					price: 47,
+					image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+				},
+				{
+					title: 'tea',
+					price: 15,
+					image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+				},
+			];
+
+			// /*product1*/
+			// let product1Title = document.getElementById('product-card-1-title'); // title of produc block
+			// product1Title.innerText = products[0].title + ' ' + products[0].price;
+			// let product1Image = document.getElementById('product-card-1-img');
+			// product1Image.src = products[0].image;
+			//
+			//
+			// /*product2*/
+			// let product2Title = document.getElementById('product-card-2-title');
+			// product2Title.innerText = products[1].title + ' ' + products[1].price;
+			// let product2Image = document.getElementById('product-card-2-img');
+			// product2Image.src = products[1].image;
+			//
+			//
+			// /*product3*/
+			// let product3Title = document.getElementById('product-card-3-title');
+			// product3Title.innerText = products[2].title + ' ' + products[2].price;
+			// let product3Image = document.getElementById('product-card-3-img');
+			// product3Image.src = products[2].image;
+			//
+			//
+			// /*product4*/
+			// let product4Title = document.getElementById('product-card-4-title');
+			// product4Title.innerText = products[3].title + ' ' + products[3].price;
+			// let product4Image = document.getElementById('product-card-4-img');
+			// product4Image.src = products[3].image;
+
+			let productCards = document.getElementsByClassName('product-card');
+			//let productCards =  [div.product-card,div.product-card,div.product-card,div.product-card]
+
+
+			/*если нет id?*/
+			let product1 = productCards[0]; // div.product-card#product-card-1
+			// get all h2 in block
+			let h2ListInProduct1 = product1.getElementsByTagName('h2');
+			// get single h2
+			let product1Title = h2ListInProduct1[0];
+			// set text to title
+			product1Title.innerText = products[0].title + ' ' + products[0].price;
+			// get image ref
+			let product1Image = product1.getElementsByTagName('img')[0];
+			// set src value
+			product1Image.src = products[0].image;
+
+			let product2 = productCards[1]; // div.product-card#product-card-2
+			let product3 = productCards[2]; // div.product-card#product-card-3
+			let product4 = productCards[3]; // div.product-card#product-card-4
+
+
+        </script>
+
+    </body>
+</html>

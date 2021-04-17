@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/serjZ/lesson4_divide/tasks/task4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson4_divide/tasks/task4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson1/code/preview/preView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson1/code/work/images/unnamed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson1/code/work/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson1/whatIDontHave.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson1/code/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/class/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/class/task.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/home/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/home/task.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/code/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +27,23 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1pGSVBSlnbUrHBxdgVnqxh3RfCo" />
   <component name="ProjectLevelVcsManager">
@@ -25,22 +55,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kminV" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/newWay/lesson1/code/work/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson1\code\work\images" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\kminV" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson1\code\work\" />
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson1\code\preview\" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\serjZ" />
     </key>
   </component>
@@ -53,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614807955826</updated>
       <workItem from="1614807957591" duration="238000" />
-      <workItem from="1618651559942" duration="1307000" />
+      <workItem from="1618651559942" duration="10285000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -90,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618652194982</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add task to task4.txt">
+      <created>1618652956830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618652956830</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +141,11 @@
     <MESSAGE value="async tasks" />
     <MESSAGE value="add kmin`s tasks" />
     <MESSAGE value="some rebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="some rebase" />
+    <MESSAGE value="add task to task4.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add task to task4.txt" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
