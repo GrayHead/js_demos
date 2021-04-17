@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/js_demos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson4_divide/tasks/task4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson4_divide/tasks/task4.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/kminV" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614807955826</updated>
       <workItem from="1614807957591" duration="238000" />
-      <workItem from="1618651559942" duration="512000" />
+      <workItem from="1618651559942" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -76,7 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618651991296</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add kmin`s tasks">
+      <created>1618652080109</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618652080109</updated>
+    </task>
+    <task id="LOCAL-00005" summary="some rebase">
+      <created>1618652194982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618652194982</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="async tasks" />
     <MESSAGE value="add kmin`s tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add kmin`s tasks" />
+    <MESSAGE value="some rebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="some rebase" />
   </component>
 </project>
