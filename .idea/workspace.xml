@@ -5,19 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/lesson1/code/preview/preView.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson1/code/work/images/unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson1/code/work/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson1/whatIDontHave.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/code/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/class/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/class/task.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/home/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/home/task.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson2/code/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson1/code/lesson1_variables_if_switch.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson1_base/code/lesson1_variables_if_switch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson1/tasks/tasks_1" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson1_base/tasks/tasks_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson2/code/lesson2_loops_arrays.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson2_loops/code/lesson2_loops_arrays.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson2/tasks/task_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson2_loops/tasks/task_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson3/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson3_dom/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson3/tasks/task1/task_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson3_dom/tasks/task1/task_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson3/tasks/task1/template1.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson3_dom/tasks/task1/template1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson3/tasks/task1/template2.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson3_dom/tasks/task1/template2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson3/tasks/task2/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson3_dom/tasks/task2/rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson3/tasks/task2/task3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson3_dom/tasks/task2/task3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson4_divide/code/lesson4.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson4_functions/code/lesson4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson4_divide/tasks/task4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson4_functions/tasks/task4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson5/code/constructors_class.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson5_classes/code/constructors_class.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson5/tasks/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson5_classes/tasks/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson6/code/callbacks_arr_functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson6_callbacks/code/callbacks_arr_functions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson6/tasks/task" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson6_callbacks/tasks/task" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson7/code/Events .html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson7_events/code/Events .html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson7/tasks/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson7_events/tasks/rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson7/tasks/task" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson7_events/tasks/task" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson8/code/BOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson8_bom/code/BOM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson8/tasks/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson8_bom/tasks/task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson9/code/promise_async.html" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson9_async/code/promise_async.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson9/tasks/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson9_async/tasks/task.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614807955826</updated>
       <workItem from="1614807957591" duration="238000" />
-      <workItem from="1618651559942" duration="10285000" />
+      <workItem from="1618651559942" duration="11013000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -131,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618652956830</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix">
+      <created>1618685114211</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618685114211</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix">
+      <created>1618685212136</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618685212136</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +166,8 @@
     <MESSAGE value="add kmin`s tasks" />
     <MESSAGE value="some rebase" />
     <MESSAGE value="add task to task4.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add task to task4.txt" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
