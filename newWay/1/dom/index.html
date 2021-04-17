@@ -92,31 +92,12 @@
 			/*2*/
 
 			let target = document.getElementById('target');
-			let word = 'hello';
-			target.innerText = word;
-			let num = 123;
-			target.innerText = num;
-			let bool = 5 > 6;
-			target.innerText = bool;
-			console.log(!!0);
-			console.log(!!null);
-			console.log(!!'');
-			console.log(!!NaN); // 'asdsad'/2
-			let a; // undefined
-			console.log(!!undefined);
-			console.log(!!-100); // true
+			target.innerText = 'word';
 
 			let user = {name: 'vasya', age: 123};
-			target.innerText = user;
-			target.innerText = user.name;
-			target.innerText = user.age;
 			target.innerText = user.name + ' ' + user.age;
 
 			let products = ['apple', 'mango', 'milk'];
-			target.innerText = products;
-			target.innerText = products[0];
-			target.innerText = products[1];
-			target.innerText = products[2];
 			target.innerText = products[0] + '-' + products[1] + '-' + products[2];
 
 			let productObjects = [

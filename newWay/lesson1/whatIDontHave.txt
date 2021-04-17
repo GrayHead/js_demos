@@ -1,5 +1,0 @@
-if
-else
-prompt
-alert
-confirm
