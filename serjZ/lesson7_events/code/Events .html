@@ -111,10 +111,6 @@
 			});
 
 
-
-
-
-
 			let main_input = document.getElementById('main-input');
 			main_input.oninput = function () {
 				console.log(this.value);
@@ -123,7 +119,6 @@
 			mbutton.onclick = function (e) {
 				console.log(main_input.value);
 			};
-
 
 
 			let usersXXX = [
@@ -154,7 +149,7 @@
 
 			let cbox = document.getElementById('cbox');
 			cbox.onclick = function () {
-				resolverElement.innerText ='';
+				resolverElement.innerText = '';
 				if (cbox.checked) {
 					allUsersRender(usersXXX.filter(value => value.status));
 				} else {
@@ -162,7 +157,6 @@
 				}
 
 			};
-
 
 
 			// onmousedown
@@ -231,7 +225,6 @@
 				// console.log(document.getSelection().toString());
 
 			};
-
 
 
         </script>
