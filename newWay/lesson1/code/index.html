@@ -7,136 +7,105 @@
     </head>
     <body>
 
-        <div class="wrap">
-            <div class="header">
-                <h1 class="title_style" id="main-header">some title h1</h1>
-                <p>some description</p>
-            </div>
-            <div class="main">
-                <h2 class="title_style">some title h2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cupiditate esse impedit inventore
-                    laborum laudantium necessitatibus officiis sed? Error et excepturi id illum iste iure natus nisi
-                    optio rerum, totam?
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, inventore, odit? Adipisci
-                    aliquam animi architecto at eius illo incidunt, inventore nemo, non praesentium quasi quo ratione
-                    repellendus totam ut. Ad architecto aspernatur at blanditiis est eveniet laudantium magni natus
-                    nihil optio, pariatur quae quo repudiandae totam ullam voluptatem voluptates! Corporis culpa dolor
-                    doloribus dolorum earum eius error illum, iure modi nam obcaecati officia officiis quam quibusdam,
-                    sit suscipit veritatis. Aperiam, expedita perspiciatis. A assumenda beatae cupiditate minima, quo
-                    saepe soluta. Esse fuga ipsa ipsam ipsum nam, nisi nostrum voluptate? Commodi deleniti error facilis
-                    illum iure nihil quam sapiente tempora voluptates!</p>
-            </div>
-        </div>
-
-        <div id="target"></div>
-        <img src="" alt="" id="picture">
-
-        <!--        script-->
-
         <script>
+			let company = 'okten'; // string
+			let status = 'is cool';
+			document.write('<h1>' + company + ' ' + status + '</h1>');
+			document.write(`<h1>company - ${company}; staus -    ${status}</h1>`);
 
-			console.log(document);
-			let head = document.head;
-			console.log(head);
-			let body = document.body;
-			console.log(body);
-			let children = document.body.children;
-			console.log(children);
-			let mainHeader = document.getElementById('main-header');
-			console.log(mainHeader);
-			let allDivsOnPage = document.getElementsByTagName('div');
-			console.log(allDivsOnPage);
-			let allPOnPage = document.getElementsByTagName('p');
-			console.log(allPOnPage);
-			let allTitleStyleElementsOnPage = document.getElementsByClassName('title_style');
-			console.log(allTitleStyleElementsOnPage);
-			// what for refs?
+			let num = 100500;
+			console.log(num);
 
-			console.log(mainHeader.innerText);
-			mainHeader.innerText = 'new text';
-			mainHeader.innerHTML = '<strong>new strong text</strong>';
-			mainHeader.style.background = 'silver';
+			let a = 10; // number
+			let b = 20;
+			console.log(a + b + a);
+			console.log(15 % 5);
 
-			console.log(allPOnPage[0]);
-			let p2 = allPOnPage[1];
-			console.log(p2);
-			console.log(allPOnPage[0].innerText);
-			allPOnPage[0].innerText = 'some new text for paragraph';
+			const con = 'ajdfhgsafd';
+			/* con = 'ashjgsag';*/
 
+			console.log(typeof company); // string
+			console.log(typeof num); // number
 
-			let message = 'hi, iam a new p data';
+			//              0       1       2
+			let skills = ['html', 'css', 'scrum'];
+			console.log(skills);
+			console.log(skills[1]);
+			skills[3] = a;
+			console.log(skills);
+			console.log(typeof skills);
 
-			p2.innerText = message;
-			p2.style.background = 'tomato';
+			let me = {
+				id: 1,
+				name: 'Serhii',
+				surname: 'Zhuravlov',
+				skills: ['java', 'js', 'html']
+			};
 
-			/*если нужно искать в сегменте*/
-			let mainList = document.getElementsByClassName('main');
-			let mainListElement = mainList[0];
-			let pElementsFromMain = mainListElement.getElementsByTagName('p');
-			console.log(pElementsFromMain);
-			console.log(pElementsFromMain[0]);
-			console.log(pElementsFromMain[1]);
+			console.log(me);
+			console.log(me.name);
 
-			console.log('----------querySelectors-----------');
-			console.log(document.querySelector('p'));
-			console.log(document.querySelector('main > p'));
-			console.log(document.querySelectorAll('p'));
-			console.log(document.querySelectorAll('main > p'));
+			document.write(`<h2>my name is ${me.name} and my primary skill is ${me.skills[0]}</h2>`);
+			console.log(me.skills[2]);
 
-			// node vs elment
-			console.log(document.body.children);
-			console.log(document.body.childNodes);
-			console.log(document.body.childNodes[1]);
-
-			/*2*/
-
-			let target = document.getElementById('target');
-			let word = 'hello';
-			target.innerText = word;
-			let num = 123;
-			target.innerText = num;
-			let bool = 5 > 6;
-			target.innerText = bool;
-			console.log(!!0);
-			console.log(!!null);
-			console.log(!!'');
-			console.log(!!NaN); // 'asdsad'/2
-			let a; // undefined
-			console.log(!!undefined);
-			console.log(!!-100); // true
-
-			let user = {name: 'vasya', age: 123};
-			target.innerText = user;
-			target.innerText = user.name;
-			target.innerText = user.age;
-			target.innerText = user.name + ' ' + user.age;
-			console.log(10 + 20); // number
-			console.log(typeof (10 + 20 + '')); // string
-			console.log(typeof ('' + 10 + 20)); // string
-
-			let products = ['apple', 'mango', 'milk'];
-			target.innerText = products;
-			target.innerText = products[0];
-			target.innerText = products[1];
-			target.innerText = products[2];
-			target.innerText = products[0] + '-' + products[1] + '-' + products[2];
-
-			let productObjects = [
-				{title: 'milk', price: 23},
-				{title: 'mango', price: 99},
-				{title: 'banana', price: 42},
+			let products = [
+				{id: 1, title: 'milk', price: 23},
+				{id: 2, title: 'juce', price: 25},
+				{id: 3, title: 'bread', price: 16}
 			];
 
-			target.innerText = productObjects[0].title + ' ' + productObjects[0].price;
+			console.log(products);
 
-			// aka for reference
-			let firstProductObject = productObjects[0];
-			target.innerText = firstProductObject.title + ' ' + productObjects[0].price;
-			target.innerText = ` ${firstProductObject.title}  ${productObjects[0].price}`;
+			console.log(products[0].id);
+			console.log(products[0].title);
+			console.log(products[0].price);
 
-			let picture = document.getElementById('picture');
-			picture.src = 'https://owu.com.ua/image/logo/webp/Blue-Big-Bird-Final-Logo.webp';
+			let product1 = products[0];
+			console.log(typeof product1);
+			document.write(`product #${product1.id}. title -  ${product1.title}, price - ${product1.price}`);
+
+			// > < >= <= == === != !==
+			let x = 10;
+			let y = 20;
+			let z = 30;
+
+
+			// OR
+			// let truth = x < y || x > z;
+			// AND
+			let truth = x < y && x > z;
+			console.log(truth); // false
+
+			if (truth) {
+				console.log('yes');
+
+			} else {
+				console.log('no');
+			}
+
+
+			function calculator(a, b) {
+				let res = a + b;
+				return res;
+			}
+
+			console.log(calculator(10, 20));
+
+			let result2 = calculator(100500, 100600);
+			console.log(result2);
+
+
+			function docwr(name) {
+
+
+				document.write(`<h3>hello my name is - ${name}</h3>`);
+
+
+            }
+
+			docwr('vasya');
+			docwr('masha');
+			docwr('anya');
 
 
         </script>

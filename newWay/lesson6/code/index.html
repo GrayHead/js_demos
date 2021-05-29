@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <div id="target"></div>
+        <script>
+
+
+			fetch('https://jsonplaceholder.typicode.com/users')
+				.then(value => value.json())
+				.then(users => {
+
+					for (const user of users) {
+						let userDiv = document.createElement('div');
+
+						let title = document.createElement('h2');
+						title.innerText = `${user.id} - ${user.name}`;
+						userDiv.append(title);
+
+						let info = document.createElement('p');
+						info.innerText = `${user.username} - ${user.email} - ${user.address.stream}`;
+						userDiv.append(info);
+
+
+						let target = document.getElementById('target');
+						target.append(userDiv);
+					}
+
+				});
+
+        </script>
+    </body>
+</html>

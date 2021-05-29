@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body><!--asdfahsdfh--><h1>lorem</h1>
+        <p class="target">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, harum.</p>
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" alt="" id="pic">
+        </div>
+        <ul class="menu">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+
+        <div class="target xxx">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolore fuga libero nesciunt quidem quis
+            totam ut vel voluptatem? Sint?
+
+        </div>
+
+        <script>
+
+			let img = document.getElementById('pic');
+			console.log(img);
+			img.alt = 'bart ashgdfhsagdf';
+			// img.src = 'https://i.pinimg.com/736x/5c/fe/ba/5cfebabece9c68550815bad654acc851.jpg';
+
+			let liCollection = document.getElementsByTagName('li');
+			console.log(liCollection);
+			for (const li of liCollection) {
+				console.log(li);
+				li.style.background = 'silver';
+				li.style.height = '40px';
+				li.innerHTML = '<strong>poipoipoi</strong>';
+			}
+
+			let targetList = document.getElementsByClassName('target');
+			console.log(targetList);
+
+			for (const target of targetList) {
+				target.innerText = 'asdkjhasdhguasygdyu';
+				console.log(target.classList);
+				// target.classList.add('xxx');
+				// target.classList.remove('xxx');
+				// target.classList.toggle('xxx');
+			}
+
+			let target1 = targetList[0];
+			console.log(target1);
+			console.log(target1.nextElementSibling);
+			console.log(document.body.children);
+			console.log(document.body.childNodes);
+			target1.onclick = function () {
+				this.style.background = 'silver';
+			};
+
+
+        </script>
+
+
+    </body>
+</html>

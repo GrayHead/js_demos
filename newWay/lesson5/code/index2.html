@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <h1 id="header"></h1>
+        <form id="f1" action="index3.html">
+            <input type="text" name="name">
+            <input type="text" name="surname">
+            <button>save</button>
+        </form>
+
+        <script>
+
+
+			let f1 = document.forms.f1;
+			let nameInput = f1.name;
+			let surnameInput = f1.surname;
+
+			f1.addEventListener('submit', (event) => {
+				// event.preventDefault();
+				let name = nameInput.value;
+				let surname = surnameInput.value;
+				let user = {
+					name: name,
+					surname: surname
+				};
+				let jsonUser = JSON.stringify(user);
+				localStorage.setItem('user', jsonUser);
+
+
+			});
+
+        </script>
+    </body>
+</html>

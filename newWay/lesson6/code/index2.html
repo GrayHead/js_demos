@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+
+        <script>
+
+
+			fetch('https://api.sampleapis.com/futurama/characters')
+				.then(value => value.json())
+				.then(value => {
+					for (const item of value) {
+						let div = document.createElement('div');
+
+						let title = document.createElement('h2');
+						title.innerText = `${item.name.first} ${item.name.last}`;
+						div.appendChild(title);
+
+						let img = document.createElement('img');
+						img.src = item.images.main;
+						div.appendChild(img);
+
+						document.body.appendChild(div);
+
+					}
+
+				});
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <script>
+
+
+			function User(name, age, status) {
+				this.name = name;
+				this.age = age;
+				this.status = status;
+				this.greeting = function () {
+					/*....*/
+				};
+			}
+
+
+			class User {
+				constructor(name, age, status) {
+					this.name = name;
+					this.age = age;
+					this.status = status;
+				}
+
+				greeting() {
+					console.log(this.name + ' hello!');
+				}
+			}
+
+			let user111 = {
+				name: 'asdad', greeting: function () {
+					console.log(this.name);
+				}
+			};
+
+
+			let users = [
+				new User('vasya', 31, true),
+				new User('petya', 30, false),
+				new User('petya', 30, false),
+				new User('petya', 30, false),
+				new User('petya', 30, false),
+				new User('petya', 30, false),
+				new User('petya', 30, false)
+			];
+
+			console.log(users);
+
+			// let filter = users.filter(function (user) {
+			// 	return user.status && user.age > 30;
+			// });
+			// console.log(filter);
+			// let sort = users.sort(function (user1, user2) {
+			// 	return user1.age - user2.age;
+			// });
+			//
+			// console.log(sort);
+			// console.log(users);
+			//
+			// let find = users.find(function (value) {
+			// 	return value.name === 'max';
+			// });
+			//
+			// console.log(find);
+			//
+			// let map = users.map(function (value, index) {
+			// 	console.log(value, index);
+			// 	value.id = index + 1;
+			// 	return value;
+			// });
+			//
+			// console.log(map);
+			// function a() {}
+			//
+			// a();
+			//
+			//
+			// let b = function () {};
+			// b();
+			//
+			// let c = function (a, b) {return a + b;};
+			// let d = (a, b) => a + b;
+			// let e = a => a + 10;
+
+			// let filter = users.filter(user => user.status && user.age > 30);
+			// console.log(filter);
+			//
+			// let sort = users.sort((a, b) => a.age - b.age);
+			//
+			// let find = users.find(value => value.name === 'max'); /*{name : 'max'.....}*/
+			// let map = users.map((value, index) => {
+			// 	value.id = index + 1;
+			// 	return value;
+			// });
+
+        </script>
+
+    </body>
+</html>
