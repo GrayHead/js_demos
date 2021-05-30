@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/2/plan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/code/preview/preView.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/1/lesson1/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/code/work/images/unnamed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/code/work/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/whatIDontHave.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/1/dom/index.html" afterDir="false" />
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="fix">
+      <change afterPath="$PROJECT_DIR$/newWay/lesson1/task/classwork1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson1/task/homework1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/classwork.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/homework.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson3/task/classwork.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson3/task/homework.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson4/task/classwork.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson4/task/homework.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/classwork.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/homework.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/template1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/template2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson6/task/rules.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson6/task/work.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +48,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1pGSVBSlnbUrHBxdgVnqxh3RfCo" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -53,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/newWay/lesson1/code/work/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/newWay/lesson5/task" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -62,15 +71,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson5\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson1\code\work\images" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\kminV" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson6\task" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\task" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\homework1" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\code" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\1\lesson1\code" />
-      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\1" />
-      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson1\code\work\" />
-      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson1\code\preview\" />
-      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\serjZ" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,6 +93,7 @@
       <updated>1614807955826</updated>
       <workItem from="1614807957591" duration="238000" />
       <workItem from="1618651559942" duration="12733000" />
+      <workItem from="1622379502131" duration="3719000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -147,11 +158,30 @@
       <option name="project" value="LOCAL" />
       <updated>1618685701114</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="done">
+      <created>1622297287545</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622297287545</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="async tasks" />
@@ -159,7 +189,8 @@
     <MESSAGE value="some rebase" />
     <MESSAGE value="add task to task4.txt" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
