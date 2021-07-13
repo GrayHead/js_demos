@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/newWay/lesson1/task/classwork1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson1/task/homework1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/classwork.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/homework.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson3/task/classwork.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson3/task/homework.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson4/task/classwork.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson4/task/homework.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/classwork.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/homework.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/template1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/template2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson6/task/rules.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson6/task/work.txt" afterDir="false" />
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/newWay/lesson1/task/additional.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +80,8 @@
       <updated>1614807955826</updated>
       <workItem from="1614807957591" duration="238000" />
       <workItem from="1618651559942" duration="12733000" />
-      <workItem from="1622379502131" duration="3719000" />
+      <workItem from="1622379502131" duration="3770000" />
+      <workItem from="1626167088960" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -165,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622297287545</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="done newWay plan">
+      <created>1622384255830</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1622384255830</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +185,8 @@
     <MESSAGE value="add task to task4.txt" />
     <MESSAGE value="fix" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="done newWay plan" />
+    <option name="LAST_COMMIT_MESSAGE" value="done newWay plan" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
