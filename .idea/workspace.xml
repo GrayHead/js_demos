@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/lesson1/task/additional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/additional 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/additional1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/additional2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/response.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,25 +52,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/newWay/lesson5/task" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/newWay/lesson2/task" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson5\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson1\code\work\images" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\kminV" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson6\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\homework1" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\code" />
-      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\1\lesson1\code" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +85,7 @@
       <workItem from="1614807957591" duration="238000" />
       <workItem from="1618651559942" duration="12733000" />
       <workItem from="1622379502131" duration="3770000" />
-      <workItem from="1626167088960" duration="677000" />
+      <workItem from="1626167088960" duration="3648000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -160,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622384255830</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add task for incubator">
+      <created>1626167952859</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626167952859</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +197,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="done" />
     <MESSAGE value="done newWay plan" />
-    <option name="LAST_COMMIT_MESSAGE" value="done newWay plan" />
+    <MESSAGE value="add task for incubator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add task for incubator" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
