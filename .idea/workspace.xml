@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/2/plan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/code/preview/preView.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/1/lesson1/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/code/work/images/unnamed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/code/work/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson1/whatIDontHave.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/1/dom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson3/task/additional.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson5/code/agenda lesson 5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson6/code/agenda lesson 6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/additional 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/homework/hw3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/additional1.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/homework/hw1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/additional2.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/homework/hw2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/classwork.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/response.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson3/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson3/task/classwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/task/classwork.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson3/task/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/task/homework.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson4/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson4/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson5/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson5/code/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +78,11 @@
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\kminV" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson2\task\homework" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson6\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\homework1" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\code" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -156,23 +165,18 @@
       <option name="project" value="LOCAL" />
       <updated>1618685701114</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add arrays.js">
+      <created>1626280677086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626280677086</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -195,7 +199,8 @@
     <MESSAGE value="done" />
     <MESSAGE value="done newWay plan" />
     <MESSAGE value="add task for incubator" />
-    <option name="LAST_COMMIT_MESSAGE" value="add task for incubator" />
+    <MESSAGE value="add arrays.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add arrays.js" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
