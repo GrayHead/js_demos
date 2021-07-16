@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/lesson3/task/additional.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson5/code/agenda lesson 5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newWay/lesson6/code/agenda lesson 6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/additional.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson2/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/additional 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/homework/hw3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/additional1.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/homework/hw1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/additional2.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/homework/hw2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/classwork.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/response.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson3/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson3/task/classwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/task/classwork.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson3/task/additional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/task/additional.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newWay/lesson3/task/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/task/homework.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson4/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson4/code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson5/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson5/code/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +67,8 @@
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\kminV" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson2\task\homework" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson2\task\homework" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson6\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\homework1" />
@@ -101,6 +90,7 @@
       <workItem from="1622379502131" duration="3770000" />
       <workItem from="1626167088960" duration="4448000" />
       <workItem from="1626256429972" duration="137000" />
+      <workItem from="1626432825174" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
