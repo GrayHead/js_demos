@@ -90,7 +90,6 @@
       <workItem from="1622379502131" duration="3770000" />
       <workItem from="1626167088960" duration="4448000" />
       <workItem from="1626256429972" duration="137000" />
-      <workItem from="1626432825174" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -162,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626280677086</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix">
+      <created>1626282039838</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626282039838</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,12 +191,12 @@
     <MESSAGE value="add kmin`s tasks" />
     <MESSAGE value="some rebase" />
     <MESSAGE value="add task to task4.txt" />
-    <MESSAGE value="fix" />
     <MESSAGE value="done" />
     <MESSAGE value="done newWay plan" />
     <MESSAGE value="add task for incubator" />
     <MESSAGE value="add arrays.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add arrays.js" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
