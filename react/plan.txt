@@ -1,0 +1,13 @@
+
+context в видео на самостоятельное изучение
+
+
+redux
+
+useMemo, useCallback, etc hooks
+
+rect native install
+
+routers
+plugins build
+
