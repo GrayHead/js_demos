@@ -5,3 +5,4 @@ ES6 syntax features
     spread
     ...rest
     obj compose  - {name,age}
+ closures
