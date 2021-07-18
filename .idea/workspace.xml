@@ -5,10 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/newWay/lesson4/task/additional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson4/task/additional.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson4/task/classwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson4/task/classwork.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson4/task/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson4/task/homework.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson4/task/totall.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson5/agenda lesson 5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/additional/additional.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson5/task/additional/rules.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson7/agenda 7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/lesson8/agenda 8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson1/task/additional/additional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/additional2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson1/task/additional/additional2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/classwork1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson1/task/classwork/classwork.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson1/task/homework1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson1/task/homework/homework.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/additional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/additional/additional.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/classwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/classwork/classwork.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson2/task/homework/hw3.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson2/task/additional/additional 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson3/task/additional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/task/additional/additional.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson3/task/classwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/task/classwork/classwork.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson3/task/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/task/homework/homework.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson4/task/additional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson4/task/additional/additional.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson4/task/classwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson4/task/classwork/classwork.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson4/task/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson4/task/homework/homework.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson5/code/agenda lesson 5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson5/task/classwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson5/task/classwork/classwork.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson5/task/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson5/task/homework/homework.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson5/task/template1.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson5/task/homework/template1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson5/task/template2.html" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson5/task/classwork/template2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson6/code/agenda lesson 6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson6/agenda lesson 6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson6/task/rules.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/lesson6/task/work.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serjZ/lesson3_dom/tasks/task2/task3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serjZ/lesson3_dom/tasks/task2/task3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +76,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/newWay/lesson2/task" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/serjZ/lesson3_dom/tasks/task2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,17 +85,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\serjZ\lesson3_dom\tasks\task2" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson5\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson1\code\work\images" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\kminV" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
-      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson2\task\homework" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson6\task" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\task" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\homework1" />
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson4\task\homework" />
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson4\task\classwork" />
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson4\task\additional" />
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson3\task\homework" />
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson3\task\classwork" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,7 +115,7 @@
       <workItem from="1622379502131" duration="3770000" />
       <workItem from="1626167088960" duration="4448000" />
       <workItem from="1626256429972" duration="137000" />
-      <workItem from="1626539550404" duration="2230000" />
+      <workItem from="1626539550404" duration="4502000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -204,7 +229,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626541532106</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="change lesson 4 hw cl add">
+      <created>1626541802519</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1626541802519</updated>
+    </task>
+    <task id="LOCAL-00018" summary="change lesson2 hw cl add">
+      <created>1626541914588</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1626541914588</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +274,8 @@
     <MESSAGE value="add arrays.js" />
     <MESSAGE value="fix" />
     <MESSAGE value="change lesson 4 hw cl add" />
-    <option name="LAST_COMMIT_MESSAGE" value="change lesson 4 hw cl add" />
+    <MESSAGE value="change lesson2 hw cl add" />
+    <option name="LAST_COMMIT_MESSAGE" value="change lesson2 hw cl add" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
