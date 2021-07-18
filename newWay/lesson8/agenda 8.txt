@@ -7,3 +7,4 @@ ES6 syntax features
     obj compose  - {name,age}
  closures
 proto
+reacursion
