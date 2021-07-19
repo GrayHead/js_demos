@@ -1,4 +1,6 @@
 DOM
 forms API
+BOM
 local storage
-BOM URL
+history location
+new URL
