@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/lesson2/task/additional.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson3/task/additional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/task/additional.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newWay/lesson3/task/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/lesson3/task/homework.txt" afterDir="false" />
-    </list>
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +85,7 @@
       <workItem from="1622379502131" duration="3770000" />
       <workItem from="1626167088960" duration="4448000" />
       <workItem from="1626256429972" duration="137000" />
-      <workItem from="1626432825174" duration="395000" />
+      <workItem from="1626432825174" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -162,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626280677086</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add tasks for lesson 3">
+      <created>1626433238268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626433238268</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +192,8 @@
     <MESSAGE value="done newWay plan" />
     <MESSAGE value="add task for incubator" />
     <MESSAGE value="add arrays.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add arrays.js" />
+    <MESSAGE value="add tasks for lesson 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tasks for lesson 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
