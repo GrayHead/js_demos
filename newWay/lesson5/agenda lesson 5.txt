@@ -1,0 +1,21 @@
+DOM
+
+    get by id /class /tag + style
+    element.classlist.add/remove/toggle
+    append child
+    iterate array + append
+    create element
+    onclick
+    onmouseover
+    event object
+forms API
+    docunment.forms.formName
+    docunment.forms.formName.inputName
+    form onsubmit event
+    oninput event
+
+BOM
+local storage
+history.location
+new URL.
+parse url

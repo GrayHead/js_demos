@@ -1,6 +1,0 @@
-DOM
-forms API
-BOM
-local storage
-history location
-new URL

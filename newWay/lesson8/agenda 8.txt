@@ -1,0 +1,10 @@
+event loop
+ES6 syntax features
+    destructuring obj let {name} = user
+    destructuring array let [a,b] = [1,2,3,4]
+    spread
+    ...rest
+    obj compose  - {name,age}
+ closures
+proto
+reacursion
