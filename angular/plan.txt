@@ -3,12 +3,20 @@ http services
 @input
 
 routes
+
+
+routes
+<!--todo show [routerLink] -->
+<!--todo show extras -->
+<!--todo show extras -->
 guards
+
 
 forms
 
 modules
 lazy loading
+<!--todo show lazy? -->
 
 data service
 pipes
@@ -18,4 +26,7 @@ ionic
 
 plugins
 
+<!--todo show bootstrap -->
+<!--todo show scss -->
+<!--todo material -->
 
