@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/angular/lesson1/classwork/cw1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/lesson1/homework/hw1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/lesson2/classwork/cw2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/lesson2/homework/hw2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/angular/plan.txt" afterDir="false" />
-    </list>
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +93,7 @@
       <workItem from="1626167088960" duration="4448000" />
       <workItem from="1626256429972" duration="137000" />
       <workItem from="1626539550404" duration="9100000" />
-      <workItem from="1627326315177" duration="455000" />
+      <workItem from="1627326315177" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -255,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626612734194</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="добавиал ангулар таски">
+      <created>1627326794579</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1627326794579</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +289,8 @@
     <MESSAGE value="change lesson 4 hw cl add" />
     <MESSAGE value="change lesson2 hw cl add" />
     <MESSAGE value="fix for tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix for tasks" />
+    <MESSAGE value="добавиал ангулар таски" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавиал ангулар таски" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
