@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/angular/plan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson1/agenda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson1/classwork/classwork.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson1/homework/homework.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson2/additional/additional.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson2/agenda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson2/classwork/claswork.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson2/homework/homework.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson3/agenda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson3/classwork/classwork.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson3/homework/homework.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/lesson4/agenda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/plan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/arrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/lesson1/classwork/cw1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/lesson1/homework/hw1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/lesson2/classwork/cw2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/lesson2/homework/hw2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/angular/plan.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +99,7 @@
       <workItem from="1626167088960" duration="4448000" />
       <workItem from="1626256429972" duration="137000" />
       <workItem from="1626539550404" duration="9100000" />
+      <workItem from="1627326315177" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>

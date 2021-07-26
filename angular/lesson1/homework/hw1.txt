@@ -1,0 +1,9 @@
+зробити запит на ендпоінт https://jsonplaceholder.typicode.com/users
+відобразити всіх юзерів.
+Компоненти App-Users->User
+
+
+зробити запит на ендпоінт https://jsonplaceholder.typicode.com/posts
+відобразити всі пости.
+Компоненти App-Posts->Post
+
