@@ -1,3 +1,5 @@
+
+async await синтаксис
 promises + error
 
 
