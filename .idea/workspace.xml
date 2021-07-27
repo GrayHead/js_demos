@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="" />
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/angular/lesson2/classwork/cw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/angular/lesson2/classwork/cw2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular/plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/angular/plan.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,14 +173,6 @@
       <option name="project" value="LOCAL" />
       <updated>1626433238268</updated>
     </task>
-    <task id="LOCAL-00012" summary="add homework.txt lesson 6">
-      <created>1627302410195</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1627302410195</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
     <task id="LOCAL-00012" summary="поменял ангулар plan.txt">
       <created>1627327583969</created>
       <option name="number" value="00012" />
@@ -185,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627327583969</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="добавил такски на 6 лекцию согласно обновленного плана">
+      <created>1627368979286</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1627368979286</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,9 +219,9 @@
     <MESSAGE value="add arrays.js" />
     <MESSAGE value="add tasks for lesson 3" />
     <MESSAGE value="add homework.txt lesson 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add homework.txt lesson 6" />
     <MESSAGE value="поменял ангулар plan.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="поменял ангулар plan.txt" />
+    <MESSAGE value="добавил такски на 6 лекцию согласно обновленного плана" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил такски на 6 лекцию согласно обновленного плана" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -13,14 +13,14 @@ guards
 
 
 forms
+pipes
+directives
+
 
 modules
 lazy loading
 <!--todo show lazy? -->
-
 data service
-pipes
-directives
 
 ionic
 
