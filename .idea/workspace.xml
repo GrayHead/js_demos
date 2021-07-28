@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/angular/lesson2/classwork/cw2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/angular/lesson2/classwork/cw2.txt" afterDir="false" />
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="angular l2 cw">
+      <change afterPath="$PROJECT_DIR$/angular/lesson3/homework/homework.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/angular/plan.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +96,7 @@
       <workItem from="1626256429972" duration="137000" />
       <workItem from="1626432825174" duration="1012000" />
       <workItem from="1627302258540" duration="226000" />
+      <workItem from="1627495716414" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -187,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627368979286</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="angular l2 cw">
+      <created>1627369634424</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1627369634424</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +230,8 @@
     <MESSAGE value="add homework.txt lesson 6" />
     <MESSAGE value="поменял ангулар plan.txt" />
     <MESSAGE value="добавил такски на 6 лекцию согласно обновленного плана" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил такски на 6 лекцию согласно обновленного плана" />
+    <MESSAGE value="angular l2 cw" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular l2 cw" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

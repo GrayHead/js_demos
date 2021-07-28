@@ -8,8 +8,8 @@ routes
 routes
 <!--todo show [routerLink] -->
 <!--todo show extras -->
-<!--todo show extras -->
 guards
+prefetch data
 
 
 forms
@@ -21,6 +21,9 @@ modules
 lazy loading
 <!--todo show lazy? -->
 data service
+
+generics
+general service
 
 ionic
 
