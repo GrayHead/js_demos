@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adsqwe/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adsqwe/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newWay/mini-project/mini-project.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +96,7 @@
       <workItem from="1626432825174" duration="1012000" />
       <workItem from="1627302258540" duration="226000" />
       <workItem from="1627495716414" duration="1165000" />
+      <workItem from="1627327683770" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -236,6 +236,7 @@
     <MESSAGE value="add tasks for lesson 3" />
     <MESSAGE value="add homework.txt lesson 6" />
     <MESSAGE value="поменял ангулар plan.txt" />
+    <MESSAGE value="agenda lesson 6.txt&#10;agenda 7.txt" />
     <MESSAGE value="добавил такски на 6 лекцию согласно обновленного плана" />
     <MESSAGE value="angular l2 cw" />
     <MESSAGE value="angular l3 hw" />
