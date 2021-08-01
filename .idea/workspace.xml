@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newWay/mini-project/mini-project.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newWay/mini-project/mini-project.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newWay/mini-project/mini-project.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627495853067</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="angular l3 hw">
+      <created>1627836008888</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1627836008888</updated>
+    </task>
+    <task id="LOCAL-00017" summary="mini project">
+      <created>1627836273208</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1627836273208</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +253,8 @@
     <MESSAGE value="добавил такски на 6 лекцию согласно обновленного плана" />
     <MESSAGE value="angular l2 cw" />
     <MESSAGE value="angular l3 hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="angular l3 hw" />
+    <MESSAGE value="mini project" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
