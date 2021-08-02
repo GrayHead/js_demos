@@ -12,9 +12,9 @@ guards
 prefetch data
 
 
-forms
-pipes
-directives
+forms +post request
+pipes (v)
+directives (v)
 
 
 modules
