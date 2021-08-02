@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/angular/lesson3/classwork/classwork.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/lesson4/classwork/classwork.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular/lesson4/homework/homework.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular/plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/angular/plan.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +97,7 @@
       <workItem from="1627495716414" duration="1165000" />
       <workItem from="1627327683770" duration="11000" />
       <workItem from="1627837188975" duration="300000" />
-      <workItem from="1627929064857" duration="575000" />
+      <workItem from="1627929064857" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -229,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627836611729</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add angular task">
+      <created>1627929783046</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1627929783046</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +270,8 @@
     <MESSAGE value="angular l2 cw" />
     <MESSAGE value="angular l3 hw" />
     <MESSAGE value="mini project" />
-    <option name="LAST_COMMIT_MESSAGE" value="mini project" />
+    <MESSAGE value="add angular task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add angular task" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
