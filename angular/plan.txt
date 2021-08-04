@@ -19,8 +19,10 @@ directives (v)
 
 modules
 lazy loading
-<!--todo show lazy? -->
 data service
+lch
+@ViewChild
+output
 
 ionic
 plugins
