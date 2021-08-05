@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/angular/plan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/angular/plan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular/lesson5/classwork/modules.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,8 @@
       <workItem from="1627495716414" duration="1165000" />
       <workItem from="1627327683770" duration="11000" />
       <workItem from="1627837188975" duration="300000" />
-      <workItem from="1627929064857" duration="754000" />
+      <workItem from="1627929064857" duration="779000" />
+      <workItem from="1628149895268" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -232,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627929783046</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add angular task">
+      <created>1627929845734</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1627929845734</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
