@@ -12,24 +12,26 @@ guards
 prefetch data
 
 
-forms
-pipes
-directives
+forms+templete refs +post request
+pipes (v)
+directives (v)
 
 
 modules
 lazy loading
-<!--todo show lazy? -->
 data service
-
-generics
-general service
+lch
+@ViewChild
+output
 
 ionic
-
 plugins
+
 
 <!--todo show bootstrap -->
 <!--todo show scss -->
 <!--todo material -->
 
+
+generics
+general service
