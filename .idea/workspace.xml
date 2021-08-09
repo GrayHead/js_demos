@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/angular/lesson5/classwork/modules.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/arrays.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lesson1/classwork/classwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/lesson1/classwork/classwork.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lesson1/homework/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/lesson1/homework/homework.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lesson2/agenda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/lesson2/agenda.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,11 +100,6 @@
       <workItem from="1626432825174" duration="1012000" />
       <workItem from="1627302258540" duration="226000" />
       <workItem from="1627495716414" duration="1165000" />
-      <workItem from="1627327683770" duration="11000" />
-      <workItem from="1627837188975" duration="300000" />
-      <workItem from="1627929064857" duration="779000" />
-      <workItem from="1628149895268" duration="555000" />
-      <workItem from="1628323724687" duration="1419000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -206,49 +206,7 @@
       <option name="project" value="LOCAL" />
       <updated>1627495853067</updated>
     </task>
-    <task id="LOCAL-00016" summary="angular l3 hw">
-      <created>1627836008888</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1627836008888</updated>
-    </task>
-    <task id="LOCAL-00017" summary="mini project">
-      <created>1627836273208</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1627836273208</updated>
-    </task>
-    <task id="LOCAL-00018" summary="mini project">
-      <created>1627836611729</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1627836611729</updated>
-    </task>
-    <task id="LOCAL-00019" summary="add angular task">
-      <created>1627929783046</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1627929783046</updated>
-    </task>
-    <task id="LOCAL-00020" summary="add angular task">
-      <created>1627929845734</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1627929845734</updated>
-    </task>
-    <task id="LOCAL-00021" summary="add angular task">
-      <created>1628150323014</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1628150323014</updated>
-    </task>
-    <option name="localTasksCounter" value="22" />
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,13 +239,10 @@
     <MESSAGE value="add tasks for lesson 3" />
     <MESSAGE value="add homework.txt lesson 6" />
     <MESSAGE value="поменял ангулар plan.txt" />
-    <MESSAGE value="agenda lesson 6.txt&#10;agenda 7.txt" />
     <MESSAGE value="добавил такски на 6 лекцию согласно обновленного плана" />
     <MESSAGE value="angular l2 cw" />
     <MESSAGE value="angular l3 hw" />
-    <MESSAGE value="mini project" />
-    <MESSAGE value="add angular task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add angular task" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular l3 hw" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
