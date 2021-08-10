@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/angular/lesson5/classwork/modules.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/arrays.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lesson1/classwork/classwork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/lesson1/classwork/classwork.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lesson1/homework/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/lesson1/homework/homework.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/lesson2/agenda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/lesson2/agenda.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lesson2/additional/additional.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/lesson2/additional/additional.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lesson2/classwork/claswork.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/lesson2/classwork/claswork.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/lesson2/homework/homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react/lesson2/homework/homework.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +240,8 @@
     <MESSAGE value="добавил такски на 6 лекцию согласно обновленного плана" />
     <MESSAGE value="angular l2 cw" />
     <MESSAGE value="angular l3 hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="angular l3 hw" />
+    <MESSAGE value="update react part" />
+    <option name="LAST_COMMIT_MESSAGE" value="update react part" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
