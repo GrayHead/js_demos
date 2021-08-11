@@ -1,7 +1,6 @@
 iterate
-fetch / axios
+
 useState
-useEffect
 map
 key
 

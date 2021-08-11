@@ -1,3 +1,28 @@
+1
+components props
+2
+iterate key map useSate
+useEffect
+fetch / axios
+
+3
+state lifting
+events
+    onclick + details
+    onclick + fetch data
+    onclick + styles -> reducer
+useReducer
+forms + dynamic keys {[key]:value}
+    fetch data by id
+4
+
+routes
+nested
+pagination
+
+
+
+
 
 context в видео на самостоятельное изучение
 

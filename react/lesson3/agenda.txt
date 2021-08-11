@@ -1,8 +1,0 @@
-state lifting
-events
-    onclick + details
-    onclick + fetch data
-    onclick + styles -> reducer
-useReducer
-forms + dynamic keys {[key]:value}
-    fetch data by id
