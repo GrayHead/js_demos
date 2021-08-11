@@ -1,7 +1,10 @@
 iterate
-
+useEffect
 useState
 map
 key
+fetch
+axios
+get posts of user
 
 
