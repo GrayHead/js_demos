@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/lesson3/HTML 3.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/html/lesson3/HTML 3.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1627302258540" duration="226000" />
       <workItem from="1627495716414" duration="1165000" />
       <workItem from="1628762578691" duration="4973000" />
-      <workItem from="1628842384633" duration="942000" />
+      <workItem from="1628842384633" duration="1587000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628842462425</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="поменял HTML 3.pptx">
+      <created>1628843385630</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1628843385630</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +285,8 @@
     <MESSAGE value="update react part" />
     <MESSAGE value="add html 1.pdf" />
     <MESSAGE value="add lessons 2 &amp; 3 html presentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lessons 2 &amp; 3 html presentation" />
+    <MESSAGE value="поменял HTML 3.pptx" />
+    <option name="LAST_COMMIT_MESSAGE" value="поменял HTML 3.pptx" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
