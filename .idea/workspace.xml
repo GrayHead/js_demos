@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,11 +68,11 @@
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson5\task" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\react\lesson4" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson2\task\homework" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson6\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\task" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\homework1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,6 +96,7 @@
       <workItem from="1627495716414" duration="1165000" />
       <workItem from="1628762578691" duration="4973000" />
       <workItem from="1628842384633" duration="1587000" />
+      <workItem from="1628852599710" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -246,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628843385630</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add reatc lesson 3 tasks">
+      <created>1628852884638</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1628852884638</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +292,8 @@
     <MESSAGE value="add html 1.pdf" />
     <MESSAGE value="add lessons 2 &amp; 3 html presentation" />
     <MESSAGE value="поменял HTML 3.pptx" />
-    <option name="LAST_COMMIT_MESSAGE" value="поменял HTML 3.pptx" />
+    <MESSAGE value="add reatc lesson 3 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reatc lesson 3 tasks" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
