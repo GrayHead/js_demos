@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="html lr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/lesson4/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +60,23 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\html\lesson3" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\html\lesson3" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\html\lesson2" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\html\lesson1" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson5\task" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\html\lesson4" />
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\html" />
+      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\html\lesson3" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson2\task\homework" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson6\task" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\task" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\homework1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,6 +100,14 @@
       <workItem from="1627495716414" duration="1165000" />
       <workItem from="1628762578691" duration="4973000" />
       <workItem from="1628842384633" duration="1587000" />
+      <workItem from="1628671479211" duration="558000" />
+      <workItem from="1628672089926" duration="114000" />
+      <workItem from="1628676777692" duration="534000" />
+      <workItem from="1628677581678" duration="38000" />
+      <workItem from="1628695906351" duration="3480000" />
+      <workItem from="1628782097822" duration="4056000" />
+      <workItem from="1628789953080" duration="3130000" />
+      <workItem from="1628944919645" duration="1001000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -246,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628843385630</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="html lesson 3">
+      <created>1628873924492</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1628873924492</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,11 +299,14 @@
     <MESSAGE value="добавил такски на 6 лекцию согласно обновленного плана" />
     <MESSAGE value="angular l2 cw" />
     <MESSAGE value="angular l3 hw" />
+    <MESSAGE value="react agenda change" />
+    <MESSAGE value="asdqew.html" />
     <MESSAGE value="update react part" />
     <MESSAGE value="add html 1.pdf" />
     <MESSAGE value="add lessons 2 &amp; 3 html presentation" />
     <MESSAGE value="поменял HTML 3.pptx" />
-    <option name="LAST_COMMIT_MESSAGE" value="поменял HTML 3.pptx" />
+    <MESSAGE value="html lesson 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="html lesson 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
