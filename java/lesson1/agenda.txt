@@ -1,0 +1,7 @@
+class
+field all of types + []
+constructor
+private
+get set tostring
+lobmok
+for while if switch
