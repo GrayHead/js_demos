@@ -1,0 +1,18 @@
+1.
+Створити клас Human з полями:
+id name surname age gender(Enum)
+Створити ArrayList з 10 об'єктами Human
+
+2. Створити клас Car з полями id, model, driver
+поле driver має тип Driver полями - name,surname,age,experience
+Створити 10 автівок, для кожної автівки створити окремого водія
+Використати композицію і агрегацію.
+
+3. Створити клас SuperCar з полями model, producer, year, Engine
+Engine має поля: model, volume, power;
+Створити 10 автівок з двигунами.
+В SuperCar Створити метод який:
+- збільшує об'єм двигуна на визначену кількість
+- зменшує потужніть на 10%
+
+

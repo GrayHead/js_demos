@@ -1,0 +1,5 @@
+arraylist
+composition
+agregation
+delegation
+enums
