@@ -36,3 +36,13 @@ rect native install
 routers
 plugins build
 
+===============
+7?
+useMemo
+memo
+useCallback
+Class components
+cdm
+cdu
+cwu
+useEffect with callback
