@@ -1,5 +1,9 @@
+useMemo
+memo
+useCallback
 useReducer
 Class components
 cdm
 cdu
 cwu
+useEffect with callback
