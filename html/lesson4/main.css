@@ -1,0 +1,27 @@
+.bg-purple {
+    background: mediumpurple;
+}
+
+.width200 {
+    width: 200px;
+}
+
+.height200 {
+    height: 200px;
+}
+
+.height230 {
+    height: 230px;
+}
+
+.width400 {
+    width: 400px;
+}
+
+.radius10 {
+    border-radius: 10px;
+}
+
+.radius-round {
+    border-radius: 50%;
+}
