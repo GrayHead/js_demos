@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .videos {
+            display: flex;
+            justify-content: space-evenly;
+            column-gap: 50px;
+        }
+
+        .video {
+            display: flex;
+            column-gap: 30px;
+            background: silver;
+        }
+
+        .video > p {
+            padding-top: 40px;
+
+        }
+
+        @media screen and (max-width: 992px) {
+            .videos {
+                flex-direction: column;
+                row-gap: 30px;
+            }
+
+            .video {
+                height: 100vh;
+                flex-direction: column;
+            }
+
+            .video__wrap {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="videos">
+    <div class="video">
+        <div class="video__wrap">
+            <h3>
+                Анна. Відгук про курс Java Complex.
+            </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SUUKIvxkOIE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae deleniti ea eius labore
+            molestias natus, necessitatibus nihil non omnis quisquam, rerum sint veritatis! Autem consequatur deleniti
+            eos excepturi nobis?
+        </p>
+    </div>
+    <div class="video">
+        <div class="video__wrap">
+            <h3>
+                Оля. Відгук про курс JavaScript Complex.
+            </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7MBLl5vY34"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae deleniti ea eius labore
+            molestias natus, necessitatibus nihil non omnis quisquam, rerum sint veritatis! Autem consequatur deleniti
+            eos excepturi nobis?
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
