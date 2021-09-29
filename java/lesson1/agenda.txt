@@ -1,7 +1,8 @@
 class
-field all of types + []
 constructor
 private
 get set tostring
-lobmok
+ [] + ArrayList
+
 for while if switch
+lobmok
