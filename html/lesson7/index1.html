@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            height: 600px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+
+
+        }
+
+        .menu {
+            background: silver;
+            grid-column: span 4;
+        }
+
+        .sidebar-left {
+            background: #000;
+            grid-row: span 4;
+
+        }
+
+        .content {
+            background: red;
+            grid-column: span 3;
+            grid-row: span 4;
+        }
+
+        .footer {
+            background: cornflowerblue;
+            grid-column: span 4;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="menu"></div>
+    <div class="sidebar-left"></div>
+    <div class="content"></div>
+    <div class="footer"></div>
+
+
+</div>
+
+</body>
+</html>
