@@ -1,0 +1,6 @@
+if else
+switch
+confirm
+= ||
+ternary
+Math.random MathFloor
