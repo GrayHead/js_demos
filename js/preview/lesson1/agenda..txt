@@ -16,6 +16,7 @@ obj
 obj.field
 obj[field]
 obj []
+obj embeded obj
 typeof
 
 operators
