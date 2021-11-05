@@ -1,0 +1,16 @@
+ref vs primitives внешние переменные, как их изменяет функция
+
+function expression
+arrow
+selfinvoke
+
+
+
+
+рекурсия
+callbacks
+(пример , функция - это робот, колбек - микрочип с программой)
+
+
+
+

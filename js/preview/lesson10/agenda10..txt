@@ -1,0 +1,1 @@
+BOM localstorage + url + stream	json, ls,history,url

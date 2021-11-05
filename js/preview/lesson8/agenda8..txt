@@ -1,0 +1,7 @@
+constructors
+classes
+call apply bind
+spred es6 rest
+proto
+
+Date
