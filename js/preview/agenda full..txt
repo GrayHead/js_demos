@@ -21,28 +21,32 @@ ref vs primitives внешние переменные, как их изменя�
 6 пн
 array methods
   String methods
-    objects, add fields , dynamic fields, delete fields, func in objects, this (fullname : this.name + this.surname) closures get set
 
 7 ср
+    objects, add fields , dynamic fields, delete fields, func in objects, this (fullname : this.name + this.surname) closures get set constructors classes
+8 пт
 DOM bytag, byclass, id, children, child, append append child рекурсия в дом
 
-8 пт
-constructors classes call apply bind spred es6 rest proto Date
-
 9 пн
+ call apply bind spred es6 rest proto Date
+
+10 ср
 DOM events
   clicck...event object taget this forms+events filtering,sorting
 
-10 ср
-BOM localstorage + url + stream	json, ls,history,url
-
 11 пт
+json
 fetch get post methods users/:id/posts работа с различными api
 
 12 пн
+BOM localstorage + url + stream(??wtf?), ls,history,url
+
+
+13 ср
 setTimeout setInterval Async promises eloop
 
-13. firebase firestore
+пт
+14. firebase firestore
 
 
 

@@ -1,8 +1,8 @@
-DOM
-bytag,
-byclass,
-id,
-children,
-child,
-append append child
-рекурсия в дом
+objects,
+add fields ,
+dynamic fields,
+delete fields,
+ func in objects, t
+ his (fullname : this.name + this.surname) closures get set
+ constructors
+ classes
