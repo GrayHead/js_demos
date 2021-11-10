@@ -1,7 +1,2 @@
-constructors
-classes
-call apply bind
-spred es6 rest
-proto
 
-Date
+DOM bytag, byclass, id, children, child, append append child рекурсия в дом

@@ -1,1 +1,6 @@
-BOM localstorage + url + stream	json, ls,history,url
+DOM events
+  clicck...event
+  object taget
+  this reference
+  forms+events
+  filtering,sorting array

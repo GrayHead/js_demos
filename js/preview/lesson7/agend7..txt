@@ -2,7 +2,12 @@ objects,
 add fields ,
 dynamic fields,
 delete fields,
- func in objects, t
- his (fullname : this.name + this.surname) closures get set
- constructors
- classes
+ func in objects,
+ this (fullname : this.name + this.surname) closures get set
+constructors classes
+
+
+ closeures!!
+
+
+

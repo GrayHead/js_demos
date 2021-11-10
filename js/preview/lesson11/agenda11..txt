@@ -1,5 +1,2 @@
-fetch
-get post methods
-users/:id/posts
-
-работа с различными api
+json
+fetch get post methods users/:id/posts работа с различными api

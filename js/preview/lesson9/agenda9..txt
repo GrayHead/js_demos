@@ -1,2 +1,1 @@
-DOM events
-clicck...event object taget this forms+events filtering,sorting
+ call apply bind spred es6 rest proto Date

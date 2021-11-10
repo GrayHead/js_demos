@@ -30,7 +30,6 @@ let coursesArray = [
             'js',
             'mysql',
             'mongodb',
-            'react',
             'angular',
             'aws',
             'docker',
@@ -47,11 +46,9 @@ let coursesArray = [
             'js',
             'mysql',
             'mongodb',
-            'react',
             'angular',
             'aws',
             'docker',
-            'git',
             'python core',
             'python advanced']
     },
@@ -59,7 +56,7 @@ let coursesArray = [
         title: 'QA Complex',
         monthDuration: 4,
         hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'QA/QC']
+        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
     },
     {
         title: 'FullStack',
