@@ -1,7 +1,8 @@
-DOM events
-  clicck...event
-  preventDefault
-  object taget
-  this reference
-  forms+events
-  filtering,sorting array
+DOM part3
+    events
+      clicck...event
+      preventDefault
+      object taget
+      this reference
+      forms+events
+      filtering,sorting array
