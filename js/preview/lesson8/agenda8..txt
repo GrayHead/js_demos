@@ -1,2 +1,11 @@
-
-DOM bytag, byclass, id, children, child, append append child рекурсия в дом
+DOM
+bytag,
+byclass,
+id,
+search in current element
+children,
+child,
+node / element
+querySelector
+formsAPI
+classlist

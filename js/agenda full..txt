@@ -29,29 +29,31 @@ array methods
 
 
 8 пт
-DOM bytag, byclass, id, children, child, append append child рекурсия в дом
+DOM bytag, byclass, id, search in current element children, child, node / element querySelector formsAPI classlist
 
 9 пн
- call apply bind spred es6 rest proto Date
+DOM part 2
+ append / append child style classlist sibling /  sibling element рекурсия в дом
 
 10 ср
 DOM events
-  clicck...event object taget this forms+events filtering,sorting
+  clicck...event preventDefault object taget this forms+events filtering,sorting
 
 11 пт
 json
 fetch get post methods users/:id/posts работа с различными api
 
 12 пн
-BOM localstorage + url + stream(??wtf?), ls,history,url
-
+firebase firestore
 
 13 ср
+BOM localstorage + url + stream(??wtf?), ls,history,url
+
+14 пт
 setTimeout setInterval Async promises eloop
 
-пт
-14. firebase firestore
-
+15 пн
+call apply bind spred es6 rest proto Date
 
 
 

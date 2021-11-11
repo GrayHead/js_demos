@@ -1,0 +1,5 @@
+DOM part2
+
+append / append child
+next/previous sibling /  sibling element
+рекурсия в дом
