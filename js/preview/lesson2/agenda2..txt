@@ -4,3 +4,4 @@ confirm
 = ||
 ternary
 Math.random MathFloor
+array.length
