@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 10</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .target {
+            width: 200px;
+            height: 200px;
+            background: silver;
+        }
+    </style>
+</head>
+<body>
+<!--<div class="target"></div>-->
+<form action="" name="form1">
+    <input type="text" name="login">
+    <button>save</button>
+</form>
+
+<script>
+
+    // let xxx = document.getElementsByClassName('target')[0];
+    // console.log(xxx);
+
+    // target.onclick = function () {
+    //     console.log('click');
+    // };
+    //
+    // target.onclick = function () {
+    //     console.log('click2');
+    // };
+    //
+    // target.addEventListener('click', function () {
+    //     console.log('click1');
+    // });
+    // target.addEventListener('click', function () {
+    //     console.log('click2');
+    // });
+
+    // xxx.onmousemove = function (eventObj) {
+    //     let x = eventObj.clientX;
+    //     let y = eventObj.clientY;
+    //     console.log(x, y);
+    //     this.style.background = `rgb(${x},${y},${x - y})`;
+    // };
+
+    let form1 = document.forms.form1;
+    form1.onsubmit = function (e) {
+        e.preventDefault();
+        console.log('submit');
+    };
+    form1.login.oninput = function (e) {
+        console.log(e);
+        console.log(this.value);
+        this.style.background = this.value;
+    };
+
+
+</script>
+
+</body>
+</html>
