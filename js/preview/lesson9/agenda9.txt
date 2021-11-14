@@ -1,5 +1,8 @@
 DOM part2
 
 append / append child
+cloneNode
+classlist
 next/previous sibling /  sibling element
 рекурсия в дом
+forms api

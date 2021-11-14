@@ -33,7 +33,7 @@ DOM bytag, byclass, id, search in current element children, child, node / elemen
 
 9 пн
 DOM part 2
- append / append child style classlist sibling /  sibling element рекурсия в дом
+ append / append child style classlist sibling /  sibling element forms рекурсия в дом
 
 10 ср
 DOM events

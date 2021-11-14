@@ -1,0 +1,9 @@
+who is who
+component + html template
+constructor
+oninit
+httpclient + DI
+module
+call of httpclient
+input
+services
