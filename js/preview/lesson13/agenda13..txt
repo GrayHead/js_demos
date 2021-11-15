@@ -1,1 +1,1 @@
-BOM localstorage + url + stream(??wtf?), ls,history,url
+firebase firestore

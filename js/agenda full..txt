@@ -33,21 +33,21 @@ DOM bytag, byclass, id, search in current element children, child, node / elemen
 
 9 пн
 DOM part 2
- append / append child style classlist sibling /  sibling element forms рекурсия в дом
+ append / append child style classlist setAttribute sibling /  sibling element forms рекурсия в дом
 
 10 ср
 DOM events
   clicck...event preventDefault object taget this forms+events filtering,sorting
 
 11 пт
+BOM localstorage + url + stream(??wtf?), ls,history,url
+
+12 пн
 json
 fetch get post methods users/:id/posts работа с различными api
 
-12 пн
-firebase firestore
-
 13 ср
-BOM localstorage + url + stream(??wtf?), ls,history,url
+firebase firestore
 
 14 пт
 setTimeout setInterval Async promises eloop
