@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/resolve/classwork_less4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/resolve/homework_less4.html" afterDir="false" />
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="- фикс заданий">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/preview/lesson3/lesson3_tasks/resolve/classwork_less3.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/preview/lesson3/lesson3_tasks/resolve/classwork_less3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/homework4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/homework4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/additional4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/additional4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/preview/lesson5/lesson5_tasks/additional5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/preview/lesson5/lesson5_tasks/additional5.txt" afterDir="false" />
+    </list>
+    <list id="c38013d9-f89d-4027-bca7-ad36f9eec678" name="unuse" comment="unuse">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,16 +25,14 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="plain text txt" />
       </list>
     </option>
-  </component>
-  <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="merge" />
+        <entry key="$PROJECT_DIR$" value="sprocivjs_master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,10 +45,41 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GithubProjectSettings">
-    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
-    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="GrayHead" />
-    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="js_demos" />
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentSearchFilters">
+      <list>
+        <option value="state:open" />
+        <option value="state:" />
+        <option value="state:closed" />
+      </list>
+    </option>
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="6" end1="9" start2="6" end2="10" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
+        <range start1="10" end1="12" start2="11" end2="11" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
+        <range start1="26" end1="26" start2="25" end2="26" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
+        <range start1="28" end1="31" start2="28" end2="28" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
+        <range start1="35" end1="36" start2="32" end2="33" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
+        <range start1="48" end1="52" start2="45" end2="80" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
+        <range start1="63" end1="64" start2="91" end2="91" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="69" end1="70" start2="96" end2="97" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="74" end1="75" start2="101" end2="103" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="79" end1="84" start2="107" end2="112" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="86" end1="91" start2="114" end2="119" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="92" end1="92" start2="120" end2="125" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="97" end1="97" start2="130" end2="131" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="143" end1="158" start2="177" end2="179" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
+        <range start1="299" end1="301" start2="320" end2="322" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="304" end1="305" start2="325" end2="326" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="306" end1="308" start2="327" end2="329" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="311" end1="312" start2="332" end2="487" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
+        <range start1="313" end1="314" start2="488" end2="524" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
+        <range start1="334" end1="351" start2="544" end2="544" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
+        <range start1="354" end1="357" start2="547" end2="570" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1pGSVBSlnbUrHBxdgVnqxh3RfCo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -61,40 +91,46 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/preview/lesson10/lesson10_tasks" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\html\lesson3" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\html\lesson2" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\html\lesson1" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson5\task" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson10\lesson10_tasks" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson9\lesson9_tasks\classwork" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson2\lesson2_tasks\resolve" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson9Main" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\tasks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ProcivSV\WebstormProjects\Prociv\Fork\js\preview\lesson3\lesson3_tasks\resolve" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\react\lesson4" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
-      <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson2\task\homework" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson6\task" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson9\lesson9_tasks\additional" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson8\lesson8_tasks\homework" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson8\lesson8_tasks\classwork" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson9\lesson9_tasks" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson13\lesson13_tasks" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="clos" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="" />
+      <changelist id="c38013d9-f89d-4027-bca7-ad36f9eec678" name="unuse" comment="" />
       <created>1614807955826</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -141,21 +177,9 @@
       <workItem from="1637050927727" duration="1359000" />
       <workItem from="1637088529265" duration="37000" />
       <workItem from="1637162381029" duration="716000" />
-      <workItem from="1637163251286" duration="20000" />
-    </task>
-    <task id="LOCAL-00001" summary="async tasks">
-      <created>1614808180001</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1614808180001</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add kmin`s tasks">
-      <created>1618651884037</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1618651884037</updated>
+      <workItem from="1637163251286" duration="172000" />
+      <workItem from="1637165078426" duration="741000" />
+      <workItem from="1637177904413" duration="320000" />
     </task>
     <task id="LOCAL-00003" summary="add kmin`s tasks">
       <created>1618651991296</created>
@@ -311,7 +335,42 @@
       <option name="project" value="LOCAL" />
       <updated>1636986565852</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00047" summary="- фикс задания">
+      <created>1637051035520</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1637051035520</updated>
+    </task>
+    <task id="LOCAL-00048" summary="- фикс задания">
+      <created>1637088554535</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1637088554535</updated>
+    </task>
+    <task id="LOCAL-00049" summary="- фикс задания">
+      <created>1637163276039</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1637163276039</updated>
+    </task>
+    <task id="LOCAL-00050" summary="- фикс задания">
+      <created>1637163395787</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1637163395788</updated>
+    </task>
+    <task id="LOCAL-00051" summary="- фикс заданий">
+      <created>1637165113640</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1637165113641</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,29 +391,32 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="async tasks" />
-    <MESSAGE value="add kmin`s tasks" />
-    <MESSAGE value="some rebase" />
-    <MESSAGE value="add task to task4.txt" />
-    <MESSAGE value="fix" />
-    <MESSAGE value="done" />
-    <MESSAGE value="done newWay plan" />
-    <MESSAGE value="add task for incubator" />
-    <MESSAGE value="add arrays.js" />
-    <MESSAGE value="add tasks for lesson 3" />
-    <MESSAGE value="add homework.txt lesson 6" />
-    <MESSAGE value="поменял ангулар plan.txt" />
-    <MESSAGE value="добавил такски на 6 лекцию согласно обновленного плана" />
-    <MESSAGE value="angular l2 cw" />
-    <MESSAGE value="angular l3 hw" />
-    <MESSAGE value="update react part" />
-    <MESSAGE value="add html 1.pdf" />
     <MESSAGE value="add lessons 2 &amp; 3 html presentation" />
     <MESSAGE value="поменял HTML 3.pptx" />
     <MESSAGE value="add reatc lesson 3 tasks" />
-    <MESSAGE value="add folder resolve for lesson3" />
-    <MESSAGE value="correction hw for less2" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction hw for less2" />
+    <MESSAGE value="add lesson 4 java tasks" />
+    <MESSAGE value="add html lesson 3 tasks" />
+    <MESSAGE value="удалил cwtask.txt homeworktask.txt, что б глаза не мозолили" />
+    <MESSAGE value="добавил презентации html 5.pptx html HTML 4.pptx" />
+    <MESSAGE value="дз 4" />
+    <MESSAGE value="additional.jpg" />
+    <MESSAGE value="grid add" />
+    <MESSAGE value="add preview 1 code&#10;add lesson1 tasks" />
+    <MESSAGE value="add preview 2 code" />
+    <MESSAGE value="add preview lesson 3 code" />
+    <MESSAGE value="add preview lesson 4 code" />
+    <MESSAGE value="add previews code&#10;add agendas&#10;add tasks" />
+    <MESSAGE value="- поменял план&#10;- добавил задания&#10;- понял план урока 6" />
+    <MESSAGE value="- поменял план&#10;- добавил задания" />
+    <MESSAGE value="- обновил план 2го заняти" />
+    <MESSAGE value="- добавили решение 2го задания" />
+    <MESSAGE value="- добавил лекцию 9" />
+    <MESSAGE value="- добавил лекцию 10" />
+    <MESSAGE value="- добавил задания для лекции 9" />
+    <MESSAGE value="- добавил задания для лекции 10" />
+    <MESSAGE value="- фикс задания" />
+    <MESSAGE value="- фикс заданий" />
+    <option name="LAST_COMMIT_MESSAGE" value="- фикс заданий" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
