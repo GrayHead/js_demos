@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="" />
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/resolve/classwork_less4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/resolve/homework_less4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/preview/lesson3/lesson3_tasks/resolve/classwork_less3.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/preview/lesson3/lesson3_tasks/resolve/classwork_less3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/homework4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/homework4.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +26,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -37,6 +46,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="GrayHead" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="js_demos" />
+  </component>
   <component name="ProjectId" id="1pGSVBSlnbUrHBxdgVnqxh3RfCo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,17 +61,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/lesson3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,11 +84,11 @@
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson5\task" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ProcivSV\WebstormProjects\Prociv\Fork\js\preview\lesson3\lesson3_tasks\resolve" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\react\lesson4" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson2\task" />
       <recent name="C:\Users\sszhu\IdeaProjects\EXAMPLES\JAVASCRIPT\js_demos\newWay\lesson2\task\homework" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson6\task" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\newWay\lesson1\task" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,6 +113,7 @@
       <workItem from="1628762578691" duration="4973000" />
       <workItem from="1628842384633" duration="1587000" />
       <workItem from="1628852599710" duration="429000" />
+      <workItem from="1636976891669" duration="22467000" />
     </task>
     <task id="LOCAL-00001" summary="async tasks">
       <created>1614808180001</created>
@@ -252,7 +269,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628852884638</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add folder resolve for lesson3">
+      <created>1636977612084</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1636977612084</updated>
+    </task>
+    <task id="LOCAL-00024" summary="correction hw for less2">
+      <created>1636986565852</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1636986565852</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +324,9 @@
     <MESSAGE value="add lessons 2 &amp; 3 html presentation" />
     <MESSAGE value="поменял HTML 3.pptx" />
     <MESSAGE value="add reatc lesson 3 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="add reatc lesson 3 tasks" />
+    <MESSAGE value="add folder resolve for lesson3" />
+    <MESSAGE value="correction hw for less2" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction hw for less2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
