@@ -39,20 +39,20 @@ DOM part 2
 DOM events
   clicck...event preventDefault object taget this forms+events filtering,sorting
 
-11 пт
+11 ср
 BOM localstorage + url + stream(??wtf?), ls,history,url
 
-12 пн
+12 пт
 json
 fetch get post methods users/:id/posts работа с различными api
 
-13 ср
+13 пн
 firebase firestore
 
-14 пт
+14 ср
 setTimeout setInterval Async promises eloop
 
-15 пн
+15 пт
 call apply bind spred es6 rest proto Date
 
 

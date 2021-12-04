@@ -1,1 +1,11 @@
-BOM localstorage + url + stream(??wtf?), ls,history,url
+BOM
+localstorage
+cookie
+--max-age
+--expires
+--path
+session storage
+navigator.geolocation.getCurrentPosition()
+history
+location + url
+stream
