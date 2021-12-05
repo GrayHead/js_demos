@@ -41,19 +41,18 @@ DOM events
 
 11 ср
 BOM localstorage + url + stream(??wtf?), ls,history,url
+json
 
 12 пт
-json
 fetch get post methods users/:id/posts работа с различными api
 
 13 пн
-firebase firestore
+spred es6 rest Date call apply bind  proto ?
 
 14 ср
 setTimeout setInterval Async promises eloop
 
-15 пт
-call apply bind spred es6 rest proto Date
+
 
 
 

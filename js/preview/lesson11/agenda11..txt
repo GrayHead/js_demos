@@ -5,6 +5,7 @@ cookie
 --expires
 --path
 session storage
+json
 navigator.geolocation.getCurrentPosition()
 history
 location + url
