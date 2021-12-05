@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script type="module">
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyB-VIhmbj7zQcWtJBp41eE6NQeIelEPKts",
+        authDomain: "tetd-c411b.firebaseapp.com",
+        projectId: "tetd-c411b",
+        storageBucket: "tetd-c411b.appspot.com",
+        messagingSenderId: "61250732772",
+        appId: "1:61250732772:web:03a7e83e7e0356c45262f1"
+    };
+
+    // Initialize Firebase
+    // const app = initializeApp(firebaseConfig);
+
+    firebase.initializeApp(firebaseConfig);
+
+    let db = firebase.firestore();
+    console.log(db);
+
+    // db.collection("usersCollection").add({name: 'marakas'});
+    db.collection("usersCollection").get()
+    .then((qs)=>{
+        qs.forEach((doc) => console.log(doc.id, doc.data()));
+    } )
+
+</script>
+
+</body>
+</html>
