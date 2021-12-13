@@ -47,7 +47,7 @@ json
 fetch get post methods users/:id/posts работа с различными api
 
 13 пн
-spred es6 rest Date call apply bind  proto ?
+spred es6 rest Date call apply bind  proto regexp?
 
 14 ср
 setTimeout setInterval Async promises eloop
