@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            input {
+                margin: 15px;
+            }
+
+            #list {
+                margin: 10px;
+            }
+        </style>
+        <title>Title</title>
+    </head>
+    <body>
+        <form id="formOfProduct">
+            <label>
+                Title:
+                <input name="title" type="text">
+            </label>
+            <label>
+                Image:
+                <input name="image" type="text">
+            </label>
+            <label>
+                Price:
+                <input name="price" type="number">
+            </label>
+            <label>
+                Total:
+                <input name="total" type="number">
+            </label>
+            <label>
+                <input id="save" name="save" type="submit" value="save">
+            </label>
+        </form>
+        <br>
+
+        <div id="list">
+            <a href="list.html">List of products</a>
+        </div>
+
+        <script src="form.js"></script>
+    </body>
+</html>
