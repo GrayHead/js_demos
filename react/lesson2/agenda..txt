@@ -1,7 +1,6 @@
 statelifting
 property drill
 statelifting, ( click + details,clic+data fetch),
-context
 axios отдельным сервисом
 forms controlled / uncontrolled
 forms refs
