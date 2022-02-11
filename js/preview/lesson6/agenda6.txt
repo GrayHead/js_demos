@@ -36,3 +36,16 @@
     // Array.prototype.flat()
     // Array.prototype.flatMap()
     // Array.prototype.reduce()
+    
+    
+     console.log(users.reduce((basket, user) => {
+        if (user.status) {
+            basket.statusTrue.push(user);
+        } else {
+            basket.statusFalse.push(user);
+
+        }
+        return basket;
+
+    }, {statusTrue: [], statusFalse: []}));
+
