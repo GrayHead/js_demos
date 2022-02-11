@@ -11,6 +11,7 @@
     // String.prototype.replace()
     // String.prototype.replaceAll()
     // String.prototype.substring()
+    // String.prototype.split()
 
     // Array.isArray()
     // Array.prototype.push()
@@ -21,9 +22,7 @@
     // Array.prototype.concat()
     // Array.prototype.reverse()
     // Array.prototype.indexOf()
-    // String.prototype.slice()
     // Array.prototype.splice()
-    // String.prototype.split()
     // Array.prototype.includes()
 
     // Array.prototype.forEach()
