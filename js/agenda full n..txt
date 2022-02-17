@@ -1,0 +1,63 @@
+0 пн
+intro
+
+1 ср +
+log alert document.write let var разница const types number string boolean arr arr[i] obj obj.field obj[field] obj [] obj embeded obj typeof operators + - * / % () ++ -- ** cast to bool , to string, to number prompt  document.write
+
+2 пт +
+if else switch confirm = || ternary Math.random MathFloor
+
+3 пн +
+looops + arrays +if for forof while itin loop in loop
+
+4 ср +
+functions return , void, arguments fn call in fn, hoist
+
+5 пт +
+ref vs primitives внешние переменные, как их изменяет функция
+  function expression arrow selfinvoke
+ рекурсия callbacks (пример , функция - это робот, колбек - микрочип с программой)
+
+array methods
+String methods
+
+
+6
+    objects, add fields , dynamic fields, delete fields, func in objects, this (fullname : this.name + this.surname) closures get set constructors classes
+ closeures!!
+
+    spred es6 rest
+
+
+7
+ пт
+DOM bytag, byclass, id, search in current element children, child, node / element querySelector formsAPI classlist
+
+ пн
+DOM part 2
+ append / append child style classlist setAttribute sibling /  sibling element forms рекурсия в дом
+
+8 ср
+DOM events
+  clicck...event preventDefault object taget this forms+events filtering,sorting
+
+9 ср
+BOM localstorage + url + stream(??wtf?), ls,history,url
+json
+
+fetch get post methods users/:id/posts работа с различными api
+
+10 пн
+setTimeout setInterval Async promises eloop
+
+video
+Date call apply bind  proto regexp?
+
+
+
+
+
+
+
+
+
