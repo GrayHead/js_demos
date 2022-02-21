@@ -1,2 +1,2 @@
-spred es6 rest Date call apply bind  proto ?
-regexp
+ call apply bind  proto ?
+

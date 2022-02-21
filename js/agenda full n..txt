@@ -18,40 +18,56 @@ ref vs primitives внешние переменные, как их изменя�
   function expression arrow selfinvoke
  рекурсия callbacks (пример , функция - это робот, колбек - микрочип с программой)
 
+6 пн +
 array methods
-String methods
+  String methods
 
-
-6
+7 ср
     objects, add fields , dynamic fields, delete fields, func in objects, this (fullname : this.name + this.surname) closures get set constructors classes
  closeures!!
+    dz
 
-    spred es6 rest
 
+8 пт
+ПЕРЕЗАПИСАТЬ ВИДОСИК КАК У ДЕЦ21
+DOM bytag,
+search in current element children
+byclass, id,
+style classlist
+child, node / element
+querySelector
+formsAPI
 
-7
- пт
-DOM bytag, byclass, id, search in current element children, child, node / element querySelector formsAPI classlist
+9
+spred  rest
+DOM append
+ append / append child  setAttribute sibling /  sibling element  рекурсия в дом
 
- пн
-DOM part 2
- append / append child style classlist setAttribute sibling /  sibling element forms рекурсия в дом
-
-8 ср
 DOM events
-  clicck...event preventDefault object taget this forms+events filtering,sorting
+  onevent
+  event listener
+  event object  taget
+  forms submit
+  event preventDefault
+  filtering,sorting
 
-9 ср
-BOM localstorage + url + stream(??wtf?), ls,history,url
+  Показать как собрать данные с формы и отправить их в массив.
+  Показать как следить за введением данных
+
+10 ср
+BOM localstorage + url history,url Date
 json
+ regexp
 
+11 пт
 fetch get post methods users/:id/posts работа с различными api
 
-10 пн
+12 пн
+ call apply bind  proto regexp?
 setTimeout setInterval Async promises eloop
 
-video
-Date call apply bind  proto regexp?
+
+
 
 
 

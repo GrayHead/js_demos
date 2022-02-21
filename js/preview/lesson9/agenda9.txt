@@ -1,9 +1,8 @@
 DOM part2
+spred/rest
 append / append child
 cloneNode
-classlist
 setAttribute
 next/previous sibling /  sibling element
-рекурсия в дом
-forms api
 a href
+Динамическое построение структуры из массива объектов

@@ -6,3 +6,4 @@ DOM part3
       this reference
       forms+events
       filtering,sorting array
+      regexp

@@ -36,20 +36,26 @@ DOM part 2
  append / append child style classlist setAttribute sibling /  sibling element forms рекурсия в дом
 
 10 ср
-DOM events
-  clicck...event preventDefault object taget this forms+events filtering,sorting
+DOM part3
+    events
+      clicck...event
+      preventDefault
+      object taget
+      this reference
+      forms+events
+      filtering,sorting array
+      regexp
 
 11 ср
 BOM localstorage + url + stream(??wtf?), ls,history,url
 json
+regexp
 
 12 пт
 fetch get post methods users/:id/posts работа с различными api
+call apply bind  proto ?
 
 13 пн
-spred es6 rest Date call apply bind  proto regexp?
-
-14 ср
 setTimeout setInterval Async promises eloop
 
 
