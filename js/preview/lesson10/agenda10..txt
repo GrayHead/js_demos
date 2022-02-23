@@ -1,9 +1,10 @@
 DOM part3
     events
-      clicck...event
-      preventDefault
-      object taget
-      this reference
-      forms+events
-      filtering,sorting array
-      regexp
+      // clicck...eventlistener
+          // object taget
+
+          // preventDefault
+
+          // forms+events
+          // filter by...
+          // regexp
