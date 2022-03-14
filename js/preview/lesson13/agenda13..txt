@@ -1,4 +1,3 @@
  call apply bind  proto ?
  try
- promise catc
 
