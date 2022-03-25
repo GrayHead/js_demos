@@ -1,0 +1,9 @@
+ul > li {
+    background: lightcoral;
+}
+
+ol > li {
+    font-size: 20px;
+    /*color: #c75454;*/
+    color: #DEBE0EFF;
+}
