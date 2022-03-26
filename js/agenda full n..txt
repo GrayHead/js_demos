@@ -27,6 +27,7 @@ array methods
  closeures!!
     dz
 
+spred  rest - перенес из 9й лекции!!!!!
 
 8 пт
 ПЕРЕЗАПИСАТЬ ВИДОСИК КАК У ДЕЦ21
@@ -39,7 +40,7 @@ querySelector
 formsAPI
 
 9
-spred  rest
+spred  rest!!!!!!!!!!!!
 DOM append
  append / append child  setAttribute sibling /  sibling element  рекурсия в дом
 
