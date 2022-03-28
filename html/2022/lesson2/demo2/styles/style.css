@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.wrap {
+    height: 800px;
+    background: silver;
+}
+
+h2 {
+    margin: 0;
+}
+
+.box {
+    background: cornflowerblue;
+    width: 300px;
+    height: 200px;
+    /*margin: 10px;*/
+    margin-right: calc(16.6% - 150px);
+    margin-left: calc(16.6% - 150px);
+
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.xxx {
+    display: flex;
+}
+
+.xxx > p {
+    margin: 0;
+}
+
+
