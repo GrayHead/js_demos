@@ -1,0 +1,14 @@
+
+ul:nth-child(even) > li:nth-child(even) {
+    background: silver;
+}
+
+li {
+    transition: 1000ms;
+}
+
+li:hover {
+    transition: 500ms;
+    background: darkseagreen;
+
+}

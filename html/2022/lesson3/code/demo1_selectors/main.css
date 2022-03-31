@@ -1,0 +1,23 @@
+/*ol.target > li {*/
+/*    background: cornflowerblue;*/
+/*}*/
+
+
+/*.benefits-1 li {*/
+/*    background: silver;*/
+/*}*/
+
+
+.benefits-1, .benefits-3 {
+    background: silver;
+}
+
+
+.benefits-2 {
+    width: 200px;
+}
+
+.benefits-1.benefits-2 {
+    background: coral;
+
+}

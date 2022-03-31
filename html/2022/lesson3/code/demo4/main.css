@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+/*.menu {*/
+/*    display: flex;*/
+/*    list-style: none;*/
+/*    background: silver;*/
+/*    margin: 0;*/
+/*    position: fixed;*/
+/*    right: 0;*/
+/*}*/
+
+/*.menu > li {*/
+/*    margin-left: 20px;*/
+/*}*/
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: silver;
+    margin: 3px;
+}
+
+/*.box:nth-child(2) {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background: #000000;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*}*/
+
+
+.inner-box {
+    width: 100px;
+    height: 100px;
+    background: #000;
+
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
