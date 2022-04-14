@@ -13,16 +13,22 @@
     document.writeln(arr); // ['Каждый', 'охотник', 'желает', 'знать']
 
 
-- Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається із зазначеної кількості символів.
-    let str = 'Каждый охотник желает знать';
-    document.writeln(delete_characters(str, 7)); // Каждый
-
-- Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) між словами. При цьому всі символи рядка необхідно перевести у верхній регістр.
-   let str = "HTML JavaScript PHP";
-   document.writeln(insert_dash(str)); // 'HTML-JAVASCRIPT-PHP'
-
-- Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка з нижнього регістру у верхній.
+- є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map та колбеку перетворити всі об'єкти в масиві на стрінгові.
+- створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
+let nums = [11,21,3];
+sortNums(nums,'ascending') // [3,11,21]
+sortNums(nums,'descending') // [21,11,3]
 
 
+- є масив
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+ -- відсортувати його за спаданням за monthDuration
+ -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
 
-- Напишіть функцію capitalize(str), яка повертає рядок, у якому кожне слово починається з великої літери.
