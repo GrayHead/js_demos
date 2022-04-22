@@ -5,9 +5,7 @@ delete fields,
  func in objects,
  this (fullname : this.name + this.surname) closures get set
 constructors classes
-
-
- closeures!!
+ closures!!
 
 
 
