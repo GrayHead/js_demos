@@ -6,6 +6,8 @@ search in current element
 children,
 child,
 node / element
+next/previous sibling /  sibling element
+classlist
+
 querySelector
 formsAPI
-classlist

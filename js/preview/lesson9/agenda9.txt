@@ -1,8 +1,20 @@
 DOM part2
-spred/rest
 append / append child
 cloneNode
 setAttribute
-next/previous sibling /  sibling element
 a href
-Динамическое построение структуры из массива объектов
+Динамічна побудова структури на основі масива
+
+Рекурсия в дом
+
+from 10
+DOM part3
+    events
+      // clicck...eventlistener
+          // object taget
+
+          // preventDefault
+
+          // forms+events
+          // filter by...
+          // regexp

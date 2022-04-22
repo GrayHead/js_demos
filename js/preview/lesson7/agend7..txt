@@ -2,6 +2,7 @@ objects,
 add fields ,
 dynamic fields,
 delete fields,
+spred rest
  func in objects,
  this (fullname : this.name + this.surname) closures get set
 constructors classes

@@ -26,6 +26,7 @@ array methods
     objects, add fields , dynamic fields, delete fields, func in objects, this (fullname : this.name + this.surname) closures get set constructors classes
  closeures!!
     dz
+ call apply bind  proto?
 
 spred  rest - перенес из 9й лекции!!!!!
 
@@ -36,14 +37,12 @@ search in current element children
 byclass, id,
 style classlist
 child, node / element
+setAttribute sibling /  sibling element
 querySelector
 formsAPI
-
 9
-spred  rest!!!!!!!!!!!!
 DOM append
- append / append child  setAttribute sibling /  sibling element  рекурсия в дом
-
+ append / append child    рекурсия в дом
 DOM events
   onevent
   event listener
@@ -56,16 +55,13 @@ DOM events
   Показать как следить за введением данных
 
 10 ср
-BOM localstorage + url history,url Date
 json
- regexp
+fetch get post methods users/:id/posts
+BOM localstorage + url history,url Date
 
-11 пт
-fetch get post methods users/:id/posts работа с различными api
-
-12 пн
- call apply bind  proto regexp?
-setTimeout setInterval Async promises eloop
+11 пн
+regexp
+setTimeout setInterval Async promises eloop (kmin)
 
 
 
