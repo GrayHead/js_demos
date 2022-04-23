@@ -26,11 +26,12 @@ objects
 ref vs primitives як їх змінює функція
 add/delete fields,
 func in objects, this
-closures function with get set fields of object
-constructors classes
 spred  rest  es6 syntax for create obj
-call apply bind  proto?
-
+fn constructors
+classes extend
+call apply bind extend in fnConctrucor
+proto
+closures function with get set fields of object
 
 6
 ПЕРЕЗАПИСАТЬ ВИДОСИК КАК У ДЕЦ21
@@ -40,10 +41,13 @@ search in current element children
 byclass, id,
 style
 classlist
-child, node / element
+child,
+node / element
 querySelector
-setAttribute sibling /  sibling element
+setAttribute
+sibling /  sibling element
 formsAPI
+
 DOM Create
 create element
  append / append child
@@ -59,19 +63,37 @@ DOM events
   Показать как следить за введением данных
 
 7
+fetch get post methods with our server
+(одна урла але два входи, з одного ми пиатємо з іншого вставляємо данні)
 json
-fetch get post methods users/:id/posts
-BOM localstorage + url history,url Date
 
-8 пн
-call apply bind proto
+8 BOM
+localstorage
+cookie
+url
 regexp
+1!save object through form in localstoradge & check it with regexp in form and in object with string match
+2!fetch to our service with login and get token.
+2!set token to cookie, and make requests to server again with token geted in cookie
+
+идея:
+запрос на /cars get  доступен всем.
+
+запрос на /cars пост только с токеном.
+запрос на /cars/1 update только с токеном.
+запрос на /cars/1 delete только с токеном.
+
+запрос на /login username+password  в ответ придет токен
+сохранить Т в куки
+создать форму для карс. валидировать через regexp формы & match
+
+
+
+9
+ts як приклад взяти якесь дз з масивом та параметризувати його
+
+10
 setTimeout setInterval Async promises eloop (kmin)
-
-9 firebase + demo
-
-10 ts як приклад взяти якест дз з масивом та параметризувати його
-
 
 
 
