@@ -84,7 +84,7 @@ regexp
 localstorage
 cookie
 сохранять токен в куки и все остальные запросы делать доставая оттуда
-url
+url + url params
 
 
 9
