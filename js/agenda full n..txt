@@ -66,15 +66,7 @@ DOM events
 fetch get post methods with our server
 (одна урла але два входи, з одного ми пиатємо з іншого вставляємо данні)
 json
-
-8 BOM
-localstorage
-cookie
-url
 regexp
-1!save object through form in localstoradge & check it with regexp in form and in object with string match
-2!fetch to our service with login and get token.
-2!set token to cookie, and make requests to server again with token geted in cookie
 
 идея:
 запрос на /cars get  доступен всем.
@@ -87,6 +79,12 @@ regexp
 сохранить Т в куки
 создать форму для карс. валидировать через regexp формы & match
 
+
+8 BOM
+localstorage
+cookie
+сохранять токен в куки и все остальные запросы делать доставая оттуда
+url
 
 
 9
