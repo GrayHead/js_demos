@@ -1,48 +1,52 @@
 0 пн
 intro
 
-1 ср +
+1
 log alert document.write let var разница const types number string boolean arr arr[i] obj obj.field obj[field] obj [] obj embeded obj typeof operators + - * / % () ++ -- ** cast to bool , to string, to number prompt  document.write
+if else switch confirm = || ternary
 
-2 пт +
-if else switch confirm = || ternary Math.random MathFloor
-
-3 пн +
+2
 looops + arrays +if for forof while itin loop in loop
 
-4 ср +
-functions return , void, arguments fn call in fn, hoist
+3
+functions return , void, arguments, fn call in fn,
+function expression arrowFN
 
-5 пт +
-ref vs primitives внешние переменные, как их изменяет функция
-  function expression arrow selfinvoke
- рекурсия callbacks (пример , функция - это робот, колбек - микрочип с программой)
+selfinvoke
+hoist
+рекурсия  (пример , функция - это робот, колбек - микрочип с программой)
 
-6 пн +
+4
+String methods
 array methods
-  String methods
+callbacks
 
-7 ср
-    objects, add fields , dynamic fields, delete fields, func in objects, this (fullname : this.name + this.surname) closures get set constructors classes
- closeures!!
-    dz
- call apply bind  proto?
+5
+objects
+ref vs primitives як їх змінює функція
+add/delete fields,
+func in objects, this
+closures function with get set fields of object
+constructors classes
+spred  rest  es6 syntax for create obj
+call apply bind  proto?
 
-spred  rest - перенес из 9й лекции!!!!!
 
-8 пт
+6
 ПЕРЕЗАПИСАТЬ ВИДОСИК КАК У ДЕЦ21
-DOM bytag,
+DOM search
+bytag,
 search in current element children
 byclass, id,
-style classlist
+style
+classlist
 child, node / element
-setAttribute sibling /  sibling element
 querySelector
+setAttribute sibling /  sibling element
 formsAPI
-9
-DOM append
- append / append child    рекурсия в дом
+DOM Create
+create element
+ append / append child
 DOM events
   onevent
   event listener
@@ -50,18 +54,24 @@ DOM events
   forms submit
   event preventDefault
   filtering,sorting
-
+рекурсия в дом
   Показать как собрать данные с формы и отправить их в массив.
   Показать как следить за введением данных
 
-10 ср
+7
 json
 fetch get post methods users/:id/posts
 BOM localstorage + url history,url Date
 
-11 пн
+8 пн
+call apply bind proto
 regexp
 setTimeout setInterval Async promises eloop (kmin)
+
+9 firebase + demo
+
+10 ts як приклад взяти якест дз з масивом та параметризувати його
+
 
 
 
