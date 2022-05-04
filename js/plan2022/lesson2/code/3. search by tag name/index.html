@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+</ul>
+
+<ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+</ul>
+
+<script>
+
+    // let liCollection = document.getElementsByTagName('li');
+    // console.log(liCollection);
+
+    // let ulCollection = document.getElementsByTagName('ul');
+    // console.log(ulCollection);
+    // let ul1 = ulCollection[0];
+    // let ul1LiCollection = ul1.getElementsByTagName('li');
+    // console.log(ul1LiCollection);
+    // console.log(ul1LiCollection[1]);
+    // console.log(ul1LiCollection[1].innerText);
+
+    let liCollectionUL1 = document.querySelectorAll('ul:nth-child(1)>li');
+    console.log(liCollectionUL1);
+
+
+</script>
+</body>
+</html>

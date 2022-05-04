@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let a = 100;
+    let b = 200;
+    let c = 'asudhf';
+    let d = true;
+
+    //          0  1  2  3      4       5        6
+    //                                       0   1    2
+    let data = [a, b, c, d, 'aysfdga', 100, [11, 22, 33]];
+    console.log(data);
+    console.log(data[3]);
+    let innerArray = data[6];
+    console.log(data[6][0]); // 11
+    console.log(data[6][1]); // 22
+    console.log(data.length);
+
+    data[0] = 'new value';
+    console.log(data);
+    data[data.length] = 'yfytwqfeyq';
+    console.log(data);
+    data[data.length] = 'iuuygsufg';
+    console.log(data);
+    data.push('uqfytwqtyqwfetfwqey');
+    console.log(data);
+
+
+</script>
+</body>
+</html>

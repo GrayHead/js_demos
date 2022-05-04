@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p class="text">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at cumque doloremque enim fuga fugit ipsa iure
+    mollitia nulla pariatur, porro possimus qui quis rem, similique, totam ut veniam? Nobis?
+</p>
+<p class="text foo">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis debitis exercitationem id magni natus soluta
+    voluptatem. Ad corporis exercitationem ipsam provident. Accusamus blanditiis molestiae perspiciatis possimus quasi
+    sit veniam voluptas!
+</p>
+
+
+<script>
+
+    // let pList = document.getElementsByClassName('text');
+    // console.log(pList);
+    // let p2 = pList[1];
+    // console.log(p2);
+    // console.log(p2.innerText);
+    // p2.innerText = 'okten';
+
+
+    // let pList = document.querySelectorAll('.text');
+    // console.log(pList);
+    // let p2 = pList[1];
+    // console.log(p2);
+    // console.log(p2.innerText);
+    // p2.innerText = 'okten';
+
+    let pCollection = document.getElementsByClassName('text');
+    let p1 = pCollection[0];
+    p1.setAttribute('id', 'target');
+    p1.classList.add('description');
+
+    let p2 = p1.nextElementSibling;
+    console.log(p2);
+    p2.classList.add('xxx');
+    // p2.classList.remove('xxx');
+    console.log(p2.classList.contains('text'));
+    console.log(p2.classList.contains('xxx'));
+    p2.classList.toggle('foo');
+
+
+</script>
+</body>
+</html>
