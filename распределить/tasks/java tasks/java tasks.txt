@@ -1,0 +1,23 @@
+інпут приймає файл. Файл зберігається на диску, а в базу іде інформація щодо
+-його місця збереження
+-розміру
+-Тег .енум ( селект в формі)
+-часу коли він збережений
+-часу до якого моменту він актуальний (час вибирається через ще один інпут)
+
+
+9.1
+Implement three classes: Storage, Counter, and Printer. The Storage class should store an integer. The Counter class should create a thread that starts counting from 0 (0, 1, 2, 3 ...) and stores each value in the Storage class. The Printer class should create a thread that keeps reading the value in the Storage class and printing it.
+
+Write a program that creates an instance of the Storage class and sets up a Counter and a Printer object to operate on it.
+
+9.2
+Modify the program from the previous exercise to ensure that each number is printed exactly once, by adding suitable synchronization.
+----------
+[Переслано от Витя Кмин]
+POST /auth/user приймає email і password для логінації юзера
+POST /user для реєстрації юзера приймає параметри name surname password sex
+GET /user приймає name отримати юзера по імені
+POST /friend/:id додати нового друга але ти маєш  бути зараєстрований вимагає header autorizatio де має йти token
+DELETE /freind/:id видаляє друга від тебе при цьому ти маєш бути зареєстрований
+GET /friend  повертає всіх твоїх друзів

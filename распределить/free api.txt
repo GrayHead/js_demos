@@ -1,0 +1,38 @@
+#api #freeapi
+https://jsonplaceholder.typicode.com/
+https://sampleapis.com/
+https://gorest.co.in/
+https://swapi.co/
+https://anapioficeandfire.com/
+https://www.themoviedb.org/documentation/api
+https://developers.themoviedb.org/3/getting-started/introduction
+
+[Переслано от назар уният]
+Привіт Сергій
+Вот знайшов ті апішки, про які ми говорили
+https://swapi.co/
+https://anapioficeandfire.com/
+****
+[Переслано из Веб-страница]
+⁠ (https://telegra.ph/file/2414e293fe0c877b876a5.jpg)Подборка из более чем 800 публичных API
+
+API разбиты на 70 категорий для разных целей: https://public-apis.xyz
+
+Можно написать свой Кинопоиск на основе API с фильмами. А можно сделать приложение, которое расскажет всё о комиксах Marvel. Или возьмите API для распознавания текста/картинок/музыки и напишите что-нибудь оригинальнее обычного списка.
+
+Есть даже API с биографией знаменитых слонов (что, простите?). Не хватает только API к этой подборке API.
+
+Самое то, чтобы создать интересную приложуху для портфолио: https://public-apis.xyz
+
+Если вдруг у вас не будет работать ссылка, то есть немного урезанный вариант этой же подборки на гитхабе: https://github.com/public-apis/public-apis
+
+#api
+
+***
+https://newsapi.org/
+***
+https://starwars-visualguide.com/#/
+**
+https://fakestoreapi.com/
+***
+https://reqres.in/

@@ -1,0 +1,58 @@
+[Переслано от Тарас Якимюк]
+https://www.youtube.com/watch?v=c0tWrjVGrQw
+https://www.youtube.com/watch?v=Uy-PEGXmipg
+https://www.youtube.com/watch?v=d90YrtNXOmE
+
+https://www.youtube.com/watch?v=fSHH-sKhWO8
+
+https://www.youtube.com/watch?v=OR37zwfzVrs
+https://www.youtube.com/watch?v=585SYELGGPs
+https://www.youtube.com/watch?v=7fB3J87zDA8
+https://www.youtube.com/watch?v=-SI_Ruowvks
+
+https://www.youtube.com/watch?v=EKfbzTMxaVA
+
+https://www.youtube.com/watch?v=uVc_VdC4ZEM
+
+*********
+
+Баночка варенья, [08-Apr-20 22:14]
+[Переслано от Oleh Kosylo]
+Хто не до кінця зрозумів лекцію, тут тіп добре розказав - https://www.youtube.com/watch?v=Dm1OpX42Aho
+***
+[Переслано от Andrew]
+якщо в тебе просто html сторінка то поле"Custom domain" залиш порожне. Твоя сторінка буде доступна за адресою: твій-github-нік.github.io/назва-проекту
+
+якщо в тебе react то трохи складніше. У твій проект треба доставити gh-pages: npm install gh-pages --save-dev ось посилання https://www.npmjs.com/package/gh-pages
+
+потім відкриваєш файл package.json (він у корні проекту) і  вгорі (перед name) добавляєш "homepage": "http://твій-github-нік.github.io/назва-проекту" + у "scripts" там де npm start добавляєш два рядки:
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+Зберігаєш закриваєш.
+в терміналі пишеш npm run deploy
+
+Чекаєш закінчення виконання цієї команди (вона створює нову гілку і заливає на github ), ідеш на сайт github  заходиш у налаштування цього проекту як у тебе на скріншоті і в source обираєш gh-pages branch
+
+І я б радив робити через термінал операційної системи, а не IDE
+
+цю силку можна додати в Description твого проекту на сайті, щоб не вводити його.
+
+Якось так.
+
+https://www.youtube.com/playlist?list=PL3BJnp-dNqazNc11qgguXNcJwCMqwK5Yv
+***
+Баночка варенья, [24-Sep-20 14:59]
+Send an image from the Java backend to Angular using REST services
+https://marco.dev/2017/02/11/send-and-image-from-the-java-backend-to-angular-using-rest-services/
+
+Баночка варенья, [24-Sep-20 15:02]
+Upload Images and save them in a database( Angular 8 + Spring boot + Mysql ) | by Udith Gayan Indrakantha | Medium
+https://medium.com/@udith.indrakantha/upload-images-and-save-them-in-a-database-angular-8-spring-boot-mysql-b5144768202b
+
+***
+[Переслано из NOP::Nuances of Programming]
+📃 (https://t.me/iv?url=https%3A%2F%2Fnuancesprog.ru%2Fp%2F4417%2F&rhash=31f985290bceda) Миграция REST API на GraphQL быстро и просто
+
+https://nuancesprog.ru/p/4417
+
+@nuancesprog #статьи #GraphQL #Node #JavaScript #API #WebDevelopment

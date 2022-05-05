@@ -1,0 +1,140 @@
+Сервис воркер + офлайн страница
+https://tproger.ru/translations/browser-offline-page/
+
+***
+плюс ось сайтик з купою завдань і розв'язками
+https://exercism.io/tracks/typescript/exercises
+
+****
+
+***
+Design Patters
+http://xiper.net/learn/javascript/shablony-proyektirovaniya/part-3
+
+***
+Расстояние между двумя точками на google картах
+https://stackoverflow.com/questions/43288588/calculating-distance-between-two-points-in-google-maps-for-ionic-2/43289981
+
+https://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula/27943#27943
+***
+
+Баночка варенья, [15-Mar-20 10:18]
+Работа со input/output
+
+Баночка варенья, [15-Mar-20 10:18]
+Java I/O tutorial with examples
+https://beginnersbook.com/java-io-tutorial-with-examples/
+
+***
+[Переслано от Витя Кмин]
+https://medium.com/bugbountywriteup/breaking-down-sha-256-algorithm-2ce61d86f7a3
+
+https://medium.com/bugbountywriteup/breaking-down-sha-512-algorithm-1fdb9cc9413a
+
+https://medium.com/bugbountywriteup/breaking-down-md5-algorithm-92803c485d25
+
+https://medium.com/bugbountywriteup/breaking-down-sha-1-algorithm-c152ed353de2
+
+
+Збірка статей про різні алгоритми шифрування
+***
+https://m.habr.com/ru/post/105954/
+***
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL#basics_anatomy_of_a_url
+***
+[Переслано от Рома Жеребецкий]
+Корисні лінки:
+- https://virgo47.files.wordpress.com/2014/07/login.png - як виглядає процес автентифікації в Spring
+
+- https://jwt.io/#debugger-io https://tools.ietf.org/html/rfc7519 - по структурі JWT
+
+- https://dzone.com/articles/spring-boot-security-json-web-tokenjwt-hello-world - приклад Spring+JWT з діаграмами
+
+- https://auth0.com/blog/implementing-jwt-authentication-on-spring-boot/ - приклад Spring+JWT повністю на фільтрах
+
+- https://stackoverflow.com/questions/40200413/sessions-vs-token-based-authentication - Session vs Token пояснення
+***
+
+https://xsltdev.ru/angular/tutorial/angular-http-interceptor/
+***
+[Переслано из Для бесплатных курсов]
+Создаем glitch-эффект как в Cyberpunk 2077 для изображения с помощью CSS / Хабр
+https://habr.com/ru/post/533252/
+
+***
+https://www.json-generator.com/
+
+**
+Путь запроса по внутренностям Spring Security / Хабр
+https://m.habr.com/ru/post/346628/
+
+***
+Баночка варенья, [17-Jun-21 16:32]
+How to get microphone input volume value with web audio api? - Stack Overflow
+https://stackoverflow.com/questions/21247571/how-to-get-microphone-input-volume-value-with-web-audio-api
+
+***
+Баночка варенья, [15-Jul-21 22:50]
+[Переслано от Саша Крушинский]
+https://habr.com/ru/company/ruvds/blog/554280/
+
+***
+[Переслано от Igor Samagalskyi]
+https://dev-pandaren.github.io/training/themes/links/tech/frameworks.html
+
+***
+A practical guide to Angular Template-Driven Forms - Tim Deschryver
+https://timdeschryver.dev/blog/a-practical-guide-to-angular-template-driven-forms#custom-validators
+
+***
+https://youtu.be/5Qtqzeh5FeM
+***
+https://habr.com/ru/post/440436/
+
+***
+
+1) C:\ProgramData\MySQL\MySQL Server 5.7
+Відкрити файл my.ini і вставляти:
+[client]
+default-character-set = utf8mb4
+
+[mysql]
+default-character-set = utf8mb4
+
+[mysqld]
+character-set-client-handshake = FALSE
+character-set-server = utf8mb4
+collation-server = utf8mb4_unicode_ci
+2)В своєму проекті у файлі application.properties вставити:
+spring.datasource.url=jdbc:mysql://localhost/main_project?createDatabaseIfNotExist=true&Character SET utf8 COLLATE utf8_general_ci; (+ - некорисно)
+3) Для лістів:
+    @Column(columnDefinition = "LONGBLOB")
+    private ArrayList<String> name = new ArrayList<>();
+
+***
+
+[Переслано из WebDEV]
+Собеседования в технологических компаниях давно стали притчей. Удивляться этому не приходится - успешное прохождение интервью дает возможность получить хорошую работу. Но это не так просто, поскольку зачастую необходимо решать сложные задачи.
+
+Разберем самые распространенные задачи в статье.
+
+5 типовых задач на собеседованиях по JavaScript (https://medium.com/webbdev/js-2b0820b3788f)
+
+#js #article #interview
+
+***
+[Переслано от Офис Киевстар]
+https://habr.com/ru/company/ruvds/blog/456338/
+
+***
+
+[Переслано из Веб-страница]
+Руководство по выживанию с MongoDB
+
+MongoDB  (https://www.youtube.com/watch?v=j6TVaEk4x2U)— это NoSQL-решение для хранения данных. С ним легко стартовать, и для многих проблем есть решения «из коробки». Но по мере увеличения нагрузки вылезают грабли, о которых заранее никто не предупреждает.
+
+В этом докладе спикер моделирует стартап, в который запускаются фичи и неожиданно приходят пользователи. В итоге на MongoDB-сервер сваливается огромная нагрузка. Сергей Загурский, который отвечает за бэкенд в Joom, рассказывает, как в таком случае улучшить перфоманс и подготовить приложение к масштабированию.
+
+Текстовая версия доклада: https://tprg.ru/vdDc
+
+#бэкенд #базыданных #mongodb
