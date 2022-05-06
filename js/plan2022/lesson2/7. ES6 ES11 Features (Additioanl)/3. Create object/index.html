@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create object</title>
+</head>
+<body>
+
+<script>
+
+    let name = 'vasya';
+    let age = 31;
+
+    let user = {
+        name: name,
+        age: age
+    }
+    console.log(user);
+
+    let u2 = {
+        name,
+        age,
+        greeting(msg) {
+            return `${msg} my name is ${this.name}`
+        },
+    };
+    console.log(u2);
+    console.log(u2.greeting('hi'));
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6</title>
+</head>
+<body>
+<script>
+
+    let user = {
+        name: 'vasya',
+        age: 31,
+        status: true,
+        wife: {
+            name: 'anna',
+            skills: ['asd', 'qwe']
+        }
+    }
+
+    // let userName = user.name;
+    // let userAge = user.age;
+    // let userStatus = user.status;
+
+    // let {name, age, wife} = user;
+    // console.log(name, age);
+    // console.log(wife);
+    // let {name:wifeName, skills} = wife;
+    // console.log(wifeName, skills);
+
+    let {name, age, wife: {name: wifeName, skills}, wife: wifeObj} = user;
+    console.log(name, age, wifeName, skills, wifeObj);
+
+
+</script>
+</body>
+</html>

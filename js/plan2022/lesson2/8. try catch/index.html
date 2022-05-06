@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>try catch</title>
+</head>
+<body>
+
+<script>
+    // let a = 'aquytewuy';
+    //
+    // console.log('eqewq');
+    // console.log('eqewq');
+    // console.log('eqewq');
+    // console.log('eqewq');
+    //
+    //
+    // let a = 'qweywqer';
+    // console.log('end');
+
+
+    let user = {
+        name: 'vasya',
+        age: 123
+    };
+    console.log('start');
+    let x;
+    try {
+        console.log(user.wife.name);
+        // console.log(user);
+        x = 'try';
+    } catch (e) {
+        console.log(e);
+        x = 'catch';
+    } finally {
+        console.log('finally block');
+    }
+    console.log('end');
+    console.log(x);
+
+
+</script>
+</body>
+</html>
