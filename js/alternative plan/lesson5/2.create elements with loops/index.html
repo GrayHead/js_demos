@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    // let users = [
+    //     {name: 'vasya', age: 31, status: false},
+    //     {name: 'petya', age: 30, status: true},
+    //     {name: 'kolya', age: 29, status: true},
+    //     {name: 'olya', age: 28, status: false},
+    //     {name: 'max', age: 30, status: true},
+    //     {name: 'anya', age: 31, status: false},
+    //     {name: 'oleg', age: 28, status: false},
+    //     {name: 'andrey', age: 29, status: true},
+    //     {name: 'masha', age: 30, status: true},
+    //     {name: 'olya', age: 31, status: false},
+    //     {name: 'max', age: 31, status: true}
+    // ];
+    //
+    //
+    // let ol = document.createElement('ol');
+    // for (const user of users) {
+    //     let li = document.createElement('li');
+    //     li.innerText = user.name + ' ' + user.age;
+    //     ol.appendChild(li);
+    // }
+    //
+    // document.body.appendChild(ol);
+
+
+    let courses = [
+        {
+            title: 'JavaScript Complex',
+            monthDuration: 5,
+            hourDuration: 909,
+            modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js'],
+            logo: '',
+            price: 0,
+            rating: 5,
+            avgResult: 99
+        },
+        {
+            title: 'Java Complex',
+            monthDuration: 6,
+            hourDuration: 909,
+            modules: ['html',
+                'css',
+                'js',
+                'mysql',
+                'mongodb',
+                'react',
+                'angular',
+                'aws',
+                'docker',
+                'git',
+                'java core',
+                'java advanced'],
+            logo: '',
+            price: 0,
+            rating: 4.998,
+            avgResult: 97
+        },
+        {
+            title: 'Python Complex',
+            monthDuration: 6,
+            hourDuration: 909,
+            modules: ['html',
+                'css',
+                'js',
+                'mysql',
+                'mongodb',
+                'react',
+                'angular',
+                'aws',
+                'docker',
+                'git',
+                'python core',
+                'python advanced'],
+            logo: '',
+            price: 0,
+            rating: 4.812,
+            avgResult: 98
+        },
+        {
+            title: 'QA Complex',
+            monthDuration: 4,
+            hourDuration: 909,
+            modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'QA/QC'],
+            logo: '',
+            price: 0,
+            rating: 4.65,
+            avgResult: 97
+        },
+        {
+            title: 'FullStack',
+            monthDuration: 7,
+            hourDuration: 909,
+            modules: ['html',
+                'css',
+                'js',
+                'mysql',
+                'mongodb',
+                'react',
+                'angular',
+                'aws',
+                'docker',
+                'git',
+                'node.js',
+                'python',
+                'java'],
+            logo: '',
+            price: 0,
+            rating: 4.772,
+            avgResult: 100
+        },
+        {
+            title: 'Frontend',
+            monthDuration: 4,
+            hourDuration: 909,
+            modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass'],
+            logo: '',
+            price: 0,
+            rating: 4.53,
+            avgResult: 90
+        }
+    ];
+
+    for (const course of courses) {
+        let courseDiv = document.createElement('div');
+        let h2 = document.createElement('h2');
+        h2.innerText = course.title;
+        courseDiv.appendChild(h2);
+        document.body.appendChild(courseDiv);
+
+        let ul = document.createElement('ul');
+        courseDiv.appendChild(ul);
+
+        let modules = course.modules;
+        for (const moduleName of modules) {
+            let liItem = document.createElement('li');
+            liItem.innerText = moduleName;
+            ul.appendChild(liItem);
+
+        }
+
+
+    }
+
+
+</script>
+</body>
+</html>
