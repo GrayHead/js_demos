@@ -1,3 +1,13 @@
 івенти
 
 forms api
+DOM part3
+    events
+      // clicck...eventlistener
+          // object taget
+
+          // preventDefault
+
+          // forms+events
+          // filter by...
+          // regexp
