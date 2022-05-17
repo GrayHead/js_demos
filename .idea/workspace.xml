@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="- фикс заданий">
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="add lessons code new plan 2022&#10;change lesson 10 11 12 13 tasks">
+      <change afterPath="$PROJECT_DIR$/js/alternative plan/lesson1/code/5.AND OR/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/alternative plan/lesson6/2. if shorthand/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/alternative plan/lesson6/3. ternary operator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/alternative plan/lesson6/4. switch/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/alternative plan/lesson6/5. default values/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/additional4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/preview/lesson4/lesson4_tasks/task/additional4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/preview/lesson5/lesson5_tasks/additional5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/preview/lesson5/lesson5_tasks/additional5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/agenda full alter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/agenda full alter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson6/1. if/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/lesson6/1. if/index.html" afterDir="false" />
     </list>
-    <list id="c38013d9-f89d-4027-bca7-ad36f9eec678" name="unuse" comment="unuse">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list id="c38013d9-f89d-4027-bca7-ad36f9eec678" name="unuse" comment="unuse" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="plain text txt" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="plain text txt" />
       </list>
     </option>
   </component>
@@ -54,32 +57,8 @@
       </list>
     </option>
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="6" end1="9" start2="6" end2="10" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
-        <range start1="10" end1="12" start2="11" end2="11" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
-        <range start1="26" end1="26" start2="25" end2="26" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
-        <range start1="28" end1="31" start2="28" end2="28" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
-        <range start1="35" end1="36" start2="32" end2="33" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
-        <range start1="48" end1="52" start2="45" end2="80" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
-        <range start1="63" end1="64" start2="91" end2="91" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="69" end1="70" start2="96" end2="97" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="74" end1="75" start2="101" end2="103" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="79" end1="84" start2="107" end2="112" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="86" end1="91" start2="114" end2="119" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="92" end1="92" start2="120" end2="125" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="97" end1="97" start2="130" end2="131" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="143" end1="158" start2="177" end2="179" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
-        <range start1="299" end1="301" start2="320" end2="322" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="304" end1="305" start2="325" end2="326" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="306" end1="308" start2="327" end2="329" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="311" end1="312" start2="332" end2="487" changelist="c38013d9-f89d-4027-bca7-ad36f9eec678" />
-        <range start1="313" end1="314" start2="488" end2="524" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
-        <range start1="334" end1="351" start2="544" end2="544" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
-        <range start1="354" end1="357" start2="547" end2="570" changelist="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" />
-      </ranges>
-    </file>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1pGSVBSlnbUrHBxdgVnqxh3RfCo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -89,36 +68,35 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/preview/lesson10/lesson10_tasks" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sszhu/IdeaProjects/js_demos/js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson10\lesson10_tasks" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson9\lesson9_tasks\classwork" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson2\lesson2_tasks\resolve" />
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson9Main" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\tasks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson9\lesson9_tasks\additional" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson8\lesson8_tasks\homework" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson8\lesson8_tasks\classwork" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson9\lesson9_tasks" />
-      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\preview\lesson13\lesson13_tasks" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\archive\additioanl_tasks" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\alternative plan\lesson6" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\actual plan\lesson9\lesson9_tasks\classwork" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\alternative plan\lesson4" />
+      <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js\alternative plan\lesson3" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -180,6 +158,17 @@
       <workItem from="1637163251286" duration="172000" />
       <workItem from="1637165078426" duration="741000" />
       <workItem from="1637177904413" duration="320000" />
+      <workItem from="1651083897537" duration="881000" />
+      <workItem from="1651583215769" duration="633000" />
+      <workItem from="1651584633361" duration="641000" />
+      <workItem from="1651585299379" duration="22834000" />
+      <workItem from="1651690964691" duration="723000" />
+      <workItem from="1651833837349" duration="5862000" />
+      <workItem from="1652705769217" duration="41000" />
+      <workItem from="1652706090539" duration="2850000" />
+      <workItem from="1652714048378" duration="10181000" />
+      <workItem from="1652794601634" duration="1627000" />
+      <workItem from="1652796268090" duration="6860000" />
     </task>
     <task id="LOCAL-00003" summary="add kmin`s tasks">
       <created>1618651991296</created>
@@ -370,7 +359,77 @@
       <option name="project" value="LOCAL" />
       <updated>1637165113641</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="- фикс заданий">
+      <created>1651083930655</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1651083930655</updated>
+    </task>
+    <task id="LOCAL-00053" summary="- фикс заданий">
+      <created>1651084058149</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1651084058149</updated>
+    </task>
+    <task id="LOCAL-00054" summary="start new plan js&#10;-add intro code">
+      <created>1651603992205</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1651603992205</updated>
+    </task>
+    <task id="LOCAL-00055" summary="-add lesson 1">
+      <created>1651607378457</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1651607378457</updated>
+    </task>
+    <task id="LOCAL-00056" summary="-add lesson 1.1">
+      <created>1651661850682</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1651661850682</updated>
+    </task>
+    <task id="LOCAL-00057" summary="-add lesson 1.1">
+      <created>1651683406406</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1651683406406</updated>
+    </task>
+    <task id="LOCAL-00058" summary="chages arrays.js data.js">
+      <created>1651691375957</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1651691375957</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add lessons code new plan 2022">
+      <created>1651852600229</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1651852600229</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add lessons code new plan 2022&#10;change lesson 9 tasks">
+      <created>1652726101637</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1652726101638</updated>
+    </task>
+    <task id="LOCAL-00061" summary="add lessons code new plan 2022&#10;change lesson 10 11 12 13 tasks">
+      <created>1652731207367</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1652731207367</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,18 +445,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add lessons 2 &amp; 3 html presentation" />
-    <MESSAGE value="поменял HTML 3.pptx" />
-    <MESSAGE value="add reatc lesson 3 tasks" />
-    <MESSAGE value="add lesson 4 java tasks" />
-    <MESSAGE value="add html lesson 3 tasks" />
-    <MESSAGE value="удалил cwtask.txt homeworktask.txt, что б глаза не мозолили" />
-    <MESSAGE value="добавил презентации html 5.pptx html HTML 4.pptx" />
     <MESSAGE value="дз 4" />
     <MESSAGE value="additional.jpg" />
     <MESSAGE value="grid add" />
@@ -416,7 +467,30 @@
     <MESSAGE value="- добавил задания для лекции 10" />
     <MESSAGE value="- фикс задания" />
     <MESSAGE value="- фикс заданий" />
-    <option name="LAST_COMMIT_MESSAGE" value="- фикс заданий" />
+    <MESSAGE value="start new plan js&#10;-add intro code" />
+    <MESSAGE value="-add lesson 1" />
+    <MESSAGE value="-add lesson 1.1" />
+    <MESSAGE value="chages arrays.js data.js" />
+    <MESSAGE value="add lessons code new plan 2022" />
+    <MESSAGE value="add lessons code new plan 2022&#10;change lesson 9 tasks" />
+    <MESSAGE value="add lessons code new plan 2022&#10;change lesson 10 11 12 13 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lessons code new plan 2022&#10;change lesson 10 11 12 13 tasks" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/alternative plan/lesson5/2.create elements with loops/index.html</url>
+          <line>132</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/alternative plan/lesson5/2.create elements with loops/index.html</url>
+          <line>143</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

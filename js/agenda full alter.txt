@@ -6,70 +6,79 @@ intro
 Змінні - let,const,var
 Область видимості
 Примітивні типи даних -
-    numbers, оперції з ними
-    string, операції з ними
-    boolean, операції з ними
-Ссилочні типи даних
+    numbers, оперції з ними +-*/%
+    string, операції з ними +
+    boolean, операції з ними > < ...
+    undefined
+    null
+    nan
+    конвеатація типів
 
 
- types number string boolean arr arr[i] obj obj.field obj[field] obj [] obj embeded obj typeof operators + - * / % () ++ -- ** cast to bool , to string, to number prompt  document.write
 
-2 пт +
-if else switch confirm = || ternary Math.random MathFloor
 
-3 пн +
+ 2  Ссилочні типи даних
+        array arr arr[i] операції додавання з елементами масиву
+        object  додавання з характеристиками об'єктів, objects, add fields , dynamic fields, delete fields
+    Показати різницю між ссилочними та примітивамимасив об'єктів, масив масивів, об'єкт з масивом, об'єкт з маисвом об'єктів
+
+
+
+3
+промпт конфірм
+if else switch ternary  || &&
+
+4
 looops + arrays +if for forof while itin loop in loop
 
-4 ср +
-functions return , void, arguments fn call in fn, hoist
+5
+functions return , void, arguments ,rest argument, fn call in fn,
+function expression arrow
+func in objects, this, closures
+hoist
+selfinvoke
+рекурсия
 
-5 пт +
-ref vs primitives внешние переменные, как их изменяет функция
-  function expression arrow selfinvoke
- рекурсия callbacks (пример , функция - это робот, колбек - микрочип с программой)
 
-6 пн +
-array methods
+6 condtructors & class call apply bind prototype
+ es6 spred rest shallow + deep copy(json stringify)
+
+7
   String methods
-
-7 ср
-    objects, add fields , dynamic fields, delete fields, func in objects, this (fullname : this.name + this.surname) closures get set constructors classes
- closeures!!
-    dz
+  array methods + with callback
+  callbacks створення свого колбеку
 
 
-8 пт
-DOM bytag, byclass, id, search in current element children, child, node / element querySelector formsAPI classlist
-
-9 пн
-DOM part 2
- append / append child style classlist setAttribute sibling /  sibling element forms рекурсия в дом
-
-10 ср
-DOM part3
-    events
-      clicck...event
-      preventDefault
-      object taget
-      this reference
-      forms+events
-      filtering,sorting array
-      regexp
-
-11 ср
-BOM localstorage + url + stream(??wtf?), ls,history,url
-json
+8
+DOM bytag, byclass, id,
+setAttribute getAtribute
+classlist
+child,
+querySelector
+formsAPI
+create + append / append child
+рекурсия в дом
+clicck...event
+preventDefault
+object taget
+this reference
+forms+events
+filtering,sorting array
 regexp
 
-12 пт
-fetch get post methods users/:id/posts работа с различными api
-call apply bind  proto ?
 
-13 пн
+9
+BOM localstorage + url + position + streams
+fetch get post methods users/:id/posts работа с различными api
+
+10 пт
 setTimeout setInterval Async promises eloop
 
+11
+ts
 
-
+12
+ts
 
 
 
