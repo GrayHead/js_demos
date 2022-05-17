@@ -8,13 +8,4 @@ a href
 Рекурсия в дом
 
 from 10
-DOM part3
-    events
-      // clicck...eventlistener
-          // object taget
 
-          // preventDefault
-
-          // forms+events
-          // filter by...
-          // regexp
