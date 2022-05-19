@@ -39,16 +39,21 @@ typeof
 
 
 3
-промпт конфірм
-if else
-multiple conditions || &&
+Логічні розгалуження для чого?
+if
+else
+else if
+множинні умови || &&
 switch
-ternary
+Коли краще використовувати і що
+Тренарний оператор як заміна if
+Дефолтні значення змнних
 let x = null || 'default'
+
 try catch
 
 4
-looops + doc write
+loops + doc write
 
 5
 functions return , void, arguments ,rest argument, fn call in fn,
@@ -59,6 +64,7 @@ callback simple calculate(a,b,action)
 hoist
 selfinvoke
 рекурсия
+OChainO .?
 
 
 6
