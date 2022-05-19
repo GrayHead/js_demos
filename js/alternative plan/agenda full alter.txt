@@ -2,10 +2,12 @@
 intro
 
 1
+Змінні і навіщо let const
+Примітивні типи даних number string boolean
 Як слідкувати за станом (приклад, якщо потрібно подивитись на іфну з інпуту)? - log / document.write / alert
-Змінні - let,const,var
-Область видимості
-Примітивні типи даних -
+typeof
+
+Примітивні типи даних опреації-
     numbers, оперції з ними +-*/%
     string, операції з ними +
     boolean, операції з ними > < ...
@@ -13,7 +15,7 @@ intro
     null
     nan
     конвеатація типів
-
+Передача за значенням
 
 
 
@@ -26,22 +28,29 @@ intro
 
 3
 промпт конфірм
-if else switch ternary  || &&
+if else
+multiple conditions || &&
+switch
+ternary
+let x = null || 'default'
 
 4
-looops + arrays +if for forof while itin loop in loop
+looops + doc write
 
 5
 functions return , void, arguments ,rest argument, fn call in fn,
 function expression arrow
-func in objects, this, closures
+func in objects + this,
+closures
+callback simple calculate(a,b,action)
 hoist
 selfinvoke
 рекурсия
 
 
-6 condtructors & class call apply bind prototype
+6
  es6 spred rest shallow + deep copy(json stringify)
+condtructors & class call apply bind prototype
 
 7
   String methods
