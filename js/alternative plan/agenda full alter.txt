@@ -50,7 +50,6 @@ switch
 Дефолтні значення змнних
 let x = null || 'default'
 
-try catch
 
 4
 loops + doc write
@@ -65,6 +64,7 @@ hoist
 selfinvoke
 рекурсия
 OChainO .?
+try catch
 
 
 6
