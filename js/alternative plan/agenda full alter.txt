@@ -62,19 +62,22 @@ do while
 
 
 5
-functions return , void, arguments ,rest argument, fn call in fn,
-function expression arrow
-func in objects + this,
-closures
-callback simple calculate(a,b,action)
-hoist
-selfinvoke
+Функції для чого вони
+Функції з ретенном
+Функції без ретерну (для роботи з ссилочними типами)
+Аргумент  та рест аргумент
+функція в функції
+Функціональний вираз, та відмінність від звичайної (одразу з сплиттям)
+Функції в об'єктах
+Замикання
+callback простий приклад calculate(a,b,action)
 рекурсия
-OChainO .?
-try catch
+selfinvoke
 
 
 6
+try catch
+OChainO .?
  es6 spred rest shallow + deep copy(json stringify)
 condtructors & class call apply bind prototype
 
