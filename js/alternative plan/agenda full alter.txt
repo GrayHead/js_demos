@@ -52,7 +52,14 @@ let x = null || 'default'
 
 
 4
-loops + doc write
+Цикл, для того,щоб побудувати н-кількість блоків через write
+for
+Цикл для роботи з масивом та довжиною масиву
+Цикл фор оф
+wile
+do while
+Ітерація об'єкту та динамічна побудова на основі полів об'єкту
+
 
 5
 functions return , void, arguments ,rest argument, fn call in fn,
