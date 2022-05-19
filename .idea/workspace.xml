@@ -5,42 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="change program">
-      <change afterPath="$PROJECT_DIR$/js/alternative plan/lesson1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/agenda full alter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/agenda full alter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson1/code/1. link script/demo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson1/code/1. link script/demo1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson1/code/1. link script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson1/code/1. link script/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson1/code/2. logs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson1/code/2. logs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson1/code/3. variables and primitives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson1/code/3. variables and primitives/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson1/code/4. primitive operations and convertations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson1/code/4. primitive operations and convertations/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson1/code/5.AND OR/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson1/code/5.AND OR/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson2/1. arrays/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson2/1. arrays/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson2/2. objects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson2/2. objects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson2/3. objects what for/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson2/3. objects what for/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson2/4. ref vs primitives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson2/4. ref vs primitives/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson2/5. Functions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson2/5. Functions/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson2/6. Object with function/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson2/6. Object with function/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson2/8. try catch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson2/8. try catch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson3/1.Object destructurization/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson3/1.Object destructurization/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson3/2. Array desctructurization/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson3/2. Array desctructurization/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson3/3. Create object/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson3/3. Create object/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson3/4. Spred/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson3/4. Spred/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson3/5. shallow  and deep copy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson3/5. shallow  and deep copy/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson3/6. Optional Chaning Operator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson3/6. Optional Chaning Operator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson4/1. search by id/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson4/1. search by id/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson4/2. search by class/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson4/2. search by class/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson4/3. search by tag name/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson4/3. search by tag name/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson4/4. create elements/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson4/4. create elements/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson5/1. iterate elements/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson5/1. iterate elements/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson5/2.create elements with loops/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson5/2.create elements with loops/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson5/3. iterate object/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson5/3. iterate object/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson5/4. for/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson5/4. for/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson5/5. while/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson5/5. while/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson6/1. if/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson6/1. if/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson6/2. if shorthand/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson6/2. if shorthand/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson6/3. ternary operator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson6/3. ternary operator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson6/4. switch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson6/4. switch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson6/5. default values/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/archive/lesson6/5. default values/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/alternative plan/agenda full alter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/agenda full alter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/lesson1/index.html" afterDir="false" />
     </list>
     <list id="c38013d9-f89d-4027-bca7-ad36f9eec678" name="unuse" comment="unuse" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +164,7 @@
       <workItem from="1652714048378" duration="10181000" />
       <workItem from="1652794601634" duration="1627000" />
       <workItem from="1652796268090" duration="7527000" />
-      <workItem from="1652953205916" duration="1081000" />
+      <workItem from="1652953205916" duration="2975000" />
     </task>
     <task id="LOCAL-00003" summary="add kmin`s tasks">
       <created>1618651991296</created>
@@ -465,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652805402067</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="change program">
+      <created>1652954317511</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1652954317511</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
