@@ -75,8 +75,46 @@ selfinvoke
 
 6
 String methods
-array methods + with callback
-callbacks створення свого колбеку
+   String.prototype.concat()
+   String.prototype.toLowerCase()
+   String.prototype.toUpperCase()
+   String.prototype.endsWith()
+   String.prototype.includes()
+   String.prototype.startsWith()
+   String.prototype.substring()
+   String.prototype.indexOf()
+   String.prototype.charAt()
+   String.prototype.lastIndexOf()
+   String.prototype.replace()
+   String.prototype.replaceAll()
+   String.prototype.split()
+
+
+array methods
+        Array.isArray()
+        Array.prototype.push()
+        Array.prototype.pop()
+        Array.prototype.shift()
+        Array.prototype.unshift()
+        Array.prototype.join()
+        Array.prototype.concat()
+        Array.prototype.reverse()
+        Array.prototype.splice()
+        Array.prototype.slice()
+        Array.prototype.includes()
+
+        Array.prototype.forEach()
+        Array.prototype.filter()
+        Array.prototype.map()
+        Array.prototype.find()
+        Array.prototype.every()
+        Array.prototype.some()
+
+        Array.prototype.sort()
+
+        Array.prototype.reduce()
+
+ створення свого колбеку
 
 7
 es6 spred rest shallow + deep copy(json stringify)
