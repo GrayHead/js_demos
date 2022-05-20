@@ -63,31 +63,30 @@ do while
 
 5
 Функції для чого вони
-Функції з ретенном
-Функції без ретерну (для роботи з ссилочними типами)
+Функції з return
+Функції без ретерну (для роботи з ссилочними типами,приклад фільтрація масиву)
 Аргумент  та рест аргумент
 функція в функції
 Функціональний вираз, та відмінність від звичайної (одразу з сплиттям)
 Функції в об'єктах
-Замикання
-callback простий приклад calculate(a,b,action)
-рекурсия
 selfinvoke
 
 
+
 6
-try catch
-OChainO .?
- es6 spred rest shallow + deep copy(json stringify)
-condtructors & class call apply bind prototype
+String methods
+array methods + with callback
+callbacks створення свого колбеку
 
 7
-  String methods
-  array methods + with callback
-  callbacks створення свого колбеку
+es6 spred rest shallow + deep copy(json stringify)
+OChainO .?
+Замикання
+condtructors & class call apply bind prototype
 
 
 8
+try catch
 DOM bytag, byclass, id,
 setAttribute getAtribute
 classlist
@@ -103,7 +102,7 @@ this reference
 forms+events
 filtering,sorting array
 regexp
-
+рекурсия
 
 9
 BOM localstorage + url + position + streams
