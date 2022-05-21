@@ -130,11 +130,13 @@ OChainO .? Оператор опціональної почлідовності
 Копіювання об'єкта повне. Deep copy - JSON
 
 Замикання
+
+8
 condtructors & class call apply bind prototype
 
 
-8
-try catch
+9
+
 DOM bytag, byclass, id,
 setAttribute getAtribute
 classlist
@@ -152,17 +154,17 @@ filtering,sorting array
 regexp
 рекурсия
 
-9
+10
 BOM localstorage + url + position + streams
 fetch get post methods users/:id/posts работа с различными api
 
-10 пт
+11 пт
 setTimeout setInterval Async promises eloop
 
-11
+12
 ts
 
-12
+13
 ts
 
 

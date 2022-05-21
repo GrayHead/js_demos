@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shallow & deep copy</title>
+</head>
+<body>
+<script>
+
+    let user = {
+        name: 'vasya',
+        skills: ['html', 'js'],
+        greeting: function () {
+        }
+    }
+
+    // let userClone = {...user};
+    // console.log(user === userClone);
+    // console.log(user.skills === userClone.skills);
+
+    // let s = JSON.stringify(user); // convert to JSON
+
+    // let userJsonClone = JSON.stringify(user);
+    // console.log(userJsonClone);
+    // let parse = JSON.parse(userJsonClone);
+    // console.log(parse); // greeting
+    // console.log(user); // greeting
+    // console.log(user === parse);
+    // console.log(user.skills === parse.skills);
+
+    let assign = Object.assign({}, user);
+    console.log(assign);
+    console.log(assign === user);
+    console.log(assign.skills === user.skills);
+
+
+</script>
+</body>
+</html>
