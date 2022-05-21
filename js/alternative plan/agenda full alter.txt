@@ -117,8 +117,18 @@ array methods
  створення свого колбеку
 
 7
-es6 spred rest shallow + deep copy(json stringify)
-OChainO .?
+try catch
+
+OChainO .? Оператор опціональної почлідовності
+
+створення об'єкту
+деструктуризація об'єкта
+деструктуризація масиву
+
+Копіювання об'єкта
+Копіювання об'єкта поверхневе shallow
+Копіювання об'єкта повне. Deep copy - JSON
+
 Замикання
 condtructors & class call apply bind prototype
 
