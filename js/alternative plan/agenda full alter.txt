@@ -11,6 +11,8 @@ typeof
 Операції з числами
 Операції з булевими типами
 
+
+
 Конвертація стрінги до числа
 Конвертація стрінги до булевого
 Конвертація числа до стрінги
@@ -132,7 +134,11 @@ OChainO .? Оператор опціональної почлідовності
 Замикання
 
 8
-condtructors & class call apply bind prototype
+condtructors
+
+prototype call apply bind
+
+class
 
 
 9
@@ -158,13 +164,14 @@ regexp
 BOM localstorage + url + position + streams
 fetch get post methods users/:id/posts работа с различными api
 
-11 пт
+
+(additional VIDEO)
 setTimeout setInterval Async promises eloop
 
-12
+11
 ts
 
-13
+12
 ts
 
 
