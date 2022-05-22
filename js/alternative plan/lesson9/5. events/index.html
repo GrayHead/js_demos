@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>owu.com.ua - OKTEN SCHOOL</title>
+    <style>
+        .target {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="target"></div>
+
+<form action="" name="f1">
+    <input type="text" name="login" placeholder="login">
+    <button>send</button>
+</form>
+
+<script>
+
+    let target = document.querySelector('.target');
+    // console.log(target);
+    //
+    // // target.onclick = function (e) {
+    // //     console.log(e);
+    // // };
+    //
+    // // target.onmouseover = function (e) {
+    // //     console.log(e);
+    // // };
+    //
+    // // target.onmousemove = function (e) {
+    // //     console.log(e.clientY);
+    // // };
+
+
+    let f1 = document.forms.f1;
+    // f1.login.oninput = function (e) {
+    //     let value = this.value;
+    //     console.log(value);
+    //     if (value.includes('ass')) {
+    //         alert('!!!!!');
+    //     }
+    //     // target.innerText = this.value;
+    // };
+
+    // f1.onsubmit = function (e) {
+    //     e.preventDefault();
+    //     console.log(this.login.value);
+    // };
+    //
+    // f1.onsubmit = function (e) {
+    //     e.preventDefault();
+    //     console.log('asdfahdsgf');
+    // };
+
+
+    f1.addEventListener('submit', function (e) {
+        e.preventDefault();
+        console.log('.');
+    });
+
+    f1.addEventListener('submit', function (e) {
+        e.preventDefault();
+        console.log(',');
+    });
+
+
+</script>
+</body>
+</html>
