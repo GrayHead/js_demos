@@ -161,7 +161,7 @@ regexp
 рекурсия
 
 10
-BOM localstorage + url + position + streams
+BOM localstorage + url + (position + streams на останок якщо буде час)
 fetch get post methods users/:id/posts работа с различными api
 
 
