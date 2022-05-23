@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>owu.com.ua - OKTEN SCHOOL</title>
+</head>
+<body>
+
+<script>
+    fetch('https://jsonplaceholder.typicode.com/users')
+        .then((response) => response.json())
+        .then(users => {
+            for (const user of users) {
+                let div = document.createElement('div');
+                div.innerText = `${user.id} ${user.name}`;
+                let a = document.createElement('a');
+                a.href = `posts.html?id=${user.id}`;
+                a.innerText = ' posts of user';
+                div.appendChild(a);
+                document.body.appendChild(div);
+            }
+        });
+
+
+</script>
+</body>
+</html>
