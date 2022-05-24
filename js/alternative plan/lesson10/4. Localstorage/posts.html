@@ -12,9 +12,10 @@
 <h1>posts of user </h1>
 <script>
     let url = new URL(location.href);
-    let id = url.searchParams.get('id');
+    let user = JSON.parse(url.searchParams.get('data'));
+    localStorage.setItem('lastUser', JSON.stringify(user));
 
-    fetch(`http://jsonplaceholder.typicode.com/users/${id}/posts`)
+    fetch(`http://jsonplaceholder.typicode.com/users/${user.id}/posts`)
         .then(resp => resp.json())
         .then(posts => {
             let ul = document.createElement('ul');
@@ -28,10 +29,6 @@
             document.body.appendChild(ul);
 
         });
-
-    console.log(history.state);
-
-
 </script>
 </body>
 </html>
