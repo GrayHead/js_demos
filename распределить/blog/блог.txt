@@ -138,3 +138,6 @@ MongoDB  (https://www.youtube.com/watch?v=j6TVaEk4x2U)— это NoSQL-реше�
 Текстовая версия доклада: https://tprg.ru/vdDc
 
 #бэкенд #базыданных #mongodb
+
+***
+https://youtu.be/xara4Z1b18I

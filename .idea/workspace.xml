@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="change program">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/agenda full alter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/agenda full alter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/alternative plan/lesson1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/alternative plan/lesson1/index.html" afterDir="false" />
+    <list default="true" id="0db04bde-2ebc-477e-88b6-a7d6b5e1108c" name="Default Changelist" comment="зміна плану та завдань">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/blog/блог.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/blog/блог.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/angular tasks/angular tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/angular tasks/angular tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/java tasks/java tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/java tasks/java tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/java tasks/Задачки на рекурсію.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/java tasks/Задачки на рекурсію.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/js tasks/FL12_HW9.docx" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/js tasks/FL12_HW9.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/js tasks/array functions.png" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/js tasks/array functions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/js tasks/js tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/js tasks/js tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/js tasks/Задачки на рекурсію.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/js tasks/Задачки на рекурсію.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/js tasks/жс задание на курс.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/js tasks/жс задание на курс.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/mongo/restaurants.json" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/mongo/restaurants.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/node tasks/node tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/node tasks/node tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/py tasks/py tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/py tasks/py tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/py tasks/Задачки на рекурсію.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/py tasks/Задачки на рекурсію.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/react tasks/react tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/react tasks/react tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/sql tasks/cars.dump" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/sql tasks/cars.dump" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/распределить/tasks/sql tasks/sql tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/распределить/tasks for cw and hw/sql tasks/sql tasks.txt" afterDir="false" />
     </list>
-    <list id="c38013d9-f89d-4027-bca7-ad36f9eec678" name="unuse" comment="unuse" />
+    <list id="c38013d9-f89d-4027-bca7-ad36f9eec678" name="unuse" comment="unuse">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,21 +79,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sszhu/IdeaProjects/js_demos/js",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sszhu/IdeaProjects/js_demos/js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sszhu\IdeaProjects\js_demos\js" />
