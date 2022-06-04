@@ -221,3 +221,6 @@ https://habr.com/ru/company/2gis/blog/345552/
 ****
 
 https://dbdiagram.io/d
+****
+
+https://www.git-tower.com/learn/git/faq/github-delete-folder
