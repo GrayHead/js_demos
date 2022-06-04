@@ -36,3 +36,16 @@ https://starwars-visualguide.com/#/
 https://fakestoreapi.com/
 ***
 https://reqres.in/
+***
+https://dash.fortnite-api.com/endpoints/
+***
+https://pokeapi.co/api/v2/pokemon-form/132/
+***
+https://medium.com/@sergio13prez/fetching-them-all-poke-api-62ca580981a2
+
+***
+
+https://dev.to/isurojit/pokemon-api-using-reactjs-4ig5
+
+https://isurojit.github.io/pokemondatabase/
+****

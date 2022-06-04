@@ -56,3 +56,24 @@ https://medium.com/@udith.indrakantha/upload-images-and-save-them-in-a-database-
 https://nuancesprog.ru/p/4417
 
 @nuancesprog #статьи #GraphQL #Node #JavaScript #API #WebDevelopment
+
+*******
+https://medium.com/javarevisited/7-best-webflux-and-reactive-spring-boot-courses-for-java-programmers-33b7c6fa8995
+
+*****
+я вот ше 1 вальнув
+1) для контрасту і порівняння
+2) функціональний
+3) менше всяких залупних сценаріїв покриває, але майже завджди його хватає на малих і середніх проектах
+Якімюк
+
+https://codesandbox.io/s/kind-montalcini-zu1kr?file=/src/services/JSONPlaceholder/PostService.js
+
+
+https://codesandbox.io/s/adoring-bogdan-7m99m?file=/src/services/ApiService.js
+
+*****
+https://medium.com/@kirill.sereda/reactive-programming-reactor-%D0%B8-spring-webflux-3f779953ed45
+***
+https://habr.com/ru/company/2gis/blog/345552/
+****
