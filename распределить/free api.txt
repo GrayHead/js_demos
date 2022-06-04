@@ -1,3 +1,5 @@
+https://github.com/8AREFIEV8/sneakers-bd
+****
 #api #freeapi
 https://jsonplaceholder.typicode.com/
 https://sampleapis.com/
@@ -7,11 +9,6 @@ https://anapioficeandfire.com/
 https://www.themoviedb.org/documentation/api
 https://developers.themoviedb.org/3/getting-started/introduction
 
-[Переслано от назар уният]
-Привіт Сергій
-Вот знайшов ті апішки, про які ми говорили
-https://swapi.co/
-https://anapioficeandfire.com/
 ****
 [Переслано из Веб-страница]
 ⁠ (https://telegra.ph/file/2414e293fe0c877b876a5.jpg)Подборка из более чем 800 публичных API
