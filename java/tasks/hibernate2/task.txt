@@ -1,0 +1,23 @@
+Car
+    id
+    model,
+    Type (ENUM)
+    power,
+    price,
+    year
+
+Owner
+    id,
+    name
+    List<Car>
+    DriveLicense
+
+DriveLicense
+    id
+    series
+
+За допомоги хібернейту реалізувати наступну структуру
+зв'язо unidirectional!!!
+
+
+
