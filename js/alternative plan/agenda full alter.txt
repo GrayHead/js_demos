@@ -168,12 +168,6 @@ fetch get post methods users/:id/posts работа с различными api
 (additional VIDEO)
 setTimeout setInterval Async promises eloop
 
-11
-ts
-
-12
-ts
-
 
 
 
