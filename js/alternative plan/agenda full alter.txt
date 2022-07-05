@@ -76,6 +76,7 @@ selfinvoke
 
 
 6
+*** у відео на самостійне start***
 String methods
    String.prototype.concat()
    String.prototype.toLowerCase()
@@ -105,15 +106,15 @@ array methods
         Array.prototype.slice()
         Array.prototype.includes()
 
+*** у відео на самостійне end***
+
         Array.prototype.forEach()
         Array.prototype.filter()
         Array.prototype.map()
         Array.prototype.find()
         Array.prototype.every()
         Array.prototype.some()
-
         Array.prototype.sort()
-
         Array.prototype.reduce()
 
  створення свого колбеку
@@ -138,6 +139,7 @@ condtructors
 
 prototype call apply bind
 
+
 class
 
 
@@ -161,18 +163,12 @@ regexp
 рекурсия
 
 10
-BOM localstorage + url + (position + streams на останок якщо буде час)
-fetch get post methods users/:id/posts работа с различными api
+BOM localstorage + url + (position + streams у відео)
+fetch get post methods users/:id/posts работа с различными api та query params
 
 
 (additional VIDEO)
 setTimeout setInterval Async promises eloop
-
-11
-ts
-
-12
-ts
 
 
 
