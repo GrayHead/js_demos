@@ -1,0 +1,10 @@
+реалізувати 3 маршрути
+todos - при переході на який тягнуться всі todo з https://jsonplaceholder.typicode.com/todos
+
+albums - при переході на який тягнуться всі альбоми з https://jsonplaceholder.typicode.com/albums
+
+comments - при переході на який тягнуться всі комментарі https://jsonplaceholder.typicode.com/comments
+при натисканні на комментар тягнуться всі його пости. приклад запиту https://jsonplaceholder.typicode.com/comments?postId=1
+
+відображати ті чи інші маршрути можна на будь-якому рівні на ваш вибір.
+
