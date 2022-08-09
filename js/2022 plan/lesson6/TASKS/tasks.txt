@@ -50,8 +50,8 @@ let coursesAndDurationArray = [
 Додатково по reduce
 Взяти описану колоду карт, та за допомоги редюсу попакувати всі карти по "мастях" в об'єкт
 {
-    spade:[],
-    diamond:[],
-    heart:[],
-    club:[]
+    spades:[],
+    diamonds:[],
+    hearts:[],
+    clubs:[]
 }
