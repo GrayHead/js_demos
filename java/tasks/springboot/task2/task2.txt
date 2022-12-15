@@ -1,3 +1,17 @@
+
+Створити клас з полями id namme surname email
+Зробити наступні crud операціі
+save,
+get all ,
+get by id,
+patch by id,
+delete by id
+get all by name ,
+get all by surname
+
+
+*****додаткове
+
 User
     id
     name
