@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>owu.com.ua - OKTEN SCHOOL</title>
+</head>
+<body>
+
+<script>
+    function User(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+</script>
+
+<script>
+
+    // let user = new User('basya', 31);
+    // user.greeting = function () {
+    //     console.log('hi!');
+    // };
+    // console.log(user);
+    // user.greeting();
+    //
+    // let user2 = new User('asdasd', 123123);
+    // console.log(user2);
+    // user2.greeting();
+
+
+    // console.log(User);
+    //
+    // User.prototype.greeting = function () {
+    //     return `hello my name is ${this.name}`;
+    // };
+    //
+    //
+    // let user = new User('vasya', 12);
+    // console.log(user.greeting());
+
+    // let user = new User('vasya', 31);
+    // user.greeting = function (msg) {
+    //     return `${msg} my name is ${this.name} `;
+    // };
+    //
+    // console.log(user.greeting('hello'));
+    // let user2 = new User('petya', 123123);
+    //
+    // console.log(user.greeting.apply(user2, ['hi']));
+    // console.log(user.greeting.call(user2, 'olla'));
+
+    let user = new User('vasya', 31);
+    user.greeting = function (msg) {
+        return `${msg} my name is ${this.name} `;
+    };
+    let user2 = new User('petya', 123123);
+    let greetingCopy = user.greeting.bind(user2);
+    console.log(greetingCopy('quwteyqwfe'));
+
+
+</script>
+
+</body>
+</html>

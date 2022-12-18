@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rest args</title>
+</head>
+<body>
+<script>
+
+    function calc(action, ...nums) {
+        console.log(nums);
+        if (action === 'add') {
+            let res = nums[0];
+            for (const num of nums) {
+                res = res + num;
+            }
+            return res;
+        } else if (action === 'minus') {
+            let res = nums[0];
+            for (const num of nums) {
+                res = res - num;
+            }
+            return res;
+        }
+    }
+
+    console.log(calc('add', 10, 20, 30, 40, 50));
+    console.log(calc('minus', 10, 20, 30, 40, 50));
+
+
+</script>
+</body>
+</html>
