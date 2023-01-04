@@ -41,6 +41,14 @@
     // Колбек дозволяє вам вставити у вже інсуючу чужу функцію свою логіку.
     // Колбек дозволяє вам розширити чужу функцію, якщо ця чужа функція це дозволяє
 
+    function calculator(num1, num2, callback) {
+        callback(num1, num2);
+
+    }
+
+    calculator(10, 20, function (num1, num2) {
+        return num1 + num2;
+    });
 
 </script>
 </body>
