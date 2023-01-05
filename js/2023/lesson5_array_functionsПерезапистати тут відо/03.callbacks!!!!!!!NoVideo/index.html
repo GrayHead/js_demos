@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        callbacks
+    </title>
+</head>
+<body>
+<script>
+    // function bar(x) {
+    //     console.log(x)
+    // }
+    //
+    // bar(10);
+
+    // function bar(x) {
+    //     console.log(x);
+    // }
+    //
+    // function xgenerator() {
+    //     return 10;
+    // }
+    //
+    // bar(xgenerator());
+
+    function bar(x) {
+        //???? ->
+        console.log(x());
+    }
+
+    function xGenerator() {
+        return 10;
+    }
+
+
+    bar(xGenerator);
+    // Колбек дозволяє вам вставити у вже інсуючу чужу функцію свою логіку.
+    // Колбек дозволяє вам розширити чужу функцію, якщо ця чужа функція це дозволяє
+
+    function calculator(num1, num2, callback) {
+        callback(num1, num2);
+
+    }
+
+    calculator(10, 20, function (num1, num2) {
+        return num1 + num2;
+    });
+
+</script>
+</body>
+</html>
