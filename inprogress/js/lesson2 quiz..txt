@@ -1,0 +1,130 @@
+Який приклад вірний?
+
+if i = 5
+if i == 5
+if (i = 5)
+if (i == 5)
+
+4
+==========================
+
+Який приклад вірний?
+
+if (i <> 5)
+if i <> 5
+if i  =! 5
+if i  != 5
+if i  (!=) 5
+
+5
+=========================
+
+Як првильно оголосити if else
+if(true){else{}}
+if(true){}else{}
+if(true){}else(){}
+
+2
+==========================
+
+Як оголосити маисв в js?
+
+let colors = ('red','green','blue')
+let colors = ['red','green','blue']
+let colors = 'red','green','blue'
+let colors = {arr:['red','green','blue']}
+
+2
+=========================
+Як звернутись до ячейки зі значенням 'hello' з масиву let arr = ['hi','olla','aloha','hello']?
+arr[3]
+arr[4]
+arr = 3
+arr = 4
+[3]
+[4]
+
+1
+=========================
+
+Як перевірити довжину масиву?
+arr.size
+arr.values
+arr.length
+arr.index
+
+1
+=========================
+Як звернутись до значеня 33 в масиві let arr = [1,2,3,[11,22,33],4,5,6]
+arr[4][2]
+arr[4][3]
+arr[3][3]
+arr[3][2]
+4
+=========================
+
+Чи можливий такий масив [11,22,true,[],33,'okten']
+Так
+Ні
+
+1
+=========================
+
+Як описати об'єкт?
+let user = [name='john',age=30]
+let user = [name:'john',age:30]
+let user = {name='john',age=30}
+let user = {name:'john',age:30}
+
+4
+=========================
+
+Як звернутись до поля turbo в об'єкті let car = {model:'mazda',power:234,volume:2.5,turbo:true}
+car['turbo']
+car[turbo]
+car.turbo
+car.'turbo'
+
+1 3
+=========================
+Як звернутись до поля js в об'єкті
+let user = {
+            name:'kokos',
+            skills:{
+                primary:['html','js','mysql']
+                }
+            }
+
+user.js
+user.['js']
+user.skills['js']
+user.skills['1']
+user.skills.primary[1]
+user.skills.primary['js']
+
+5
+=========================
+
+
+Як звернутись до тривалості курсу Python Complex?
+let courses = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+
+course[2][monthDuration]
+course[2]['monthDuration']
+course[2].monthDuration
+course[2].'monthDuration'
+course[3][monthDuration]
+course[3]['monthDuration']
+course[3].monthDuration
+course[3].'monthDuration'
+
+2 3
+=========================
+
