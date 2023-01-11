@@ -7,26 +7,14 @@
 <body>
 <script>
 
-    function calc(action, ...nums) {
-        console.log(nums);
-        if (action === 'add') {
-            let res = nums[0];
-            for (const num of nums) {
-                res = res + num;
-            }
-            return res;
-        } else if (action === 'minus') {
-            let res = nums[0];
-            for (const num of nums) {
-                res = res - num;
-            }
-            return res;
-        }
+
+    function asd(y, z, ...x) {
+        console.log(x);
+        console.log(Array.isArray(x));
+
     }
 
-    console.log(calc('add', 10, 20, 30, 40, 50));
-    console.log(calc('minus', 10, 20, 30, 40, 50));
-
+    asd(1, 2, 3, 4, 5, true);
 
 </script>
 </body>
