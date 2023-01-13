@@ -1,0 +1,62 @@
+Як доступитись до head?
+document.head
+document.getHead
+document.get.head
+
+1
+=========================
+Яке знайти елемент по ідентифікатору?
+document.getElementById('#x');
+document.getElementById('x');
+document.getElementsById('#x');
+document.getElementsById('x');
+document.getById('x');
+
+2
+=========================
+Яке знайти один елемент з певним класом?
+document.getElementsByClassName('x')
+document.getElementByClassName('x')
+document.getElementsByClassName('x')[0]
+document.getElementByClassName('x')[0]
+
+3
+=========================
+Як знайти дочірні елементи?
+
+element.children
+element.innerElements
+element.child
+
+1
+=========================
+
+Яку кількість об'єктів поверне наступний запит?
+document.querySelector('div')
+
+Один об'єкт
+Більше одного об'єкту
+Жодного
+
+1
+=========================
+
+Як додати елементу клас? (Множинний вибір)
+
+el.classList.add('x')
+el.class.set('x')
+el.setAttribute('class','x')
+el.class.add('x')
+
+1 3
+=========================
+
+Як додати елемент до body? (Множиний вибір)
+
+document.body.add(el)
+document.body.appendChild(el)
+document.body.addElement(el)
+document.body.append(el)
+2 4
+=========================
+
