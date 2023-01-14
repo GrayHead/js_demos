@@ -9,19 +9,17 @@
 </head>
 <body>
 
+
 <script>
 
-    let url = new URL('https://jsonplaceholder.typicode.com/posts');
-    url.searchParams.set('userId', 8);
-    url.searchParams.set('asd', 'asfdhasdfhdaf');
-    console.log(url.searchParams.get('asd'));
+    let url = new URL(location.href);
+    console.log(url);
 
+    let data = url.searchParams.get('data');
+    console.log(data);
 
-    url.searchParams.fetch(url)
-        .then(value => value.json())
-        .then(value => {
-            console.log(value);
-        });
+    let parse = JSON.parse(data);
+    console.log(parse);
 
 
 </script>

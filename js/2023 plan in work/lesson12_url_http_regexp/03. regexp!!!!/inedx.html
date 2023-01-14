@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input type="text" name="id" placeholder="post id">
+    <input type="text" name="userId" placeholder="user id">
+    <input type="text" name="title">
+    <input type="text" name="body">
+    <button>save</button>
+</form>
+
+
+<script>
+
+    let form = document.forms[0];
+    console.log(form);
+    //collect form data
+    form.onsubmit = function (ev) {
+        ev.preventDefault();
+
+        let id = form.id.value;
+        let matchAllId = id.match(/[0-9]/g);
+        console.log(!!matchAllId);
+        let userId = form.userId.value;
+        let title = form.title.value;
+        let body = form.body.value;
+        console.log(!!body.match(/(\w+\s){3,}/g));
+        console.log(id);
+    };
+
+</script>
+</body>
+</html>

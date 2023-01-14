@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    let url = new URL('https://jsonplaceholder.typicode.com/posts');
+
+
+    let retriveFolderPath = location.href.substring(0, location.href.indexOf('index.html'));
+    let path = retriveFolderPath + 'details.html';
+    console.log(path);
+    let detailsPath = new URL(path);
+
+    fetch(url)
+        .then(response => response.json())
+        .then(posts => {
+            let ul = document.createElement('ul');
+            for (const post of posts) {
+
+                let li = document.createElement('li');
+                let a = document.createElement('a');
+                a.innerText = `post #${post.id} of user ${post.userId}`;
+                detailsPath.searchParams.set('data', JSON.stringify(post));
+                a.href = detailsPath;
+                li.appendChild(a);
+                ul.appendChild(li);
+
+
+            }
+
+
+            document.body.appendChild(ul)
+
+        });
+
+
+</script>
+</body>
+</html>
