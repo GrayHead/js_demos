@@ -11,12 +11,42 @@
 
 <script>
 
-    //     value:'',
-    //     writable:false, /*true - you can rewrite value of the key*/
-    //     configurable:false, /*if true - you can delete and redefine key with Object.defineProperty*/
-    //     enumerable:false,/*true - key is visible in forin loop and Object.keys if you want to hide property*/
-    //constan-property writable+configurable false -
-    // get set - functions (not with value!)
+
+    let obj = {};
+
+    Object.defineProperty(
+        obj,
+        'complexName',
+        {
+            // value: 'foobar',
+            // writable: true,
+            configurable: true,
+            enumerable: true,
+            get: function () {
+                return "foobarGet";
+            },
+            set: function (value) {
+                let split = value.split(' ');
+                this.name = split[0];
+                this.sruname = split[1];
+            },
+        }
+    );
+
+    // console.log(obj);
+    // obj.complexName = 'asjhgasg';
+    // console.log(obj);
+    // delete obj.complexName
+    // console.log(obj);
+
+    // for (const objKey in obj) {
+    //     console.log(objKey);
+    // }
+
+    console.log(obj.complexName);
+
+    obj.complexName = 'kokos abrikosov';
+    console.log(obj);
 
 
 </script>
