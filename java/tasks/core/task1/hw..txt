@@ -1,5 +1,8 @@
+закінчити опис класів Car,Dog,Book
+
+
 створити клас, який би описував подібні об'єкти
 https://jsonplaceholder.typicode.com/posts/1
 
-та клас який описував би подіюні об'єкти
+та клас який описував би подібні об'єкти
 https://jsonplaceholder.typicode.com/comments/1
