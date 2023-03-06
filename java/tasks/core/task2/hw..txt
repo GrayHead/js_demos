@@ -1,4 +1,4 @@
-створити клас, який би описував подібні об'єкти
+створити клас, який би описував подібні об'єкти виклористовуючи композицію/агрегацію
 https://jsonplaceholder.typicode.com/users/1
 
 
@@ -6,9 +6,6 @@ https://jsonplaceholder.typicode.com/users/1
 PC-Laptop-Ultrabook
 PC-Laptop- Workstation
 Загальна кількість вкористаних класів - 4!
-
-
-
 
 
 Cтворити клас ланцюг наслідування:
