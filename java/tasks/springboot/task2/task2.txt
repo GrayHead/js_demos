@@ -1,20 +1,24 @@
-
-Створити клас з полями id namme surname email
-Зробити наступні crud операціі
-save,
-get all ,
-get by id,
-patch by id,
-delete by id
-get all by name ,
-get all by surname
-
-
-*****додаткове
-
-User
+Створити модель
+Car
     id
-    name
-    Passport (1:1 unidirectional)
-    Card [] (1:n)
-Реалізувати базові crud операції (занйти, знайти по ід, видалити,оновити) для кожної стутності (User, Passport, Card)
+    model
+    producer
+    power
+
+реалізувати запити
+get /cars
+get /cars/{id}
+post /cars
+delete /cars/{id}
+get cars/power/{value} (знайти всі по потужності) ()
+get cars/producer/{value} (знайти всі по виробнику)
+
+
+Зробити валідацію полів power (power > 0 && power < 1100) і відповідні оробники
+Переробити всі методи контролера, щоб повертати response entity з відповідними статусами
+
+Зробити 3 рівня відображення
+Level1 - id model producer power (для endpoint /cars/{id})
+Level2 - model producer power ( для endpoint /cars/power, /cars/producer)
+Level2 - model producer (для endpoint /cars)
+
