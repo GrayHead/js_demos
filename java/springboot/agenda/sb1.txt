@@ -1,0 +1,5 @@
+basic requests + response entity
+query params + path variables
+config db
+dao
+jpa repo
