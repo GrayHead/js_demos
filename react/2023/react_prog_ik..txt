@@ -31,27 +31,34 @@ lesson 4
 ref
 робота з формами (input select ... )
 відправка данних з форми до api
-useForm
 
-Lesson 5
+lesson5 (new)
+axios
+useForm
+серівси (сервісний прошарок)
+
+Lesson 6 (біл 5)
 класові компоненти їх життєві цикли
 функціональні компоненти та їх хуки які аналогічні життєвому циклу класової компоненти
 
-lesson 6
+lesson 7 (біл 6)
 хуки функціональних компонентів useMemo useCallback useDispatch
 створення кастомного хука
 
-lesson 7
+lesson 8 (біл 7)
 Routing
 
-lesson 8
-redux
+lesson 9-10
+redux основа (для загального розуіння)
 
-lesson 9-10-11
+lesson 11
 TypeScript + перехід проєкту на тс
 
 lesson 12
 redux toolkit
+
+lesson 13
+git
 
 
 
