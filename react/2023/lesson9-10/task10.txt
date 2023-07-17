@@ -1,0 +1,1 @@
+Реалізувати crud операції з автівками з http://owu.linkpc.net/carsAPI/v1/doc використовуючи react redux
