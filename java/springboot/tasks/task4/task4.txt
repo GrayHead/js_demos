@@ -1,0 +1,12 @@
+Створити модель та реалізувати операції використовуючи mongodb
+Car
+    id
+    model
+    producer
+    power
+
+реалізувати запити
+get /cars
+get /cars/{id}
+post /cars
+delete /cars/{id}
