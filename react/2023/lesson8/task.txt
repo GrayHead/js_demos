@@ -1,0 +1,2 @@
+Зробити 6-ту ДЗ використовуючи RTK з AsyncThunk
+https://github.com/GrayHead/js_demos/tree/master/react/2023/lesson6
