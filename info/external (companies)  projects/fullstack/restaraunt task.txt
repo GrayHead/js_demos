@@ -15,7 +15,3 @@
 
 
 
-
-Требования:
-Web-версия: Angular or React, Node.JS (Express) or Java (Spring/Spring Boot), MySQL or MongoDB.
-Мобильная версия: Ionic
