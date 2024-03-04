@@ -1,0 +1,57 @@
+Яка конструкція вірна?
+let userObject =  User()
+let userObject =  newUser()
+let userObject =  new User()
+let userObject =  new User
+
+3
+=========================
+Яка конструкція  є вірною?
+user.hello.apply(user2,[msg])
+user.apply.hello(user2,[msg])
+user.apply.hello(user2,msg)
+user.hello.apply(user2,msg)
+
+2
+=========================
+Яка конструкція  є вірною?
+user.hello.call(user2,msg)
+user.call.hello(user2,msg)
+user.hello.call(user2,[msg])
+user.call.hello(user2,[msg])
+
+2
+=========================
+Яка конструкція не є вірною?
+let helloFn = user.hello.bind(); helloFn(msg)
+let helloFn = user.hello.bind(args)
+let helloFn = user.hello(args).bind
+
+
+3
+=========================
+
+Яким буде результат?
+let x =  {key1:'',key2:''};
+let y = Object.create(x);
+y.key3='';
+y.hasOwnProperty('key1');
+
+true
+false
+
+2
+=========================
+
+
+Яким буде результат?
+let x =  {key1:'',key2:''};
+let y = Object.create(x);
+y.key3='';
+y.hasOwnProperty('key3');
+
+true
+false
+
+1
+==========================

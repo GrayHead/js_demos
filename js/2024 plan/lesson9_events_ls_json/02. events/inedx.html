@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        #target {
+            width: 200px;
+            height: 200px;
+            background: silver;
+        }
+
+    </style>
+</head>
+<body>
+<div id="target"></div>
+<!--<form id="f1">-->
+<input id="i1" name="username">
+<button>send</button>
+<!--</form>-->
+
+<script>
+
+    // let target = document.getElementById('target');
+    // // target.onclick = function (ev) {
+    // //     console.log('click');
+    // //     console.log(ev);
+    // // };
+    // // // target.onmousemove = function (ev) {
+    // // //     console.log(ev.clientX, ev.clientY);
+    // // //     let r = ev.clientX;
+    // // //     let g = ev.clientX;
+    // // //     let b = ev.clientY;
+    // // //     this.style.background = `rgb(${r},${g},${b})`;
+    // // // };
+    // //
+    // //
+    // // // target.onclick = function () {
+    // // //     console.log('asdhfhagdfhg');
+    // // // };
+    // // //
+    // // // console.log(target);
+    // //
+    // // // target.addEventListener('click', function (ev) {
+    // // //     console.log('asjdfyqtweyqwt');
+    // // // })
+    // //
+    // // target.onmouseover = function () {
+    // //     console.log('over');
+    // // };
+    // //
+    // // target.onmouseleave = function () {
+    // //     console.log('leave');
+    // // };
+    //
+    // // let i1 = document.getElementById('i1');
+    // // i1.oninput = function () {
+    // //     target.innerText = this.value;
+    // // };
+    //
+    // let f1 = document.forms.f1;
+    //
+    // f1.onsubmit = function (ev) {
+    //     ev.preventDefault();
+    //     console.log('hello');
+    //     let user = {name: this.username.value}
+    //     console.log(user); // ls fetch api
+    //
+    // };
+    //
+    // let button = document.getElementsByTagName('button')[0];
+    // button.onclick = function () {
+    //     let value = f1.username.value;
+    //     //....
+    // };
+
+    window.onload = function () {
+        console.log('load');
+    };
+
+    document.onreadystatechange = function () {
+        if (document.readyState === 'interactive') {
+            document.body.innerText = 'loading start...'
+        }
+        if (document.readyState === 'complete') {
+            document.body.innerText = 'loading complete'
+        }
+
+    };
+
+
+</script>
+</body>
+</html>

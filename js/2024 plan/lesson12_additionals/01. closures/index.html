@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>owu.com.ua - OKTEN SCHOOL</title>
+</head>
+<body>
+
+<script>
+
+    // function asd() {
+    //     let x = 10;
+    //
+    //     function inner() {
+    //         return ++x;
+    //     }
+    //
+    //     return inner;
+    // }
+    //
+    // let foo = asd();
+    // console.log(foo());
+    // console.log(foo());
+    // console.log(foo());
+    // console.log(foo());
+
+
+    // let user = {name: 'asdgyqwe', age: 132};
+    // user.age = -100500;
+
+    function userBuilder(name, age) {
+        let user = {name, age};
+        return {
+            getName() {
+                return user.name;
+            },
+            getAge() {
+                return user.age;
+
+            },
+            setAge(age) {
+                if (age > 0) {
+                    user.age = age;
+                }
+            },
+        }
+    }
+
+    let builder = userBuilder('vasya', 31);
+    console.log(builder);
+
+    console.log(builder.getAge());
+    console.log(builder.getName());
+    builder.setAge(-100);
+    console.log(builder.getAge());
+
+
+</script>
+</body>
+</html>

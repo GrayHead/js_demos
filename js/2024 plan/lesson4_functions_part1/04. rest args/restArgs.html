@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rest args</title>
+</head>
+<body>
+<script>
+
+
+    function asd(y, z, ...x) {
+        console.log(x);
+        console.log(Array.isArray(x));
+
+    }
+
+    asd(1, 2, 3, 4, 5, true);
+
+</script>
+</body>
+</html>
