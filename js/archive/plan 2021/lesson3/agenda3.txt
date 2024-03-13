@@ -1,9 +1,0 @@
-looops
-+ arrays
-+if
-for
-forof
-while
-itin
-
-loop in loop

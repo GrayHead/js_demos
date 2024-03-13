@@ -1,6 +1,0 @@
-functions
-return ,
-void,
-arguments
-fn call in fn,
-hoist

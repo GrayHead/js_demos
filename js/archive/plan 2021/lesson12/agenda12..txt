@@ -1,1 +1,0 @@
-fetch get post methods users/:id/posts работа с различными api
