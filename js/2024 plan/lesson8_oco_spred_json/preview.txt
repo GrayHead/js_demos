@@ -1,0 +1,6 @@
+JS preview | Оператор опціональної послідовності
+JS preview | Новий синтаксис об'єктів та Деструктуризація
+JS preview | Spred оператор
+JS preview | Поверхнева та глибока копії та JSON
+JS preview |  Prototyping
+JS preview |  Descriptors

@@ -1,0 +1,4 @@
+JS preview | Базова інформація про функції
+JS preview | Функції з return
+JS preview | Змінна arguments у функціях
+JS preview | rest argument

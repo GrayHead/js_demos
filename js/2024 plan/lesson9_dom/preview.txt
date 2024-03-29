@@ -1,0 +1,4 @@
+JS preview | DOM   Об'єктна модель документа та пошук елементів
+JS preview | Forms API
+JS preview | Маніпуляція DOM елементами
+JS preview | Створення елементів

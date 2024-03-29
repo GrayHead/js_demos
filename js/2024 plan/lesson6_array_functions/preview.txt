@@ -1,0 +1,5 @@
+JS preview | Функції string
+JS preview | Базові функції масивів
+JS preview | Функції масивів з колбеками
+JS preview | Callback функції
+JS preview | Callback додаткове пояснення

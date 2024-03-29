@@ -1,0 +1,6 @@
+JS preview | Функції конструктори
+JS preview | Розширення конструкторів через prototype, підміна this через call apply bind
+JS preview | Класи та наслідування
+JS preview | Дата
+JS preview | Set
+JS preview | Map

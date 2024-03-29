@@ -1,4 +1,0 @@
-object.create
-hasOwnProperty
-hasProperty
-prototype

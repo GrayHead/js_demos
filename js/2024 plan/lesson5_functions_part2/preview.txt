@@ -1,0 +1,7 @@
+JS preview | Функціональні вирази
+JS preview | Стрілочні функції
+JS preview | Функції в об'єктах та контекст this
+JS preview | Замикання
+JS preview | Рекурсія
+JS preview | Генератори
+JS preview | Обробка помилок

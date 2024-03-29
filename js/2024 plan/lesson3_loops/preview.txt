@@ -1,0 +1,5 @@
+JS preview | Інкремент / декременти
+JS preview |  Цикл for of
+JS preview |  Цикл for
+JS preview | Цикл for in
+JS preview |  Цикл while

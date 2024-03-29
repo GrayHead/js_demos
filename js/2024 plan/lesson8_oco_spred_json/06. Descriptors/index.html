@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title 28.12.2023</title>
+</head>
+<body>
+
+
+<script>
+
+    let user = {
+        firstName: 'Taras',
+        lastname: 'Schevchenko'
+    }
+
+    // user.firstName = 'asdsad';
+    // console.log(user);
+    // for (const userKey in user) {
+    //     console.log(userKey);
+    // }
+
+    Object.defineProperty(
+        user,
+        'id',
+        {
+            value: 100500,
+            writable: false,
+            enumerable: false,
+            configurable: false
+
+        }
+    )
+
+    console.log(user);
+    user.id = 100;
+    console.log(user);
+    for (const userKey in user) {
+        console.log(userKey);
+    }
+
+    Object.defineProperty(
+        user,
+        'id',
+        {
+            value: 200600,
+            writable: false,
+            enumerable: false,
+            configurable: false
+
+        }
+    );
+    console.log(user);
+
+</script>
+</body>
+</html>
+
+

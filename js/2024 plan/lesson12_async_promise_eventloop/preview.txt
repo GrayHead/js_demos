@@ -1,0 +1,7 @@
+JS preview | async await функції
+JS preview | Асинхронність та  цикл подій event loop
+JS preview | event loop ще одне пояснення
+JS preview | Проміси reslove
+JS preview | Проміси reject
+JS preview | Статуси промісів
+JS preview | Promise race all any

@@ -1,0 +1,8 @@
+JS preview | Масиви
+JS preview | Багатовимірні масиви
+JS preview | Об'єкти
+JS preview | Внутрішні об'єкти
+JS preview | Модифікація об'єктів
+JS preview | Різниця між примітивами та референціальними типами
+JS preview | Логічні розгалуження if
+JS preview | Логічні розгалуження switch
