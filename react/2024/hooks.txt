@@ -1,0 +1,50 @@
+1. useToggle - custom React hook that allows a component to toggle a value between true and false
+import { useState } from "react"
+
+export default function useToggle(defaultValue) {
+  const [value, setValue] = useState(defaultValue)
+
+  function toggleValue(value) {
+    setValue(currentValue =>
+      typeof value === "boolean" ? value : !currentValue
+    )
+  }
+
+  return [value, toggleValue]
+}
+
+
+https://dev.to/arafat4693/15-useful-react-custom-hooks-that-you-can-use-in-any-project-2ll8#10-usefetch
+
+
+2. usePrevious - hook that allows a component to keep track of the previous value of a variable
+import { useRef } from "react"
+
+export default function usePrevious(value) {
+  const currentRef = useRef(value)
+  const previousRef = useRef()
+
+  if (currentRef.current !== value) {
+    previousRef.current = currentRef.current
+    currentRef.current = value
+  }
+
+  return previousRef.current
+}
+
+3. useStorage - hook that allows a component to store a value in the browser's LocalStorage
+
+export function useLocalStorage(key, defaultValue) {
+  return useStorage(key, defaultValue, window.localStorage)
+}
+function useStorage(key, defaultValue, storageObject) {
+  const [value, setValue] = useState(() => {
+    const jsonValue = storageObject.getItem(key)
+    if (jsonValue != null) return JSON.parse(jsonValue)
+
+    if (typeof defaultValue === "function") {
+      return defaultValue()
+    } else {
+      return defaultValue
+    }
+  })
