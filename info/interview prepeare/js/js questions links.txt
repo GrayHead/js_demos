@@ -1,0 +1,8 @@
+js
+https://github.com/sudheerj/javascript-interview-questions#what-are-the-possible-ways-to-create-objects-in-javascript
+
+***
+js
+https://dou.ua/lenta/articles/interview-questions-javascript-developer/
+
+https://habr.com/ru/post/486820/
