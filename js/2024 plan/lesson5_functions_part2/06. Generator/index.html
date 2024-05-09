@@ -5,80 +5,70 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title 28.12.2023</title>
+    <title>Document</title>
 </head>
 <body>
-
-
 <script>
 
-    // let map = new Map();
-    // map.set(1, 'one');
-    // map.set(2, 'two');
-    // map.set(3, 'three');
+    // function* foo() {
+    //     yield 100;
+    //     yield 200;
+    //     yield 300;
     //
-    // let iterator = map.keys();
-    // console.log(iterator);
-    //
-    // console.log(iterator.next());
-    // //asdasdasdasdas
-    // console.log(iterator.next());
-    // //
-    // //
-    // //
-    // //
-    // //
-    // console.log(iterator.next());
-    // console.log(iterator.next());
-
-    // function* foobar() {
-    //     yield  11;
-    //     yield  22;
-    //     yield  33;
     // }
     //
-    // let fooBarIterator = foobar();
+    // let fooGenerator = foo();
     //
-    // console.log(fooBarIterator.next());
-    // console.log(fooBarIterator.next());
-    // console.log(fooBarIterator.next());
-    // console.log(fooBarIterator.next());
+    // console.log(fooGenerator);
+    // console.log(fooGenerator.next());
+    // //......
+    // //......
+    // //......
+    // console.log(fooGenerator.next());
+    // //......
+    // //......
+    // console.log(fooGenerator.next());
+    // //......
+    // //......
+    // //......
+    // //......
+    // console.log(fooGenerator.next());
 
-
-    function* iterateArray(arr) {
-        for (const item of arr) {
-            yield item;
+    function* cardsHolder() {
+        const cards = [
+            {value: 6, suite: 'diamond'},
+            {value: 7, suite: 'spade'},
+            {value: 8, suite: 'diamond'},
+            {value: 9, suite: 'spade'},
+        ]
+        for (const card of cards) {
+            yield card;
         }
     }
 
+    const cardsHolderGenerator = cardsHolder();
+    const card1 = cardsHolderGenerator.next();
+    console.log(card1.value);
+    ///......
+    ///......
+    ///......
+    ///......
+    ///......
+    const card2 = cardsHolderGenerator.next();
+    console.log(card2.value);
+    //.......
+    //.......
+    //.......
+    //.......
+    //.......
 
-    let users = [
-        {name: 'vasya', age: 31, status: false},
-        {name: 'petya', age: 30, status: true},
-        {name: 'kolya', age: 29, status: true},
-        {name: 'olya', age: 28, status: false},
-        {name: 'max', age: 30, status: true},
-        {name: 'anya', age: 31, status: false},
-        {name: 'oleg', age: 28, status: false},
-        {name: 'andrey', age: 29, status: true},
-        {name: 'masha', age: 30, status: true},
-        {name: 'olya', age: 31, status: false},
-        {name: 'max', age: 31, status: true}
-    ];
-    let state = iterateArray(users);
-    console.log(state.next());
-    //
-    //
-    //
-    //
-    console.log(state.next());
-    //asdasd
-    console.log(state.next());
-    //asdasd
+    const card3Data = cardsHolderGenerator.next().value;
+    console.log(card3Data);
+
+
 
 
 </script>
+
 </body>
 </html>
-
-  
