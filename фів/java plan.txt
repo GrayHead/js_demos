@@ -1,0 +1,73 @@
+Тривалість 8 тижнів - 40 занять
+Налаштування середовища
+Різниця в версіях java
+Точки входу та головний метод
+Клас як структурна одиниця
+Поля класу
+Модифікатори полів
+Методи
+Перегрузка методів
+Інкапсуляція
+Інтерфейси
+Наслідування та полімофрізм
+Перевизначення методів
+SOLID принципи
+Структурні паттерни
+Поведінкові паттерни
+Лямбда вирази
+Колекції List Map Set
+Stream API
+IO/NIO
+Generics та нюанси їх роботи
+Анотації
+Багатопотоковість
+Spring intro + beans
+Spring boot overview
+Spring vs Spring boot.
+IoC container/DI
+Що таке біни, які вони бувають,
+@Bean, @Component @Repository, @Service, @Controller..., @Autowired.
+Як працювати з @Configuration (@ConfigurationProperties), @Value) і що таке профілі.
+Базовий контролер (@RestController vs @Controller) + query & path params
+DispatcherServlet
+Spring data JPA
+Що таке репозиторій,
+які репо бувають,
+чому репо працюють на інтерфейсах.
+Підключення бази.
+Міграції (Liquibase).
+Контролер на CRUD операції
+Service layer
+Що таке DTO і навіщо воно треба.
+Типова архітектура repository-service-controller.
+Як відбувається валідація даних.
+Spring data validation
+Custom validator
+Spring data MongoDB робота з nosql
+Scheduler. Як зробити щоб метод виконувався періодично
+Send Mail
+Spring Security overview.
+Ролі і права
+Spring Security Custom JWT
+Авторизація  через JWT.
+Атрибути JWT.
+Auth with Spring via
+Auth via Google
+Auth via Microsoft
+Auth via GitHub
+Авторизація через сторонні сервіси.
+Структура OAuth2
+Різниця між Authorization Server та Resource Server.
+API first design (OpenAPI)
+Що таке REST API
+Розробка OpenAPI специфікації для REST API.
+Генерація серверного коду на основі OpenAPI
+API integration
+Як взаємодіяти з іншими сервісами через API (коли є чи нема OpenAPI).
+Як генерувати код клієнта по OpenAPI специфікації.
+Async integration (Kafka)
+Що таке івенти
+Event Driven архітектура.
+Як сервіси взаємодіють між собою через івенти.
+Spring Cloud Stream
+Інший підхід до роботи з івентами через Spring Cloud Stream

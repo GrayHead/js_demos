@@ -1,0 +1,93 @@
+
+
+Spring intro + beans
+Spring boot overview
+Spring vs Spring boot.
+IoC container/DI
+Що таке біни, які вони бувають,
+@Bean, @Component @Repository, @Service, @Controller..., @Autowired.
+Як працювати з @Configuration (@ConfigurationProperties), @Value) і що таке профілі.
+Базовий контролер (@RestController vs @Controller) + query & path params
+DispatcherServlet
+
+ДЗ: Створити нову спрінг бут апку CarService (яка буде використовуватися у всіх наступних дз). Створити 2 ендпоінти які повертатимуть дані з конфігу.
+Створити ReferenceDataController і додати туди 3 ендпоінта:
+1 - використовуючи @Value повернути /engine-types - типи двигунів (бензиновий, дизельний, гібридний) - список стрічок
+2 - використовуючи @ConfigurationProperties повернути /fuel-types - типи палива (бензин (А-92,А-95,А-98,А-100...), дизель (літнє,зимове,арктичне...), електрика) - список об'єктів типу FuelType (name стрічка, variants - список стрічок - варіантів (наприклад, (А-95,А-100...) для бензину чи (Літнє,Арктичне,Зимове) для дизелю, для електрики відповідно порожній список)
+3 - /fuel-types/{type} - ендпоінт щоб повернути варіанти конкретного виду палива
+Додатково створити 2 профілі з різною комбінацією даних
+
+
+Spring data JPA
+Що таке репозиторій,
+які репо бувають,
+чому репо працюють на інтерфейсах.
+Підключення бази.
+Міграції (Liquibase).
+Контролер на CRUD операції
+
+ДЗ: Створити CarController з CRUD операціями для Car entity (id, model, enginePower (потужність двигуна), torque (крутний момент), engineDisplacement (об'єм двигуна))
+get /cars, get /cars/{id}, post /cars, delete /cars/{id}
+Додати ендпоінт на пошук авто по наступним параметрам
+get /cars?minEnginePower=100&maxEnginePower=1000
+
+
+Service layer
+Що таке DTO і навіщо воно треба.
+Типова архітектура repository-service-controller.
+Як відбувається валідація даних.
+Spring data validation
+Custom validator
+
+ДЗ: Додати ДТО для Car. Додати тип палива для авто (бензин, дизель, електрика) і валідацію що це значення допустиме (те що в конфігурації). Додати валідацію на інші поля (не порожня назва, потужність більша за 0 і так далі). Винести усю логіку в service рівень.
+
+Spring data MongoDB робота з nosql
+Scheduler. Як зробити щоб метод виконувався періодично
+Send Mail
+
+
+ДЗ: Додати сутність Owner (name - назва, email - електронна пошта), яку зберігати в SQL базі даних. Пов’язати її з Car через поле owner - власник авто. Додати сутність Maintenance (name - коротка назва, description - опис, price - ціна), яку зберігати в mongodb (наприклад, заміна масла, перевзування шин і тд). Додати CRUD ендпоінти для Maintenance і Owner. Коли додається новий maintenance, то всім власникам авто на пошту відправляти про це сповіщення. Для Car додати поле lastMaintenanceDate - остання дата технічного обслуговування. Для авто, у яких остання дата технічного обслуговування більше місяця - надсилати про це лист власнику на пошту.
+
+Spring Security overview.
+Ролі і права
+Spring Security Custom JWT
+Авторизація  через JWT.
+Атрибути JWT.
+
+ДЗ: Зробити так, що видаляти авто може лише його власник (кастомний атрибут в токені). Виконувати CRUD операції з maintenance може лише користувач з роллю/правами MaintenanceProvider
+
+Auth with Spring via
+Auth via Google
+Auth via Microsoft
+Auth via GitHub
+Авторизація через сторонні сервіси.
+Структура OAuth2
+Різниця між Authorization Server та Resource Server.
+
+ДЗ: додати змогу авторизуватися через сторонній сервіс
+
+API first design (OpenAPI)
+Що таке REST API
+Розробка OpenAPI специфікації для REST API.
+Генерація серверного коду на основі OpenAPI
+
+ДЗ: Описати CarService через OpenAPI
+
+
+API integration
+Як взаємодіяти з іншими сервісами через API (коли є чи нема OpenAPI).
+Як генерувати код клієнта по OpenAPI специфікації.
+
+ДЗ: Створити нову spring-boot апку CarInsuranceService (сервіс страхування авто). Додати сутність Insurance і crud операції для неї. Insurance має в собі carId. При створенні нового insurance перевіряти що такий автомобіль з carId існує в CarService. Коли отримуємо інформацію про страховки, виводити назву авто і назву власника.
+
+Async integration (Kafka)
+Що таке івенти
+Event Driven архітектура.
+Як сервіси взаємодіють між собою через івенти.
+
+ДЗ: При видаленні авто з CarService видаляти запис про страховку з CarInsuranceService.
+
+Spring Cloud Stream
+Інший підхід до роботи з івентами через Spring Cloud Stream
+
+ДЗ: Переробити логіку із попереднього ДЗ використовуючи Spring Cloud Stream

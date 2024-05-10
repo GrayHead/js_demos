@@ -1,0 +1,83 @@
+Тривалість 8 тижнів - 40 занять
+
+print()
+Variables types
+input()
+if else elif
+collections (List, Tuple, Dictionary, Set)
+Strings
+functions
+Loops
+List Comprehension
+destructurization
+decorators
+Scope
+closure
+lambda
+type hinting
+Class
+slots
+encapsulation
+abstract classes
+staticmethod & classmetod
+magic methods
+debuger
+try except
+generators
+iterators
+files
+pattern match
+threading
+multiprocessing
+asyncio
+DjangoRestFrameWork
+virtualenv
+setup project
+http methods
+path_params
+query_params
+migrations
+CRUD
+Serializer
+status codes
+postman collections
+BaseModel
+ModelSerializer
+QuerySet and base work with it
+custom filter
+GenericAPIView
+mixins
+generics
+poetry
+isort
+OneToMany
+django-dotenv
+FileWatcher
+Validation (Model, Serializer, TextChoices)
+pagination
+django-filter
+Managers
+custom User
+OneToOne
+simple-jwt
+RelatedField
+customPermissions
+dataclasses
+upload Photo
+email
+activate user by email
+error enum
+error_handler
+cors + React/Angular
+docker (app, db, web)
+management wait-for-db
+auto documentation (drf-yasg2)
+static
+celery
+celery-beat
+sockets:
+djangochannelsrestframework
+channels-redis
+daphne
+Relations
+unit tests
