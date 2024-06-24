@@ -1,0 +1,8 @@
+arrays base
+Array in array
+Objects create
+embeded objs
+array of obj
+add fields to obj
+refs vs primitives
+

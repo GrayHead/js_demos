@@ -1,0 +1,8 @@
+variables types
+base data types
+ strings varaiants and operations
+ numbers and operations
+ boolean
+ types convertation
+ type checking and other types
+
