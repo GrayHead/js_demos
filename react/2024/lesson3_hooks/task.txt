@@ -5,4 +5,4 @@ import { useState } from "react"
 
 2. usePrevious - hook that allows a component to keep track of the previous value of a variable
 
-3. useStorage - hook that allows a component to store a value in the browser's LocalStorage
+
